@@ -1,14 +1,16 @@
+import os
+import pytest
+
 from datetime import datetime, timedelta
 from main import *
 
 
 def test_latest_day1():
-    """Assert latest day is equal to today or yesterday"""
-    today = datetime.today()
-    yesterday = today - timedelta(days=1)
-
-    last = latest_day().strftime("%d/%m/%Y")
-    assert last == today.strftime("%d/%m/%Y") or last == yesterday.strftime("%d/%m/%Y")
+    """Assert the file "last.txt" exists"""
+    try:
+        latest_day()
+    except FileNotFoundError:
+        pytest.fail()
 
 
 def test_web_scrap1():
@@ -67,3 +69,32 @@ def test_extract_data2():
     }
 
     assert extract_data(link) == data
+
+
+def test_build_msg1():
+    mock_day = "07/08/2021"
+    mock_data = {
+        "confirmados": {
+            "total": 984985,
+            "novos": 2621,
+        },
+        "óbitos": {
+            "total": 17457,
+            "novos": 17,
+        },
+        "recuperados": {
+            "total": 923510,
+            "novos": 3232,
+        },
+        "internados": (838, "-28"),
+        "uci": (186, "-8")
+    }
+
+    msg = """<b>07/08/2021</b>
+Novos Casos: 984985 | +2621
+Óbitos: 17457 | +17
+Recuperados: 923510 | +3232
+
+Internados: 838 | -28
+UCI: 186 | -8"""
+    assert msg == build_msg(mock_data, mock_day)

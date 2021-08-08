@@ -13,8 +13,12 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 
 
+last_txt = "last.txt"
+if not os.path.exists(last_txt):
+    last_txt = "covid/last.txt"
+
 def latest_day():
-    with open("last.txt") as last:
+    with open(last_txt) as last:
         day = last.readlines()[-1]
     return datetime.strptime(day, "%d/%m/%Y")
 
@@ -117,7 +121,7 @@ def __extract_vals(page):
     return int(m[0]), char + m[1]
 
 
-def send_msg(data, day, file=None):
+def build_msg(data, day):
     aveiro = data.get("aveiro")
     aveiro_string = '' if aveiro is None else f'\n\nAveiro: {aveiro}'
     internados = data.get("internados")
@@ -133,12 +137,13 @@ def send_msg(data, day, file=None):
           f"Óbitos: {data['óbitos']['total']} | +{data['óbitos']['novos']}\n" \
           f"Recuperados: {data['recuperados']['total']} | +{data['recuperados']['novos']}" \
           + internados_str + aveiro_string
+
+    return msg
     
-    # TODO: Send the message with the pdf document
 
 
 def update_last():
-    with open("last.txt", "w") as last:
+    with open(last_txt, "w") as last:
         last.write(datetime.today().strftime("%d/%m/%Y"))
 
 
@@ -147,9 +152,10 @@ if __name__ == "__main__":
     CHAT_ID = sys.argv[2]
 
     bot = telegram.Bot(BOT_TOKEN)
-    last = latest_day()
 
-    if datetime.today() == last:
+    last_day = latest_day()
+
+    if datetime.today() == last_day:
         # message already sent. end program
         print("Message already sent today")
         sys.exit(0)
@@ -158,5 +164,5 @@ if __name__ == "__main__":
     today = datetime.today()
     link = web_scrap(today)
     data = extract_data(link)
-    send_msg(data, today.strftime("%d/%m/%Y"), file=link)
+    build_msg(data, today.strftime("%d/%m/%Y"))
     update_last()
