@@ -175,7 +175,7 @@ if __name__ == "__main__":
 
     last_day = latest_day()
 
-    if datetime.today() == last_day:
+    if datetime.today().strftime("%d/%m") == last_day.strftime("%d/%m"):
         # message already sent. end program
         print("Message already sent today")
         sys.exit(0)
