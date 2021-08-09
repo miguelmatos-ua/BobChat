@@ -2,8 +2,7 @@ name: Telegram Covid messsage
 
 on:
   schedule:
-    - cron: "*/2 * * * *"  # run every two minutes
-
+    - cron: "*/2 * * * *" # run every two minutes
 
 jobs:
   build:
@@ -23,7 +22,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r covid/requirements.txt
-      
+
       # test
       - name: Run pytest
         run: |

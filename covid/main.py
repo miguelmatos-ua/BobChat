@@ -18,6 +18,7 @@ last_txt = "last.txt"
 if not os.path.exists(last_txt):
     last_txt = "covid/last.txt"
 
+
 def latest_day():
     with open(last_txt) as last:
         day = last.readlines()[-1]
@@ -27,7 +28,7 @@ def latest_day():
 def web_scrap(day):
     """Find the latest pdf from Min. Saúde Website"""
     uri = "https://covid19.min-saude.pt/relatorio-de-situacao/"
-    date=day.strftime("%Y%m%d")
+    date = day.strftime("%Y%m%d")
     with requests.get(uri) as r:
         soup = BeautifulSoup(r.text, "lxml")
 
@@ -37,14 +38,13 @@ def web_scrap(day):
                 return link
 
 
-
 def extract_data(pdf_link):
     with open("today.pdf", "wb") as pdf_file:
         r = requests.get(pdf_link)
 
         for chunk in r.iter_content(2048):
             pdf_file.write(chunk)
-        
+
         r.close()
 
     p = pdfplumber.open("today.pdf")
@@ -59,7 +59,8 @@ def extract_data(pdf_link):
     # Reverse the list
     words_lst.reverse()
 
-    words_lst = list(filter(lambda x: x != " ", words_lst))  # remove empty spaces 
+    words_lst = list(filter(lambda x: x != " ", words_lst)
+                     )  # remove empty spaces
     print(words_lst)
 
     data = dict()
@@ -89,7 +90,7 @@ def extract_data(pdf_link):
         page = p.pages[3]
     except IndexError:
         is_aveiro = False
-    
+
     if is_aveiro:
         aveiro = None
         # iterate to find Aveiro stats
@@ -98,13 +99,15 @@ def extract_data(pdf_link):
                 line = lines.split(" ")
                 aveiro = line[line.index("Aveiro") + 1]
                 break
-        
+
         data["aveiro"] = aveiro
 
     # Internados values
     page = p.pages[0]
-    internados_page = page.crop((0, 0.84 * float(page.height), 0.2 * float(page.width), 0.9 * float(page.height)))
-    uci_page = page.crop((0.22 * float(page.width), 0.84 * float(page.height), page.width, 0.9 * float(page.height)))
+    internados_page = page.crop(
+        (0, 0.84 * float(page.height), 0.2 * float(page.width), 0.9 * float(page.height)))
+    uci_page = page.crop((0.22 * float(page.width), 0.84 *
+                         float(page.height), page.width, 0.9 * float(page.height)))
 
     data["internados"] = __extract_vals(internados_page)
     data["uci"] = __extract_vals(uci_page)
@@ -153,9 +156,9 @@ def send_msg(msg, file=last_txt):
                 print("Timed out:", retries, "retries")
                 time.sleep(1)
                 retries -= 1
-            
+
         msg += "\n<i>PDF sending timed out</i>"
-    
+
     return bot.send_message(chat_id=CHAT_ID, text=msg, parse_mode="HTML")
 
 
@@ -176,7 +179,7 @@ if __name__ == "__main__":
         # message already sent. end program
         print("Message already sent today")
         sys.exit(0)
-    
+
     # Message hasn't been sent yet
     today = datetime.today()
     link = web_scrap(today)

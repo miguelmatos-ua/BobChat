@@ -2,8 +2,8 @@ name: Telegram daily newspapers covers
 
 on:
   schedule:
-    - cron: "0 9 * * *"  # runs at 9:00 am every day
-  
+    - cron: "0 9 * * *" # runs at 9:00 am every day
+
 jobs:
   build:
     runs-on: ubuntu-latest

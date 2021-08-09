@@ -31,7 +31,8 @@ imgs = []
 for uri, name in ((uri_base.format(r), name) for r, name in uris):
     content = requests.get(uri).content
     soup = BeautifulSoup(content, features="html.parser")
-    img = soup.find("img", attrs={"alt": name}).attrs["src"]  # find url of the newspaper cover
+    # find url of the newspaper cover
+    img = soup.find("img", attrs={"alt": name}).attrs["src"]
     print(name, img)
     imgs.append(telegram.InputMediaPhoto(img))
 
@@ -40,6 +41,7 @@ day = f"0{today.day}"[-2:]  # make 7 -> 07 but keep 12 -> 12
 month = f"0{today.month}"[-2:]
 print(day, month)
 
-imgs[0].caption = f"Capas de jornais do dia {today.day}/{today.month}"  # caption needs to be only on first element of the image or it won't work
+# caption needs to be only on first element of the image or it won't work
+imgs[0].caption = f"Capas de jornais do dia {today.day}/{today.month}"
 
 bot.send_media_group(CHAT_ID, media=imgs)  # send telegram message
