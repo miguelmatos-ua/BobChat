@@ -42,6 +42,6 @@ month = f"0{today.month}"[-2:]
 print(day, month)
 
 # caption needs to be only on first element of the image or it won't work
-imgs[0].caption = f"Capas de jornais do dia {today.day}/{today.month}"
+imgs[0].caption = f"Capas de jornais do dia {day}/{month}"
 
 bot.send_media_group(CHAT_ID, media=imgs)  # send telegram message
