@@ -8,6 +8,7 @@ import sys
 import telegram
 import requests
 import pdfplumber
+import time
 
 from datetime import datetime
 from bs4 import BeautifulSoup
@@ -139,7 +140,23 @@ def build_msg(data, day):
           + internados_str + aveiro_string
 
     return msg
+
+
+def send_msg(msg, file=last_txt):
+    if os.path.exists(last_txt):
+        retries = 5
+
+        while retries > 0:
+            try:
+                return bot.send_document(chat_id=CHAT_ID, document=open(file, "rb"), caption=msg, parse_mode="HTML")
+            except telegram.error.TimedOut:
+                print("Timed out:", retries, "retries")
+                time.sleep(1)
+                retries -= 1
+            
+        msg += "\n<i>PDF sending timed out</i>"
     
+    return bot.send_message(chat_id=CHAT_ID, text=msg, parse_mode="HTML")
 
 
 def update_last():
@@ -164,5 +181,6 @@ if __name__ == "__main__":
     today = datetime.today()
     link = web_scrap(today)
     data = extract_data(link)
-    build_msg(data, today.strftime("%d/%m/%Y"))
+    msg = build_msg(data, today.strftime("%d/%m/%Y"))
+    send_msg(msg)
     update_last()

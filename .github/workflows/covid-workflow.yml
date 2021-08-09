@@ -2,7 +2,7 @@ name: Telegram Covid messsage
 
 on:
   schedule:
-    - cron: "*/2 * * * *"
+    - cron: "*/2 * * * *"  # run every two minutes
 
 
 jobs:
@@ -11,7 +11,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: 3.9
+        python-version: [3.9]
 
     steps:
       - uses: actions/checkout@v2

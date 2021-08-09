@@ -2,7 +2,7 @@ name: Telegram daily newspapers covers
 
 on:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "0 9 * * *"  # runs at 9:00 am every day
   
 jobs:
   build:
@@ -10,7 +10,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: 3.9
+        python-version: [3.9]
 
     steps:
       - uses: actions/checkout@v2
