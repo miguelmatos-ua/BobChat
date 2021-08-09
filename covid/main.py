@@ -30,7 +30,7 @@ def web_scrap(day):
     uri = "https://covid19.min-saude.pt/relatorio-de-situacao/"
     date = day.strftime("%Y%m%d")
     with requests.get(uri) as r:
-        soup = BeautifulSoup(r.text, "lxml")
+        soup = BeautifulSoup(r.text, "html.parser")
 
         for a in soup.find_all("a"):
             link = a.get("href")
@@ -39,7 +39,7 @@ def web_scrap(day):
 
 
 def extract_data(pdf_link):
-    with open("today.pdf", "wb") as pdf_file:
+    with open("relatório.pdf", "wb") as pdf_file:
         r = requests.get(pdf_link)
 
         for chunk in r.iter_content(2048):
@@ -47,7 +47,7 @@ def extract_data(pdf_link):
 
         r.close()
 
-    p = pdfplumber.open("today.pdf")
+    p = pdfplumber.open("relatório.pdf")
     # first page data
     page = p.pages[0]
 
@@ -145,8 +145,8 @@ def build_msg(data, day):
     return msg
 
 
-def send_msg(msg, file=last_txt):
-    if os.path.exists(last_txt):
+def send_msg(msg, file="relatório.pdf"):
+    if os.path.exists(file):
         retries = 5
 
         while retries > 0:

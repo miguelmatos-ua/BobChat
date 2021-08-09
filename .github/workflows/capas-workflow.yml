@@ -24,4 +24,4 @@ jobs:
           pip install -r capasJornais/requirements.txt
       - name: Run script
         run: |
-          python capas/main.py ${{ secrets.BOT_TOKEN }} ${{ secrets.CHAT_ID }}
+          python capasJornais/main.py ${{ secrets.BOT_TOKEN }} ${{ secrets.CHAT_ID }}
