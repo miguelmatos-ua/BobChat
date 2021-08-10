@@ -29,10 +29,15 @@ imgs = []
 
 
 for uri, name in ((uri_base.format(r), name) for r, name in uris):
-    content = requests.get(uri).content
+    with requests.get(uri) as r:
+        content = r.content
+
     soup = BeautifulSoup(content, features="html.parser")
     # find url of the newspaper cover
     img = soup.find("img", attrs={"alt": name}).attrs["src"]
+    if datetime.today().strftime("%Y-%m-%d") not in img:
+        # Don't send covers from past days
+        continue
     print(name, img)
     imgs.append(telegram.InputMediaPhoto(img))
 
