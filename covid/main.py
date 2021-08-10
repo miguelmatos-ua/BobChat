@@ -183,6 +183,9 @@ if __name__ == "__main__":
     # Message hasn't been sent yet
     today = datetime.today()
     link = web_scrap(today)
+    if link is None:
+        print("Report hasn't come out yet")
+        sys.exit(0)
     data = extract_data(link)
     msg = build_msg(data, today.strftime("%d/%m/%Y"))
     send_msg(msg)
