@@ -2,7 +2,7 @@ name: Telegram Covid messsage
 
 on:
   schedule:
-    - cron: "*/2 * * * *" # run every two minutes
+    - cron: "* 13-18 * * *" # run every two minutes
 
 jobs:
   build:
