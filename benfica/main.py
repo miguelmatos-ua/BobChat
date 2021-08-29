@@ -3,17 +3,20 @@ import os
 from datetime import datetime
 
 
-class Benfica:
-    today = datetime.today().strftime("%Y-%m-%m")
 
-    @staticmethod
-    def get_api_token():
-        return os.environ.get("FOOTBALL_API")
 
-    def get_today_game(self) -> str:
-        # assert self.today == "2021-08-21"
-        return "Hello"
+def download_page_zz():
+    ...
+
+
+def extract_next_game():
+    ...
+
+
+def main(team_id=4):
+    uri_zz = f"https://www.zerozero.pt/team.php?id={team_id}"
+    ...
 
 
 if __name__ == "__main__":
-    ...
+    main()
