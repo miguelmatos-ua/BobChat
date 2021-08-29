@@ -18,22 +18,44 @@ def download_page_zz(uri):
 
 
 def extract_games(soup: BeautifulSoup) -> dict:
-    game_box = soup.find("div", {"id": "team_games"})  # find the div with the class team_games
+    # find the div with the class team_games
+    game_box = soup.find("div", {"id": "team_games"})
     games = dict()
-    for tr in game_box.find_all("tr"):  # for all the lines (games) in the table
+    # for all the lines (games) in the table
+    for tr in game_box.find_all("tr"):
         date = tr.find("td", {"class": "date"})  # find the date column
         hour = date.find_next()  # the hour column is besides the date
 
+        # parse day and hour to an instance of datetime
+        game_date = datetime.strptime(f"{date.text} {hour.text}", "%d/%m %H:%M")
+
+        # year is 1900, change to today's year
+        game_date = game_date.replace(year=datetime.today().year)
+
+        games[game_date] = dict()
+
         home_team = tr.find("td", {"class": "text home"})
         away_team = tr.find("td", {"class": "text away"})
-        print(date.text, hour.text, home_team.text, away_team.text)
-    ...
+
+        tv = tr.find("td", {"class": "double right"})
+        if tv and tv.img:
+            # if there is a class named "double right" that has an image
+            tv = tv.img["title"]
+
+            games[game_date]["tv"] = tv
+
+        games[game_date]["home_team"] = home_team.text
+        games[game_date]["away_team"] = away_team.text
+    
+    return games
 
 
 def main(team_id=4):
     uri_zz = f"https://www.zerozero.pt/team.php?id={team_id}"
     soup = download_page_zz(uri_zz)
-    extract_games(soup)
+    games = extract_games(soup)
+
+    print(games)
 
 
 if __name__ == "__main__":
