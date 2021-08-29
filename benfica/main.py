@@ -36,7 +36,8 @@ def extract_games(soup: BeautifulSoup):
 
         if hour.text:
             # parse day and hour to an instance of datetime
-            game_date = datetime.strptime(f"{date.text} {hour.text}", "%d/%m %H:%M")
+            game_date = datetime.strptime(
+                f"{date.text} {hour.text}", "%d/%m %H:%M")
         elif date.text:
             # there is no hour but there is a date
             game_date = datetime.strptime(f"{date.text}", "%d/%m")
@@ -66,12 +67,26 @@ def extract_games(soup: BeautifulSoup):
 
         games[day]["home_team"] = home_team.text
         games[day]["away_team"] = away_team.text
-    
+
     return games
 
 
-def build_message(game):
-    print(game)
+def build_message(game: dict):
+    date: datetime = game["date"]
+
+    hour = ("0" + str(date.hour))[-2:]
+    minutes = ("0" + str(date.minute))[-2:]
+
+    time = f"{hour}:{minutes}h"
+
+    message = f"""Hoje é Dia de Benfica.
+Às {time}.
+{game["home_team"]} vs. {game["away_team"]}"""
+    return message
+
+
+def send_message(message):
+    # TODO: send message using python-telegram-bot
     ...
 
 
@@ -86,8 +101,9 @@ def main(team_id=4):
         # exit if there is no game today
         sys.exit(0)
 
-    print(games, today)
-    build_message(games[today])
+    msg = build_message(games[today])
+
+    print(msg)
 
 
 if __name__ == "__main__":
