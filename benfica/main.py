@@ -1,6 +1,6 @@
 import requests
 import sys
-from datetime import datetime
+from datetime import date, datetime
 from bs4 import BeautifulSoup
 
 
@@ -41,7 +41,10 @@ def extract_games(soup: BeautifulSoup) -> dict:
         # year is 1900, change to today's year
         game_date = game_date.replace(year=datetime.today().year)
 
-        games[game_date] = dict()
+        day = game_date.date()  # just the date without the time
+
+        games[day] = dict()
+        games[day]["date"] = game_date
 
         home_team = tr.find("td", {"class": "text home"})
         away_team = tr.find("td", {"class": "text away"})
@@ -51,12 +54,17 @@ def extract_games(soup: BeautifulSoup) -> dict:
             # if there is a class named "double right" that has an image
             tv = tv.img["title"]
 
-            games[game_date]["tv"] = tv
+            games[day]["tv"] = tv
 
-        games[game_date]["home_team"] = home_team.text
-        games[game_date]["away_team"] = away_team.text
+        games[day]["home_team"] = home_team.text
+        games[day]["away_team"] = away_team.text
     
     return games
+
+
+def build_message(game):
+    print(game)
+    ...
 
 
 def main(team_id=4):
@@ -64,17 +72,14 @@ def main(team_id=4):
     soup = download_page_zz(uri_zz)
     games = extract_games(soup)
 
-    datetime_today = datetime.today()
+    today = datetime.today().date()
 
-    today = (datetime_today.day, datetime_today.month)
-
-    if today not in ((x.day, x.month) for x in games.keys()):
+    if today not in games.keys():
         # exit if there is no game today
         sys.exit(0)
 
-    
-
-    print(games)
+    print(games, today)
+    build_message(games[today])
 
 
 if __name__ == "__main__":
