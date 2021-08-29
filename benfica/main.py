@@ -1,5 +1,5 @@
 import requests
-import os
+import sys
 from datetime import datetime
 from bs4 import BeautifulSoup
 
@@ -26,8 +26,17 @@ def extract_games(soup: BeautifulSoup) -> dict:
         date = tr.find("td", {"class": "date"})  # find the date column
         hour = date.find_next()  # the hour column is besides the date
 
-        # parse day and hour to an instance of datetime
-        game_date = datetime.strptime(f"{date.text} {hour.text}", "%d/%m %H:%M")
+        if hour.text:
+            # parse day and hour to an instance of datetime
+            game_date = datetime.strptime(f"{date.text} {hour.text}", "%d/%m %H:%M")
+        elif date.text:
+            # there is no hour but there is a date
+            game_date = datetime.strptime(f"{date.text}", "%d/%m")
+        else:
+            # there is no hour nor date
+            # therefore this game is not necessary to
+            # be returned
+            continue
 
         # year is 1900, change to today's year
         game_date = game_date.replace(year=datetime.today().year)
@@ -54,6 +63,16 @@ def main(team_id=4):
     uri_zz = f"https://www.zerozero.pt/team.php?id={team_id}"
     soup = download_page_zz(uri_zz)
     games = extract_games(soup)
+
+    datetime_today = datetime.today()
+
+    today = (datetime_today.day, datetime_today.month)
+
+    if today not in ((x.day, x.month) for x in games.keys()):
+        # exit if there is no game today
+        sys.exit(0)
+
+    
 
     print(games)
 
