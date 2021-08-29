@@ -4,7 +4,7 @@ from datetime import date, datetime
 from bs4 import BeautifulSoup
 
 
-def download_page_zz(uri):
+def download_page_zz(uri: str):
     """Get the page from the ZeroZero website to web scrap
 
     Args:
@@ -17,7 +17,15 @@ def download_page_zz(uri):
     return BeautifulSoup(page, features="html.parser")
 
 
-def extract_games(soup: BeautifulSoup) -> dict:
+def extract_games(soup: BeautifulSoup):
+    """Web Scrap the previous and next games
+
+    Args:
+        soup (BeautifulSoup): Instance of the html page of ZeroZero
+
+    Returns:
+        dict: Dictionary with the information of the previous and next games
+    """
     # find the div with the class team_games
     game_box = soup.find("div", {"id": "team_games"})
     games = dict()
