@@ -1,6 +1,6 @@
 import requests
 import sys
-from datetime import date, datetime
+from datetime import datetime
 from bs4 import BeautifulSoup
 
 
