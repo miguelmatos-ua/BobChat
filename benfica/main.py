@@ -75,6 +75,18 @@ def extract_games(soup: BeautifulSoup):
 
 
 def build_message(game: dict):
+    """Build the message to be sent
+
+    Creates a message based on the game, with the date time and the team that they're playing
+
+    Args:
+        game (dict): Game from which the message will be built
+
+    Returns:
+        str: Returns the message that was built
+
+    """
+
     date: datetime = game["date"]
 
     hour = ("0" + str(date.hour))[-2:]
@@ -112,8 +124,6 @@ def send_message(message) -> Message:
     bot = telegram.Bot(BOT_TOKEN)
 
     return bot.send_message(chat_id=CHAT_ID, text=message)
-
-    
 
 
 def main(team_id=4):
