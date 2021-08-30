@@ -1,7 +1,10 @@
 import requests
 import sys
-from datetime import datetime
+import os
+import telegram
+from datetime import date, datetime
 from bs4 import BeautifulSoup
+from telegram.message import Message
 
 
 def download_page_zz(uri: str):
@@ -85,9 +88,32 @@ def build_message(game: dict):
     return message
 
 
-def send_message(message):
-    # TODO: send message using python-telegram-bot
-    ...
+def send_message(message) -> Message:
+    """Send a message to a telegram chat
+
+    Args:
+        message (str): Message to send
+
+    Raises:
+        ValueError: Raised if BOT_TOKEN is not defined
+        ValueError: Raised if CHAT_ID is not defined
+
+    Returns:
+        Message: Returns the value of the sent message
+    """
+    # load environmental variables
+    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    if not BOT_TOKEN:
+        raise ValueError("The value of BOT_TOKEN is not defined")
+    CHAT_ID = os.environ.get("CHAT_ID")
+    if not CHAT_ID:
+        raise ValueError("The value of the CHAT_ID is not defined")
+
+    bot = telegram.Bot(BOT_TOKEN)
+
+    return bot.send_message(chat_id=CHAT_ID, text=message)
+
+    
 
 
 def main(team_id=4):
@@ -103,7 +129,7 @@ def main(team_id=4):
 
     msg = build_message(games[today])
 
-    print(msg)
+    print(send_message(msg))
 
 
 if __name__ == "__main__":
