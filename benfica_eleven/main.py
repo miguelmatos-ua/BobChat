@@ -1,5 +1,6 @@
 import os
 import sys
+from urllib.parse import urlparse
 import requests
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]
@@ -32,14 +33,15 @@ def get_user_tweets(user=21390437):
 def check_eleven_is_out(tweets):
     for tweet in tweets:
         if "JÁ HÁ ONZE" in tweet["text"]:
-            return tweet["text"]
+            return tweet["id"]
 
     return None
 
 
 def send_tweet_message(tweet):
-    telegram_uri = "https://api.telegram.org/bot{}/sendMessage?chat_id={}&text={}"
-    return requests.get(telegram_uri.format(BOT_TOKEN, CHAT_ID, tweet["text"]))
+    tweet_uri = f"https://twitter.com/SLBenfica/status/{tweet}"
+    telegram_uri = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage?chat_id={CHAT_ID}&text={tweet_uri}"
+    return requests.get(urlparse(telegram_uri).geturl())
 
 
 if __name__ == "__main__":
