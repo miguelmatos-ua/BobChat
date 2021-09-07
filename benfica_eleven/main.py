@@ -1,4 +1,5 @@
 import os
+import sys
 import requests
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]
@@ -29,7 +30,11 @@ def get_user_tweets(user=21390437):
 
 
 def check_eleven_is_out(tweets):
-    ...
+    for tweet in tweets:
+        if "JÁ HÁ ONZE" in tweet["text"]:
+            return tweet
+    
+    return None
 
 
 def send_tweet_message(tweet):
@@ -37,4 +42,14 @@ def send_tweet_message(tweet):
 
 
 if __name__ == "__main__":
-    ...
+    user_tweets = get_user_tweets()
+    if not user_tweets:
+        sys.exit(0)
+
+    lineup_tweet = check_eleven_is_out(user_tweets)
+    
+    if not lineup_tweet:
+        sys.exit(0)
+    
+    send_tweet_message(lineup_tweet)
+
