@@ -31,4 +31,5 @@ jobs:
           CHAT_ID: ${{ secrets.CHAT_ID }}
         run: |
           cd benfica
+          python test.py
           python main.py
