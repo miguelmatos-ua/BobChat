@@ -143,4 +143,6 @@ def main(team_id=4):
 
 
 if __name__ == "__main__":
+    if len(sys.argv) == 2:
+        main(int(sys.argv[1]))
     main()
