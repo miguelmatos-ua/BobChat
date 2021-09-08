@@ -33,3 +33,10 @@ jobs:
           cd benfica
           python test.py
           python main.py
+      - name: Run script for Beira-mar
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+        run: |
+          cd benfica
+          python main.py 2 "Beira-mar" # Beira-mar's ZeroZero id is 2

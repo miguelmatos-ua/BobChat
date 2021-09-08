@@ -74,13 +74,14 @@ def extract_games(soup: BeautifulSoup):
     return games
 
 
-def build_message(game: dict):
+def build_message(game: dict, team_name: str):
     """Build the message to be sent
 
     Creates a message based on the game, with the date time and the team that they're playing
 
     Args:
         game (dict): Game from which the message will be built
+        team_name (str): Name of the team
 
     Returns:
         str: Returns the message that was built
@@ -94,7 +95,7 @@ def build_message(game: dict):
 
     time = f"{hour}:{minutes}h"
 
-    message = f"""Hoje é Dia de Benfica.
+    message = f"""Hoje joga o {team_name}.
 Às {time}.
 {game["home_team"]} vs. {game["away_team"]}"""
     return message
@@ -126,7 +127,7 @@ def send_message(message) -> Message:
     return bot.send_message(chat_id=CHAT_ID, text=message)
 
 
-def main(team_id=4):
+def main(team_id=4, team_name="Benfica"):
     uri_zz = f"https://www.zerozero.pt/team.php?id={team_id}"
     soup = download_page_zz(uri_zz)
     games = extract_games(soup)
@@ -137,12 +138,12 @@ def main(team_id=4):
         # exit if there is no game today
         sys.exit(0)
 
-    msg = build_message(games[today])
+    msg = build_message(games[today], team_name)
 
     print(send_message(msg))
 
 
 if __name__ == "__main__":
-    if len(sys.argv) == 2:
-        main(int(sys.argv[1]))
+    if len(sys.argv) > 1:
+        main(int(sys.argv[1]), sys.argv[2])
     main()
