@@ -146,4 +146,5 @@ def main(team_id=4, team_name="Benfica"):
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         main(int(sys.argv[1]), sys.argv[2])
-    main()
+    else:
+        main()
