@@ -2,7 +2,7 @@ name: Benfica Eleven workflow
 
 on:
   schedule:
-    - cron: "*/20 * * * *" # runs every 20 minutes every hour
+    - cron: "*/20 13-23 * * *" # runs every 20 minutes every hour
   # manual trigger for debug purposes
   workflow_dispatch:
 
