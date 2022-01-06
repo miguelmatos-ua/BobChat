@@ -25,9 +25,9 @@ jobs:
           pip install -r covid/requirements.txt
 
       # test
-      - name: Run pytest
-        run: |
-          pytest covid/test.py
+      # - name: Run pytest
+      #    run: |
+      #    pytest covid/test.py
 
       - name: Run script
         run: |
