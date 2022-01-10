@@ -1,4 +1,4 @@
-name: Telegram daily newspapers covers
+name: Telegram daily morning news
 
 on:
   schedule:
@@ -23,6 +23,23 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r capasJornais/requirements.txt
-      - name: Run script
+          pip install -r benfica/requirements.txt
+      - name: Run script for newspaper covers
         run: |
           python capasJornais/main.py ${{ secrets.BOT_TOKEN }} ${{ secrets.CHAT_ID }}
+      # run benfica and beira mar scripts
+      - name: Run script for Benfica
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+        run: |
+          cd benfica
+          python test.py
+          python main.py
+      - name: Run script for Beira-mar
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+        run: |
+          cd benfica
+          python main.py 2 "Beira-mar" # Beira-mar's ZeroZero id is 2
