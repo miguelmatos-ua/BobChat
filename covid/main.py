@@ -21,7 +21,7 @@ if not os.path.exists(last_txt):
 
 def latest_day():
     with open(last_txt) as last:
-        day = last.readlines()[-1]
+        day = last.readlines()[-1].replace("\n", "")
     return datetime.strptime(day, "%d/%m/%Y")
 
 
