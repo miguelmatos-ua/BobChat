@@ -229,7 +229,12 @@ if __name__ == "__main__":
 
     # Message hasn't been sent yet
     today = datetime.today()
-    link = web_scrap(today)
+    try:
+        link = web_scrap(today)
+    except requests.exceptions.ConnectionError:
+        print("Couldn't make the connection")
+        link = None
+
     data = get_from_dataset(today)
     file_is_in = False
     if link is None and data is None:
