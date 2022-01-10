@@ -71,6 +71,16 @@ def get_from_dataset(day):
     new_recovered = int(last_line[12]) - int(second_line[12])
     vals["recuperados"] = {'total': last_line[12], 'novos': str(new_recovered)}
 
+    new_internados = int(last_line[14]) - int(second_line[14])
+    if new_internados > 0:
+        new_internados = '+' + str(new_internados)
+    vals["internados"] = (last_line[14], new_internados)
+    
+    new_uci = int(last_line[15]) - int(second_line[15])
+    if new_uci > 0:
+        new_uci = '+' + str(new_uci)
+    vals["uci"] = (last_line[15], new_uci)
+
     return vals
 
 
