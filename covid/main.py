@@ -38,6 +38,43 @@ def web_scrap(day):
                 return link
 
 
+def get_from_dataset(day):
+    """Find the latest data in the DSSG-PT dataset"""
+    uri = "https://raw.githubusercontent.com/dssg-pt/covid19pt-data/master/data.csv"
+    date = day.strftime("%d-%m-%Y")
+    
+    with requests.get(uri) as r:
+        content = r.content.decode("utf8").splitlines()
+        
+    # get the last line of the content
+    last_line = content[-1]
+    # get the penultimate line to make the difference between the values
+    second_line = content[-2]
+
+    # split the line to separate all the csv values
+    last_line = last_line.split(",")
+    second_line = second_line.split(",")
+
+    # get the last day, which is the first column value
+    last_day = last_line[0]
+
+    if last_day != date:
+        # today's numbers haven't come out yet
+        return None
+    
+    vals = dict()
+    vals["confirmados"] = {'total': last_line[2], 'novos': last_line[11]}
+
+    new_deaths = int(last_line[13]) - int(second_line[13])
+    vals["óbitos"] = {'total': last_line[13], 'novos': str(new_deaths)}
+
+    new_recovered = int(last_line[12]) - int(second_line[12])
+    vals["recuperados"] = {'total': last_line[12], 'novos': str(new_recovered)}
+
+    return vals
+
+
+
 def extract_data(pdf_link):
     with open("relatório.pdf", "wb") as pdf_file:
         r = requests.get(pdf_link)
@@ -146,7 +183,7 @@ def build_msg(data, day):
 
 
 def send_msg(msg, file="relatório.pdf"):
-    if os.path.exists(file):
+    if file and os.path.exists(file):
         retries = 5
 
         while retries > 0:
@@ -183,10 +220,14 @@ if __name__ == "__main__":
     # Message hasn't been sent yet
     today = datetime.today()
     link = web_scrap(today)
-    if link is None:
+    data = get_from_dataset(today)
+    file_is_in = False
+    if link is None and data is None:
         print("Report hasn't come out yet")
         sys.exit(0)
-    data = extract_data(link)
+    if data is None:
+        file_is_in = True
+        data = extract_data(link)
     msg = build_msg(data, today.strftime("%d/%m/%Y"))
-    send_msg(msg)
+    send_msg(msg, file="relatório.pdf" if file_is_in else None)
     update_last()
