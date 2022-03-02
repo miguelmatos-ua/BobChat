@@ -27,7 +27,7 @@ def latest_day():
 
 def web_scrap(day):
     """Find the latest pdf from Min. Saúde Website"""
-    uri = "https://covid19.min-saude.pt/relatorio-de-situacao/"
+    uri = "https://covid19.min-saude.pt/"
     date = day.strftime("%Y%m%d")
     with requests.get(uri) as r:
         soup = BeautifulSoup(r.text, "html.parser")
