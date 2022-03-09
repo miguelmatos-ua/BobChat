@@ -235,10 +235,14 @@ if __name__ == "__main__":
         print("Couldn't make the connection")
         link = None
 
+    if not link:
+        print("Report hasn't come out yet")
+        sys.stderr.write("Report hasn't come out yet\n")
+
     data = get_from_dataset(today)
     file_is_in = False
     if link is None and data is None:
-        print("Report hasn't come out yet")
+        print("Data hasn't come out yet")
         sys.exit(0)
     if data is None:
         file_is_in = True
