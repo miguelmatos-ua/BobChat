@@ -2,7 +2,7 @@ import requests
 import sys
 import os
 import telegram
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from bs4 import BeautifulSoup
 from telegram.message import Message
 
@@ -107,22 +107,22 @@ def create_calendar(home_team, away_team, competition, time: datetime):
     """
     Create a calendar file to add to Google Calendar
     """
-    start = time.strptime("%Y%m%dT%H%M%sZ")
+    start = time.strftime("%Y%m%dT%H%M%SZ")
+    end = time + timedelta(minutes=45)
+    end = end.strftime("%Y%m%dT%H%M%SZ")
     with open("calendar.ics", "w") as calendar:
-        calendar.write("""BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//hacksw/handcal//NONSGML v1.0//EN
-BEGIN:VEVENT
-UID:uid0101@tstdomain.com
-DTSTAMP:19970714T170000Z
-ORGANIZER;CN=Miguel C. Matos:MAILTO:miguelcruzmatos@gmail.com
-DTSTART:19790714T170000Z
-DTEND:19790715T035959Z
-SUMMARY:Test Event
-GEO:48.85299;2.36885
-END:VEVENT
-END:VCALENDAR""")
-    return NotImplementedError("This method is not yet implemented")
+        calendar.write("BEGIN:VCALENDAR\n")
+        calendar.write("VERSION:2.0\n")
+        calendar.write("PRODID:-//hacksw/handcal//NONSGML v1.0//EN\n")
+        calendar.write("BEGIN:VEVENT\n")
+        calendar.write(f"DTSTART:{start}\n")
+        calendar.write(f"DTEND:{end}\n")
+        calendar.write(f"SUMMARY:{home_team} vs. {away_team}\n")
+        calendar.write(f"DESCRIPTION:{competition}\n")
+        calendar.write("END:VEVENT\n")
+        calendar.write("END:VCALENDAR\n")
+
+    return "calendar.ics"
 
 
 def send_message(message) -> Message:
@@ -148,6 +148,11 @@ def send_message(message) -> Message:
 
     bot = telegram.Bot(BOT_TOKEN)
 
+    # add file to the message
+    if os.path.exists("calendar.ics"):
+        with open("calendar.ics", "rb") as calendar:
+            return bot.send_document(CHAT_ID, calendar, caption=message)
+
     return bot.send_message(chat_id=CHAT_ID, text=message)
 
 
@@ -163,6 +168,7 @@ def main(team_id=4, team_name="Benfica"):
         sys.exit(0)
 
     msg = build_message(games[today], team_name)
+    create_calendar(games[today]["home_team"], games[today]["away_team"], "ZeroZero", games[today]["date"])
 
     print(send_message(msg))
 
