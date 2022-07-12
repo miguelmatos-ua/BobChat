@@ -32,6 +32,8 @@ def extract_games(soup: BeautifulSoup):
     # find the div with the class team_games
     game_box = soup.find("div", {"id": "team_games"})
     games = dict()
+    if game_box is None:
+        return {}
     # for all the lines (games) in the table
     for tr in game_box.find_all("tr"):
         date = tr.find("td", {"class": "date"})  # find the date column
@@ -99,6 +101,28 @@ def build_message(game: dict, team_name: str):
 Às {time}.
 {game["home_team"]} vs. {game["away_team"]}"""
     return message
+
+
+def create_calendar(home_team, away_team, competition, time: datetime):
+    """
+    Create a calendar file to add to Google Calendar
+    """
+    start = time.strptime("%Y%m%dT%H%M%sZ")
+    with open("calendar.ics", "w") as calendar:
+        calendar.write("""BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hacksw/handcal//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:uid0101@tstdomain.com
+DTSTAMP:19970714T170000Z
+ORGANIZER;CN=Miguel C. Matos:MAILTO:miguelcruzmatos@gmail.com
+DTSTART:19790714T170000Z
+DTEND:19790715T035959Z
+SUMMARY:Test Event
+GEO:48.85299;2.36885
+END:VEVENT
+END:VCALENDAR""")
+    return NotImplementedError("This method is not yet implemented")
 
 
 def send_message(message) -> Message:
