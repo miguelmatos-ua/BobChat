@@ -32,6 +32,7 @@ jobs:
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
+          TODOIST_TOKEN: ${{ secrets.TODOIST_TOKEN }}
         run: |
           cd benfica
           python test.py
