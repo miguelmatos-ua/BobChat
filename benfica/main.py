@@ -186,7 +186,7 @@ def add_todoist(game: dict):
 
     message = f"""Editar {game["home_team"]} vs. {game["away_team"]} ⚽"""
 
-    todoist.add_task(content=message, project_id=project_id, label_ids=labels, priority=2, due_string="Today")
+    todoist.add_task(content=message, project_id=project_id, label_ids=labels, priority=2, due_string="Tomorrow")
 
 
 def main(team_id=4, team_name="Benfica"):
