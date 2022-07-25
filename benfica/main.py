@@ -1,10 +1,13 @@
+from re import I
 import requests
 import sys
 import os
 import telegram
+
 from datetime import date, datetime, timedelta
 from bs4 import BeautifulSoup
 from telegram.message import Message
+from todoist_api_python.api import TodoistAPI
 
 
 def download_page_zz(uri: str):
@@ -156,6 +159,36 @@ def send_message(message) -> Message:
     return bot.send_message(chat_id=CHAT_ID, text=message)
 
 
+def add_todoist(game: dict):
+    """Create a todoist task.
+
+    Creates a `todoist` task to edit the video after a Benfica game.
+
+    Args:
+        game (dict): Game from which the task will be created
+
+    Raises:
+        ValueError: Raised if TODOIST_TOKEN is not defined
+
+    Returns:
+        None: Returns nothing
+    """
+    TODOIST_TOKEN = os.environ.get("TODOIST_TOKEN")
+    if not TODOIST_TOKEN:
+        raise ValueError("The value of TODOIST_TOKEN is not defined")
+
+    # create a todoist task
+    todoist = TodoistAPI(TODOIST_TOKEN)
+    # get project id
+    project_id = [p for p in todoist.get_projects() if p.name == "Personal"][0].id
+
+    labels = [l.id for l in todoist.get_labels() if l.name == "entertainment" or l.name == "personal_projects"]
+
+    message = f"""Editar {game["home_team"]} vs. {game["away_team"]} ⚽"""
+
+    todoist.add_task(content=message, project_id=project_id, label_ids=labels, priority=2, due_string="Today")
+
+
 def main(team_id=4, team_name="Benfica"):
     uri_zz = f"https://www.zerozero.pt/team.php?id={team_id}"
     soup = download_page_zz(uri_zz)
@@ -171,6 +204,11 @@ def main(team_id=4, team_name="Benfica"):
     create_calendar(games[today]["home_team"], games[today]["away_team"], "ZeroZero", games[today]["date"])
 
     print(send_message(msg))
+
+    if team_name == "Benfica":
+        print("Adding todoist task")
+        add_todoist(games[today])
+        print("TOdoist task added")
 
 
 if __name__ == "__main__":
