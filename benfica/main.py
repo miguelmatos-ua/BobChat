@@ -1,4 +1,3 @@
-from re import I
 import requests
 import sys
 import os
