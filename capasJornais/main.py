@@ -19,9 +19,9 @@ uris = [
     ("publico", "Público"),
     ("diario-de-noticias", "Diário de Notícias"),
     ("i", "Jornal i"),
-    ("a-bola", "A Bola"),
-    ("record", "Record"),
     ("o-jogo", "O Jogo"),
+    ("record", "Record"),
+    ("a-bola", "A Bola"),
     ("expresso", "Expresso"),
 ]
 
