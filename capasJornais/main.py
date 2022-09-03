@@ -3,6 +3,7 @@ import telegram
 import sys
 from bs4 import BeautifulSoup
 from datetime import datetime
+import time
 
 
 BOT_TOKEN = sys.argv[1]  # Bot token and chat id passed with the command line
@@ -49,4 +50,15 @@ print(day, month)
 # caption needs to be only on first element of the image or it won't work
 imgs[0].caption = f"Capas de jornais do dia {day}/{month}"
 
-bot.send_media_group(CHAT_ID, media=imgs)  # send telegram message
+retries = 5
+done = False
+for i in range(retries, 0, -1):
+    try:
+        bot.send_media_group(CHAT_ID, media=imgs)  # send telegram message
+        done = True
+    except:
+        done = False
+    if done:
+        break
+    else:
+        time.sleep(1)
