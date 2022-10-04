@@ -79,8 +79,6 @@ def send_message(message: str) -> Message:
 
 
 if __name__ == "__main__":
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
-    CHAT_ID = os.environ.get("CHAT_ID")
     last_file = sys.argv[1] if len(sys.argv) > 1 else "last.txt"
     page = get_page("http://www.ternaalmaachamaimensa.pw/2022/07/epoca-202223.html")
     parsed_page = parse_page(page)
