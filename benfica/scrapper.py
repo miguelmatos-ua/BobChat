@@ -23,7 +23,7 @@ def get_page(uri: str) -> BeautifulSoup:
 def parse_page(page: BeautifulSoup) -> dict:
     """Parse the page and return its information"""
     last_game = (
-        page.find_all("div", {"class": "sapomedia images"})[-1].find_all("div")[-1].text
+            [d.text for d in page.find_all("div", {"class": "sapomedia images"})[-1].find_all("div")[-2:] if d.text][-1]
     )
     game_date = last_game[:10]
     match = re.findall(
