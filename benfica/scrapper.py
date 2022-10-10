@@ -27,7 +27,7 @@ def parse_page(page: BeautifulSoup) -> dict:
     )
     game_date = last_game[:10]
     match = re.findall(
-        r"([\d\wÀ-ÿ][\w\s\dÀ-ÿ]*[\d\wÀ-ÿ])\s-\s([\d\wÀ-ÿ][\w\d\sÀ-ÿ]*[\d\wÀ-ÿ])\svs\s([\d\wÀ-ÿ][\d\s\wÀ-ÿ]*[\d\wÀ-ÿ]).*\(.*\)",
+        r"([\d\wÀ-ÿ][\w\s\dÀ-ÿ]*[\d\wÀ-ÿ])\s+-\s+([\d\wÀ-ÿ][\w\d\sÀ-ÿ]*[\d\wÀ-ÿ])\s+vs\s+([\d\wÀ-ÿ][\d\s\wÀ-ÿ]*[\d\wÀ-ÿ]).*\(.*\)",
         last_game,
     )
     if not match:
