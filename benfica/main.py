@@ -4,6 +4,7 @@ import os
 import telegram
 
 from datetime import date, datetime, timedelta
+from deprecated import deprecated
 from bs4 import BeautifulSoup
 from telegram.message import Message
 from todoist_api_python.api import TodoistAPI
@@ -105,6 +106,7 @@ def build_message(game: dict, team_name: str):
     return message
 
 
+@deprecated(reason="Support for the 'create calendar' feature is dropped.")
 def create_calendar(home_team, away_team, competition, time: datetime):
     """
     Create a calendar file to add to Google Calendar
@@ -200,14 +202,13 @@ def main(team_id=4, team_name="Benfica"):
         sys.exit(0)
 
     msg = build_message(games[today], team_name)
-    create_calendar(games[today]["home_team"], games[today]["away_team"], "ZeroZero", games[today]["date"])
 
     print(send_message(msg))
 
     if team_name == "Benfica":
         print("Adding todoist task")
         add_todoist(games[today])
-        print("TOdoist task added")
+        print("Todoist task added")
 
 
 if __name__ == "__main__":
