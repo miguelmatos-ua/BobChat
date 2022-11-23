@@ -20,14 +20,16 @@ def get_page(uri: str) -> BeautifulSoup:
         return BeautifulSoup(r.text, "html.parser")
 
 
-def parse_page(page: BeautifulSoup) -> dict:
+def parse_page(page_soup: BeautifulSoup) -> dict:
     """Parse the page and return its information"""
     last_game = (
-            [d.text for d in page.find_all("div", {"class": "sapomedia images"})[-1].find_all("div")[-2:] if d.text][-1]
+        [d.text for d in page_soup.find_all("div", {"class": "sapomedia images"})[-1].find_all("div")[-2:] if d.text][
+            -1]
     )
     game_date = last_game[:10]
     match = re.findall(
-        r"([\d\wÀ-ÿ][\w\s\dÀ-ÿ]*[\d\wÀ-ÿ])\s+-\s+([\d\wÀ-ÿ][\w\d\sÀ-ÿ]*[\d\wÀ-ÿ])\s+vs\s+([\d\wÀ-ÿ][\d\s\wÀ-ÿ]*[\d\wÀ-ÿ]).*\(.*\)",
+        r"([\d\wÀ-ÿ][\w\s\dÀ-ÿ]*[\d\wÀ-ÿ])\s+-\s+([\d\wÀ-ÿ][\w\d\sÀ-ÿ]*[\d\wÀ-ÿ])\s+vs\s+([\d\wÀ-ÿ][\d\s\wÀ-ÿ]*["
+        r"\d\wÀ-ÿ]).*\(.*\)",
         last_game,
     )
     if not match:
