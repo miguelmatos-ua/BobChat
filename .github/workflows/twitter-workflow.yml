@@ -1,9 +1,8 @@
 name: Telegram Covid messsage
 
 on:
-  # it is not running anymore 🥳
-  #schedule:
-  #  - cron: "* 13-18 * * *" # run every two minutes
+  schedule:
+    - cron: "*/30 * * * *" # run every two minutes
   workflow_dispatch:  # manual trigger for debug purposes
 
 jobs:
