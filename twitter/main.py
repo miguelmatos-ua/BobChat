@@ -18,7 +18,7 @@ def get_last_tweet_id():
         (str): Id of the last sent tweet
 
     """
-    with open("last.txt") as last_time_tweet:
+    with open("twitter/last.txt") as last_time_tweet:
         last = last_time_tweet.readlines()[-1]
 
     return last
@@ -55,12 +55,12 @@ def get_user_tweets(since_id: str, user: str):
 
     Args:
         since_id (str): Id of the last sent tweet
-        user (str): Id of the user. Defaults to 21390437 (@SLBenfica account).
+        user (str): Id of the user.
 
     Returns:
         (list, None): Most recent tweets
     """
-    uri = f"https://api.twitter.com/2/users/{user}/tweets?max_results=100&since_id={since_id}"
+    uri = f"https://api.twitter.com/2/users/{user}/tweets?max_results=100&since_id={str(since_id).rstrip()}"
     headers = {
         "Authorization": f"Bearer {TWITTER_BEARER_TOKEN}"
     }
@@ -72,11 +72,7 @@ def get_user_tweets(since_id: str, user: str):
 
 
 def check_tweet_is_out(tweets, string_filter: str):
-    for tweet in tweets:
-        if string_filter in tweet["text"]:
-            return tweet["id"]
-
-    return None
+    return [tweet["id"] for tweet in tweets if string_filter in tweet["text"]]
 
 
 def send_tweet_message(tweet, username):
@@ -106,8 +102,8 @@ if __name__ == "__main__":
         print("There is no tweet")
         sys.exit(0)
 
-    # add tweet to last.txt file
-    with open("last.txt", "w") as last:
-        last.write(lineup_tweet)
+    for tweet in lineup_tweet:
+        # add tweet to last.txt file
+        with open("twitter/last.txt", "w") as last:
+            last.write(tweet)
 
-    print(send_tweet_message(lineup_tweet, username))
