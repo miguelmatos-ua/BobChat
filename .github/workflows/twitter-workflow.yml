@@ -1,4 +1,4 @@
-name: Telegram Covid messsage
+name: Send tweet message to telegram workflow
 
 on:
   schedule:
