@@ -1,0 +1,45 @@
+name: Telegram Covid messsage
+
+on:
+  # it is not running anymore 🥳
+  #schedule:
+  #  - cron: "* 13-18 * * *" # run every two minutes
+  workflow_dispatch:  # manual trigger for debug purposes
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [3.9]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r twitter/requirements.txt
+
+      - name: Run script
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+        run: |
+          python twitter/main.py 319677725 Portugal
+          
+      - name: Add changes to last.txt
+        run: |
+          git add -A twitter/
+
+      - name: Commit all changes
+        uses: stefanzweifel/git-auto-commit-action@v4.1.1
+        with:
+          commit_message: Update latest date sent
+          branch: ${{ github.head_ref }}
+
