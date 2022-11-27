@@ -1,9 +1,8 @@
-name: Telegram Covid messsage
+name: Send tweet message to telegram workflow
 
 on:
-  # it is not running anymore 🥳
-  #schedule:
-  #  - cron: "* 13-18 * * *" # run every two minutes
+  schedule:
+    - cron: "*/30 * * * *" # run every two minutes
   workflow_dispatch:  # manual trigger for debug purposes
 
 jobs:
@@ -31,7 +30,7 @@ jobs:
           CHAT_ID: ${{ secrets.CHAT_ID }}
           TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
         run: |
-          python twitter/main.py 319677725 Portugal
+          python twitter/main.py EuropeElects Portugal
           
       - name: Add changes to last.txt
         run: |
