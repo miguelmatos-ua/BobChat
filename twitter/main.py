@@ -3,7 +3,6 @@ import sys
 import requests
 from urllib.parse import urlparse
 
-
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHAT_ID = os.environ["CHAT_ID"]
 TWITTER_BEARER_TOKEN = os.environ["TWITTER_BEARER_TOKEN"]
@@ -19,9 +18,7 @@ def get_last_tweet_id():
 
     """
     with open("twitter/last.txt") as last_time_tweet:
-        last = last_time_tweet.readlines()[-1]
-
-    return last
+        return last_time_tweet.readlines()[-1]
 
 
 def get_user_id(user: str) -> str:
@@ -72,11 +69,11 @@ def get_user_tweets(since_id: str, user: str):
 
 
 def check_tweet_is_out(tweets, string_filter: str):
-    return [tweet["id"] for tweet in tweets if string_filter in tweet["text"]]
+    return [t["id"] for t in tweets if string_filter in t["text"]]
 
 
-def send_tweet_message(tweet, username):
-    tweet_uri = f"https://twitter.com/{username}/status/{tweet}"
+def send_tweet_message(tweet_id, twitter_username):
+    tweet_uri = f"https://twitter.com/{twitter_username}/status/{tweet_id}"
     telegram_uri = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage?chat_id={CHAT_ID}&text={tweet_uri}"
     return requests.get(urlparse(telegram_uri).geturl())
 
@@ -107,4 +104,3 @@ if __name__ == "__main__":
         # add tweet to last.txt file
         with open("twitter/last.txt", "w") as last:
             last.write(tweet)
-
