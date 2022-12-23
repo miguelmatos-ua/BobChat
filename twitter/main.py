@@ -91,7 +91,7 @@ if __name__ == "__main__":
     user_tweets = get_user_tweets(last, user_id)
     if not user_tweets:
         print("There are no user tweets")
-        sys.exit(1)
+        sys.exit(0)
 
     lineup_tweet = check_tweet_is_out(user_tweets, tweet_filter)
 
