@@ -3,7 +3,7 @@ import sys
 import os
 import telegram
 
-from datetime import date, datetime, timedelta
+from datetime import datetime, timedelta
 from deprecated import deprecated
 from bs4 import BeautifulSoup
 from telegram.message import Message
@@ -185,7 +185,7 @@ def add_todoist(game: dict):
 
     labels = [l.id for l in todoist.get_labels() if l.name == "entertainment" or l.name == "personal_projects"]
 
-    message = f"""Editar {game["home_team"]} vs. {game["away_team"]} ⚽"""
+    message = f"""Editar {game["home_team"]} vs. {game["away_team"]} ⚽ @entertainment @personal_projects"""
 
     todoist.add_task(content=message, project_id=project_id, label_ids=labels, priority=2, due_string="Tomorrow")
 
