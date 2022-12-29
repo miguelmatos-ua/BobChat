@@ -24,6 +24,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r capasJornais/requirements.txt
           pip install -r benfica/requirements.txt
+          pip install -r elections/requirements.txt
       - name: Run script for newspaper covers
         run: |
           python capasJornais/main.py ${{ secrets.BOT_TOKEN }} ${{ secrets.CHAT_ID }}
@@ -44,3 +45,8 @@ jobs:
         run: |
           cd benfica
           python main.py 2 "Beira-mar" # Beira-mar's ZeroZero id is 2
+      # run elections lifecycle
+      - name: Run script for election calendar generator
+        run: |
+          cd elections
+          python parser.py
