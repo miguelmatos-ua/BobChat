@@ -3,6 +3,7 @@ Generate a file with the next elections from EuropeElects
 
 @author Miguel C. Matos
 """
+import os
 import requests
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
@@ -93,7 +94,15 @@ def generate_ics_file(elections: list[dict]):
 
 def main():
     uri = "https://europeelects.eu/calendar"
-    b = download_page(uri)
+    for _ in range(5):
+        try:
+            b = download_page(uri)
+            break
+        except:
+            continue
+    else:
+        print("Could not download the page")
+        os.exit(1)
     res = parse_page(b)
     generate_ics_file(res)
 
