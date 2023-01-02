@@ -28,7 +28,12 @@ uris = [
 
 imgs = []
 
+today = datetime.today()
+day = f"0{today.day}"[-2:]  # make 7 -> 07 but keep 12 -> 12
+month = f"0{today.month}"[-2:]
+print(day, month)
 
+i = 0
 for uri, name in ((uri_base.format(r), name) for r, name in uris):
     with requests.get(uri) as r:
         content = r.content
@@ -40,15 +45,11 @@ for uri, name in ((uri_base.format(r), name) for r, name in uris):
         # Don't send covers from past days
         continue
     print(name, img)
-    imgs.append(telegram.InputMediaPhoto(img))
-
-today = datetime.today()
-day = f"0{today.day}"[-2:]  # make 7 -> 07 but keep 12 -> 12
-month = f"0{today.month}"[-2:]
-print(day, month)
+    imgs.append(telegram.InputMediaPhoto(img, caption=f"Capas de jornais do dia {day}/{month}" if i == 0 else ''))
+    i += 1
 
 # caption needs to be only on first element of the image or it won't work
-imgs[0].caption = f"Capas de jornais do dia {day}/{month}"
+# imgs[0].caption = f"Capas de jornais do dia {day}/{month}"
 
 retries = 5
 done = False
