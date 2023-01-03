@@ -3,7 +3,6 @@ Generate a file with the next elections from EuropeElects
 
 @author Miguel C. Matos
 """
-import os
 import requests
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
@@ -72,7 +71,7 @@ def generate_ics_file(elections: list[dict]):
     )
 
     for elec in elections:
-        begin_date: datetime = elec['date']
+        begin_date: datetime = elec["date"]
         # one day later
         end_date: datetime = begin_date + timedelta(days=1)
         file_str += (
@@ -85,7 +84,7 @@ def generate_ics_file(elections: list[dict]):
             + "TRANSP:TRASPARENT\n"
             + "END:VEVENT\n"
         )
-    
+
     file_str += "END:VCALENDAR"
 
     with open("elections.ics", "w") as f:
@@ -102,7 +101,7 @@ def main():
             continue
     else:
         print("Could not download the page")
-        os.exit(1)
+        return
     res = parse_page(b)
     generate_ics_file(res)
 
