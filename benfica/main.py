@@ -185,7 +185,7 @@ def add_todoist(game: dict):
 
     labels = [l.id for l in todoist.get_labels() if l.name == "entertainment" or l.name == "personal_projects"]
 
-    message = f"""Editar {game["home_team"]} vs. {game["away_team"]} ⚽ @entertainment @personal_projects"""
+    message = f"""Editar {game["home_team"]} vs. {game["away_team"]} ⚽"""
 
     todoist.add_task(content=message, project_id=project_id, label_ids=labels, priority=2, due_string="Tomorrow")
 
