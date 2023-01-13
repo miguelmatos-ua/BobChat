@@ -35,14 +35,12 @@ def get_user_id(user: str) -> str:
     """
 
     uri = f"https://api.twitter.com/2/users/by/username/{user}"
-    headers = {
-        "Authorization": f"Bearer {TWITTER_BEARER_TOKEN}"
-    }
+    headers = {"Authorization": f"Bearer {TWITTER_BEARER_TOKEN}"}
 
     with requests.get(uri, headers=headers) as r:
         j: dict = r.json()
 
-    return j['data']['id']
+    return j["data"]["id"]
 
 
 def get_user_tweets(since_id: str, user: str):
@@ -58,9 +56,7 @@ def get_user_tweets(since_id: str, user: str):
         (list, None): Most recent tweets
     """
     uri = f"https://api.twitter.com/2/users/{user}/tweets?max_results=100&since_id={str(since_id).rstrip()}"
-    headers = {
-        "Authorization": f"Bearer {TWITTER_BEARER_TOKEN}"
-    }
+    headers = {"Authorization": f"Bearer {TWITTER_BEARER_TOKEN}"}
 
     with requests.get(uri, headers=headers) as r:
         j: dict = r.json()
@@ -74,7 +70,7 @@ def check_tweet_is_out(tweets, string_filter: str):
 
 def send_tweet_message(tweet_id, twitter_username):
     tweet_uri = f"https://twitter.com/{twitter_username}/status/{tweet_id}"
-    telegram_uri = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage?chat_id={CHAT_ID}&text={tweet_uri}"
+    telegram_uri = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage?chat_id={CHAT_ID}&text={tweet_uri}&parse_mode=HTML&disable_web_page_preview=false"
     return requests.get(urlparse(telegram_uri).geturl())
 
 
