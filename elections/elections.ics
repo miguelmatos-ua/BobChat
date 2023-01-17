@@ -7,6 +7,14 @@ X-WR-CALNAME:Eleições na Europa
 X-WR-TIMEZONE:UTC
 X-WR-CALNAME:Eleições na Europa
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230113
+DTEND;VALUE=DATE:20230115
+CLASS:PUBLIC
+DESCRIPTION:Presidential (first round)
+SUMMARY:🇨🇿 Czechia Elections 🗳️
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230121
 DTEND;VALUE=DATE:20230122
 CLASS:PUBLIC
@@ -20,6 +28,14 @@ DTEND;VALUE=DATE:20230123
 CLASS:PUBLIC
 DESCRIPTION:1st constituency of Charente national parliament by-election (first round)2nd constituency of Marne national parliament by-election (first round)8th constituency of Pas-de-Calais national parliament by-election (first round)
 SUMMARY:🇫🇷 France Elections 🗳️
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230127
+DTEND;VALUE=DATE:20230129
+CLASS:PUBLIC
+DESCRIPTION:Presidential (second round)
+SUMMARY:🇨🇿 Czechia Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -76,6 +92,14 @@ DTEND;VALUE=DATE:20230213
 CLASS:PUBLIC
 DESCRIPTION:Berlin local and regional parliamentPotentially: Berlin partial national parliament election (re-run)
 SUMMARY:🇩🇪 Germany Elections 🗳️
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230212
+DTEND;VALUE=DATE:20230214
+CLASS:PUBLIC
+DESCRIPTION:Lazio regional electionLombardy regional election
+SUMMARY:🇮🇹 Italy Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT

@@ -45,16 +45,42 @@ def parse_page(b: BeautifulSoup) -> list[dict]:
         date_str = cells[2].text + f" {year}"
         # parse date to machine readable
         try:
-            date = datetime.strptime(date_str, "%d %B %Y")
+            dates = get_date_range(date_str)
         except Exception:
+            # the day of the election may have not been defined yet
             continue
 
         # Add the country, election type, and date to the result dictionary
         result.append(
-            {"country": country, "election_type": election_type, "date": date}
+            {
+                "country": country,
+                "election_type": election_type,
+                "begin_date": dates["begin_date"],
+                "end_date": dates["end_date"]
+            }
         )
 
     return result
+
+
+def get_date_range(string: str) -> dict[str, datetime]:
+    """From a string, return a dictionary with the start and end of an election."""
+    date_format = "%d %B %Y"
+    date_string = string.split(" ")
+    print(date_string)
+    if "-" in date_string[0]:
+        range_days = date_string[0].split("-")
+        begin_day = range_days[0]
+        end_day = range_days[1]
+        begin_date_str = f"{begin_day} {date_string[1]} {date_string[2]}"
+        end_date_str = f"{end_day} {date_string[1]} {date_string[2]}"
+        begin_date = datetime.strptime(begin_date_str, date_format)
+        end_date = datetime.strptime(end_date_str, date_format) + timedelta(days=1)
+    else:
+        begin_date = datetime.strptime(string, date_format)
+        end_date = begin_date + timedelta(days=1)
+    return {"begin_date": begin_date, "end_date": end_date}
+
 
 
 def generate_ics_file(elections: list[dict]):
@@ -71,9 +97,9 @@ def generate_ics_file(elections: list[dict]):
     )
 
     for elec in elections:
-        begin_date: datetime = elec["date"]
+        begin_date: datetime = elec["begin_date"]
         # one day later
-        end_date: datetime = begin_date + timedelta(days=1)
+        end_date: datetime = elec["end_date"]
         file_str += (
             "BEGIN:VEVENT\n"
             + f"DTSTART;VALUE=DATE:{begin_date.strftime('%Y%m%d')}\n"
@@ -103,6 +129,7 @@ def main():
         print("Could not download the page")
         return
     res = parse_page(b)
+    print(res[:3])
     generate_ics_file(res)
 
 
