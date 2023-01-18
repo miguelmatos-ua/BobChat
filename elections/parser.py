@@ -56,7 +56,7 @@ def parse_page(b: BeautifulSoup) -> list[dict]:
                 "country": country,
                 "election_type": election_type,
                 "begin_date": dates["begin_date"],
-                "end_date": dates["end_date"]
+                "end_date": dates["end_date"],
             }
         )
 
@@ -80,7 +80,6 @@ def get_date_range(string: str) -> dict[str, datetime]:
         begin_date = datetime.strptime(string, date_format)
         end_date = begin_date + timedelta(days=1)
     return {"begin_date": begin_date, "end_date": end_date}
-
 
 
 def generate_ics_file(elections: list[dict]):
@@ -129,7 +128,6 @@ def main():
         print("Could not download the page")
         return
     res = parse_page(b)
-    print(res[:3])
     generate_ics_file(res)
 
 
