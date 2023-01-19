@@ -95,8 +95,8 @@ def send_tweet_message(tweet_id: str, twitter_username: str) -> requests.Respons
     Returns:
         (requests.Response): Response object after sending the telegram message.
     """
-    tweet_uri = f"https://twitter.com/{twitter_username}/status/{tweet_id}"
-    telegram_uri = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage?chat_id={CHAT_ID}&text={tweet_uri}&parse_mode=HTML&disable_web_page_preview=false"
+    tweet_uri = f"https://vxtwitter.com/{twitter_username}/status/{tweet_id}"
+    telegram_uri = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage?chat_id={CHAT_ID}&text={tweet_uri}&parse_mode=HTML"
     return requests.get(urlparse(telegram_uri).geturl())
 
 
