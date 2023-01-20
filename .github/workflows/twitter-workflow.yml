@@ -30,8 +30,14 @@ jobs:
           CHAT_ID: ${{ secrets.CHAT_ID }}
           TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
         run: |
+          oldlast=$(cat twitter/last.txt)
           python twitter/main.py EuropeElects Portugal # Portuguese polls
+          pollslast=$(cat twitter/last.txt)
+          echo $oldlast > twitter/last.txt
           python twitter/main.py mariana_maz94 "BILHETES:" # Benfica tickets
+          benficalast=$(cat twitter/last.txt)
+          [[ $pollslast > $benficalast ]] && echo $pollslast > twitter/last.txt || echo $benficalast > twitter/last.txt
+          
           
       - name: Add changes to last.txt
         run: |
