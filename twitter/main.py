@@ -8,7 +8,7 @@ CHAT_ID = os.environ["CHAT_ID"]
 TWITTER_BEARER_TOKEN = os.environ["TWITTER_BEARER_TOKEN"]
 
 
-def get_last_tweet_id(last_file: str):
+def get_last_tweet_id(last_file: str) -> str | None:
     """Get the last tweet id
 
     Reads from the ``last.txt`` file, the id of the last sent tweet.
@@ -17,9 +17,10 @@ def get_last_tweet_id(last_file: str):
         last_file (str): Path of the last file
 
     Returns:
-        (str): Id of the last sent tweet
-
+        (str | None): Id of the last sent tweet, or None if there is no file
     """
+    if not os.path.isfile(last_file):
+        return None
     with open(last_file) as last_time_tweet:
         return last_time_tweet.readlines()[-1]
 
@@ -46,19 +47,22 @@ def get_user_id(user: str) -> str:
     return j["data"]["id"]
 
 
-def get_user_tweets(since_id: str, user: str) -> list[dict] | None:
+def get_user_tweets(since_id: str | None, user: str) -> list[dict] | None:
     """Get user Tweets
 
     Returns the 100 most recent tweets of a specific user.
 
     Args:
-        since_id (str): Id of the last sent tweet
+        since_id (str | None): Id of the last sent tweet
         user (str): Id of the user.
 
     Returns:
         (list[dict], None): Most recent tweets
     """
-    uri = f"https://api.twitter.com/2/users/{user}/tweets?max_results=100&since_id={str(since_id).rstrip()}"
+    since_string = f"&since_id={str(since_id).rstrip()}" if since_id is not None else ""
+    uri = (
+        f"https://api.twitter.com/2/users/{user}/tweets?max_results=100" + since_string
+    )
     headers = {"Authorization": f"Bearer {TWITTER_BEARER_TOKEN}"}
 
     with requests.get(uri, headers=headers) as r:
@@ -103,11 +107,10 @@ def send_tweet_message(tweet_id: str, twitter_username: str) -> requests.Respons
 if __name__ == "__main__":
     username = "EuropeElects"
     tweet_filter = ""
-    last_file = "twitter/last.txt"
     if len(sys.argv) > 1:
         username = sys.argv[1]
         tweet_filter = sys.argv[2] if len(sys.argv) > 2 else tweet_filter
-        last_file = sys.argv[3] if len(sys.argv) > 3 else last_file
+    last_file = f"twitter/last_{username}.txt"
 
     user_id = get_user_id(username)
 
