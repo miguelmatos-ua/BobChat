@@ -82,7 +82,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230212
 DTEND;VALUE=DATE:20230213
 CLASS:PUBLIC
-DESCRIPTION:Berlin local and regional parliamentPotentially: Berlin partial national parliament election (re-run)
+DESCRIPTION:Berlin local and regional parliament
 SUMMARY:🇩🇪 Germany Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
