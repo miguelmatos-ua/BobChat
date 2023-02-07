@@ -82,7 +82,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230212
 DTEND;VALUE=DATE:20230213
 CLASS:PUBLIC
-DESCRIPTION:Presidential (prospective second round)
+DESCRIPTION:Presidential (second round)
 SUMMARY:🇨🇾 Cyprus Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
