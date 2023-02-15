@@ -79,6 +79,14 @@ SUMMARY:🇲🇨 Monaco Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230209
+DTEND;VALUE=DATE:20230210
+CLASS:PUBLIC
+DESCRIPTION:West Lancashire national parliament by-election
+SUMMARY:🇬🇧 UK Elections 🗳️
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230212
 DTEND;VALUE=DATE:20230213
 CLASS:PUBLIC
@@ -98,7 +106,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230212
 DTEND;VALUE=DATE:20230213
 CLASS:PUBLIC
-DESCRIPTION:Basle-Country regional parliament and government (first round)Zurich regional parliament and government (first round)
+DESCRIPTION:Basle-Country regional parliament and governmentZurich regional parliament and government
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -146,7 +154,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230312
 DTEND;VALUE=DATE:20230313
 CLASS:PUBLIC
-DESCRIPTION:Appenzell Outer-Rhodes regional parliament and government (first round)Basle-Country regional government (prospective second round)National parliament (upper house) by-election – Council of States (1/2 Canton of St. Gallen seat)
+DESCRIPTION:Appenzell Outer-Rhodes regional parliament and government (first round)National parliament (upper house) by-election – Council of States (1/2 Canton of St. Gallen seat)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -154,7 +162,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230315
 DTEND;VALUE=DATE:20230316
 CLASS:PUBLIC
-DESCRIPTION:Regional
+DESCRIPTION:Regional parliaments
 SUMMARY:🇳🇱 Netherlands Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -210,7 +218,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230416
 DTEND;VALUE=DATE:20230417
 CLASS:PUBLIC
-DESCRIPTION:Appenzell Outer-Rhodes regional government (prospective second round)Zurich regional government (prospective second round)
+DESCRIPTION:Appenzell Outer-Rhodes regional government (prospective second round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -322,7 +330,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230911
 DTEND;VALUE=DATE:20230912
 CLASS:PUBLIC
-DESCRIPTION:Regional and local (Oslo + nationwide)
+DESCRIPTION:Regional parliaments and local (Oslo + nationwide)
 SUMMARY:🇳🇴 Norway Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -354,7 +362,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20231008
 DTEND;VALUE=DATE:20231009
 CLASS:PUBLIC
-DESCRIPTION:Regional and local elections (Athens + nationwide, first round)
+DESCRIPTION:Regional parliaments and local (Athens + nationwide, first round)
 SUMMARY:🇬🇷 Greece Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -370,7 +378,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20231015
 DTEND;VALUE=DATE:20231016
 CLASS:PUBLIC
-DESCRIPTION:Regional and local elections (Athens + nationwide, second round)
+DESCRIPTION:Regional parliaments and local (Athens + nationwide, second round)
 SUMMARY:🇬🇷 Greece Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
