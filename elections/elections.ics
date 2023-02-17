@@ -114,7 +114,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230212
 DTEND;VALUE=DATE:20230214
 CLASS:PUBLIC
-DESCRIPTION:Lazio regional electionLombardy regional election
+DESCRIPTION:Lazio regional election (parliament + president)Lombardy regional election (parliament + president)
 SUMMARY:🇮🇹 Italy Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -210,7 +210,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230402
 DTEND;VALUE=DATE:20230404
 CLASS:PUBLIC
-DESCRIPTION:Friuli Venezia-Giulia regional election
+DESCRIPTION:Friuli Venezia-Giulia regional election (parliament + president)
 SUMMARY:🇮🇹 Italy Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -274,7 +274,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230528
 DTEND;VALUE=DATE:20230529
 CLASS:PUBLIC
-DESCRIPTION:Local (Madrid + nationwide)Aragon regionalAsturias regionalBalearic Islands regionalCanary Islands regionalCantabria regionalCastile-La Mancha regionalExtremadura regionalLa Rioja regionalMadrid regionalMurcia regionalNavarre regionalValencia regional
+DESCRIPTION:Local (Madrid + nationwide)Aragon regional parliamentAsturias regional parliamentBalearic Islands regional parliamentCanary Islands regional parliamentCantabria regional parliamentCastile-La Mancha regional parliamentExtremadura regional parliamentLa Rioja regional parliamentMadrid regional parliamentMurcia regional parliamentNavarre regional parliamentValencia regional parliament
 SUMMARY:🇪🇸 Spain Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
