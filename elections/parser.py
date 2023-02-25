@@ -24,41 +24,42 @@ def download_page(uri: str) -> BeautifulSoup:
 
 def parse_page(b: BeautifulSoup) -> list[dict]:
     """Parse the page into a dictionary with the elections information"""
-    year = b.find_all("td", {"colspan": 3})[1].text
-
-    table = b.find("table")
-    rows = table.find_all("tr")  # type:ignore
-
     # Initialize the result dictionary
     result = list()
 
-    # Iterate through the rows
-    for row in rows:
-        # Find the country, election type, and date cells
-        cells = row.find_all("td")
-        if len(cells) < 3:
-            continue
+    for y in b.find_all("td", {"colspan": 3}): 
+        year = y.text
 
-        # Extract the country, election type, and date from the cells
-        country = cells[0].text.encode("utf8").decode("utf8")
-        election_type = cells[1].text
-        date_str = cells[2].text + f" {year}"
-        # parse date to machine readable
-        try:
-            dates = get_date_range(date_str)
-        except Exception:
-            # the day of the election may have not been defined yet
-            continue
+        table = b.find("table")
+        rows = table.find_all("tr")  # type:ignore
 
-        # Add the country, election type, and date to the result dictionary
-        result.append(
-            {
-                "country": country,
-                "election_type": election_type,
-                "begin_date": dates["begin_date"],
-                "end_date": dates["end_date"],
-            }
-        )
+        # Iterate through the rows
+        for row in rows:
+            # Find the country, election type, and date cells
+            cells = row.find_all("td")
+            if len(cells) < 3:
+                continue
+
+            # Extract the country, election type, and date from the cells
+            country = cells[0].text.encode("utf8").decode("utf8")
+            election_type = cells[1].text
+            date_str = cells[2].text + f" {year}"
+            # parse date to machine readable
+            try:
+                dates = get_date_range(date_str)
+            except Exception:
+                # the day of the election may have not been defined yet
+                continue
+
+            # Add the country, election type, and date to the result dictionary
+            result.append(
+                {
+                    "country": country,
+                    "election_type": election_type,
+                    "begin_date": dates["begin_date"],
+                    "end_date": dates["end_date"],
+                }
+            )
 
     return result
 
