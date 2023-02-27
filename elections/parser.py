@@ -27,6 +27,7 @@ def parse_page(b: BeautifulSoup) -> list[dict]:
     # Initialize the result dictionary
     result = list()
 
+    begin = 0
     for y in b.find_all("td", {"colspan": 3}): 
         year = y.text
 
@@ -34,9 +35,15 @@ def parse_page(b: BeautifulSoup) -> list[dict]:
         rows = table.find_all("tr")  # type:ignore
 
         # Iterate through the rows
-        for row in rows:
+        for i, row in enumerate(rows[begin:]):
             # Find the country, election type, and date cells
             cells = row.find_all("td")
+
+            if len(cells) == 1 and cells[0].text.isnumeric() and int(cells[0].text) > int(year):
+                # if it gets to a new year
+                begin = i
+                break
+
             if len(cells) < 3:
                 continue
 
@@ -68,7 +75,7 @@ def get_date_range(string: str) -> dict[str, datetime]:
     """From a string, return a dictionary with the start and end of an election."""
     date_format = "%d %B %Y"
     date_string = string.split(" ")
-    print(date_string)
+
     if "-" in date_string[0]:
         range_days = date_string[0].split("-")
         begin_day = range_days[0]
