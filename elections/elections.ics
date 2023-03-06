@@ -138,7 +138,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230305
 DTEND;VALUE=DATE:20230306
 CLASS:PUBLIC
-DESCRIPTION:Local (Vaduz + nationwide)
+DESCRIPTION:Local (Vaduz + nationwide, first round)
 SUMMARY:🇱🇮 Liechtenstein Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -146,7 +146,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230305
 DTEND;VALUE=DATE:20230306
 CLASS:PUBLIC
-DESCRIPTION:Local (Vilnius + nationwide)
+DESCRIPTION:Local (Vilnius + nationwide, first round)
 SUMMARY:🇱🇹 Lithuania Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -154,7 +154,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230312
 DTEND;VALUE=DATE:20230313
 CLASS:PUBLIC
-DESCRIPTION:Appenzell Outer-Rhodes regional parliament and government (first round)National parliament (upper house) by-election – Council of States (1/2 Canton of St. Gallen seat)
+DESCRIPTION:Appenzell Outer-Rhodes regional parliament and government (first round)1/2 St. Gall national parliament (upper house) by-election
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -164,6 +164,14 @@ DTEND;VALUE=DATE:20230316
 CLASS:PUBLIC
 DESCRIPTION:Regional parliaments
 SUMMARY:🇳🇱 Netherlands Elections 🗳️
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230319
+DTEND;VALUE=DATE:20230320
+CLASS:PUBLIC
+DESCRIPTION:Local (Vilnius + nationwide, second round)
+SUMMARY:🇱🇹 Lithuania Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -234,6 +242,14 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230402
 DTEND;VALUE=DATE:20230403
 CLASS:PUBLIC
+DESCRIPTION:Local (Triesen & Schellenberg, second round)
+SUMMARY:🇱🇮 Liechtenstein Elections 🗳️
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230402
+DTEND;VALUE=DATE:20230403
+CLASS:PUBLIC
 DESCRIPTION:Geneva regional parliament and government (first round)Lucerne regional parliament and government (first round)Ticino regional parliament and government
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
@@ -282,7 +298,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230430
 DTEND;VALUE=DATE:20230501
 CLASS:PUBLIC
-DESCRIPTION:National parliament (upper house) – Council of States (Appenzell Inner-Rhodes’ seat)Geneva regional government (prospective second round)
+DESCRIPTION:Appenzell Inner-Rhodes national parliament (upper house) by-electionGeneva regional government (prospective second round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -338,7 +354,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230530
 DTEND;VALUE=DATE:20230531
 CLASS:PUBLIC
-DESCRIPTION:National parliament (upper house) – Senate (indirect)
+DESCRIPTION:National parliament (upper house) (indirect)
 SUMMARY:🇳🇱 Netherlands Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -452,7 +468,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20231022
 DTEND;VALUE=DATE:20231023
 CLASS:PUBLIC
-DESCRIPTION:National parliament (lower & upper house) – National Council & Council of States (first round)
+DESCRIPTION:National parliament (lower) (upper house, first round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -460,7 +476,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20231112
 DTEND;VALUE=DATE:20231113
 CLASS:PUBLIC
-DESCRIPTION:National parliament (upper house) – Council of States (second round)
+DESCRIPTION:National parliament (upper house) (second round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -468,7 +484,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20231119
 DTEND;VALUE=DATE:20231120
 CLASS:PUBLIC
-DESCRIPTION:National parliament (upper house) – Council of States (second round)
+DESCRIPTION:National parliament (upper house) (second round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -476,7 +492,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20231126
 DTEND;VALUE=DATE:20231127
 CLASS:PUBLIC
-DESCRIPTION:National Referenda (probably between 2-4 votes)National parliament (upper house) – Council of States (second round)
+DESCRIPTION:National referenda (probably between 2-4 votes)National parliament (upper house) (second round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
