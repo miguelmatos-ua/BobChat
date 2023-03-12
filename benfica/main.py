@@ -44,8 +44,7 @@ def extract_games(soup: BeautifulSoup):
 
         if hour.text:
             # parse day and hour to an instance of datetime
-            game_date = datetime.strptime(
-                f"{date.text} {hour.text}", "%d/%m %H:%M")
+            game_date = datetime.strptime(f"{date.text} {hour.text}", "%d/%m %H:%M")
         elif date.text:
             # there is no hour but there is a date
             game_date = datetime.strptime(f"{date.text}", "%d/%m")
@@ -73,8 +72,8 @@ def extract_games(soup: BeautifulSoup):
 
             games[day]["tv"] = tv
 
-        games[day]["home_team"] = home_team.text
-        games[day]["away_team"] = away_team.text
+        games[day]["home_team"] = str(home_team.text).encode("utf8").decode("utf8")
+        games[day]["away_team"] = str(away_team.text).encode("utf8").decode("utf8")
 
     return games
 
@@ -183,11 +182,21 @@ def add_todoist(game: dict):
     # get project id
     project_id = [p for p in todoist.get_projects() if p.name == "Personal"][0].id
 
-    labels = [l.id for l in todoist.get_labels() if l.name == "entertainment" or l.name == "personal_projects"]
+    labels = [
+        l.id
+        for l in todoist.get_labels()
+        if l.name == "entertainment" or l.name == "personal_projects"
+    ]
 
     message = f"""Editar {game["home_team"]} vs. {game["away_team"]} ⚽"""
 
-    todoist.add_task(content=message, project_id=project_id, label_ids=labels, priority=2, due_string="Tomorrow")
+    todoist.add_task(
+        content=message,
+        project_id=project_id,
+        label_ids=labels,
+        priority=2,
+        due_string="Tomorrow",
+    )
 
 
 def main(team_id=4, team_name="Benfica"):
