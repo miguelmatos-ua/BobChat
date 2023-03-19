@@ -282,7 +282,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230416
 DTEND;VALUE=DATE:20230417
 CLASS:PUBLIC
-DESCRIPTION:Appenzell Outer-Rhodes regional government (prospective second round)
+DESCRIPTION:Appenzell Outer-Rhodes regional government
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -292,6 +292,14 @@ DTEND;VALUE=DATE:20230424
 CLASS:PUBLIC
 DESCRIPTION:Salzburg regional parliament
 SUMMARY:🇦🇹 Austria Elections 🗳️
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230429
+DTEND;VALUE=DATE:20230430
+CLASS:PUBLIC
+DESCRIPTION:Poti constituency national parliament by-electionSenaki constituency national parliament by-electionKhobi constituency national parliament by-election
+SUMMARY:🇬🇪 Georgia Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -332,14 +340,6 @@ DTEND;VALUE=DATE:20230515
 CLASS:PUBLIC
 DESCRIPTION:Lucerne regional government (prospective second round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20230429
-DTEND;VALUE=DATE:20230430
-CLASS:PUBLIC
-DESCRIPTION:Poti constituency national parliament by-electionSenaki constituency national parliament by-electionKhobi constituency national parliament by-election
-SUMMARY:🇬🇪 Georgia Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
