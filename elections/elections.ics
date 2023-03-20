@@ -170,7 +170,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230319
 DTEND;VALUE=DATE:20230320
 CLASS:PUBLIC
-DESCRIPTION:Local (Vilnius + nationwide, second round)
+DESCRIPTION:Local (Vilnius (mayor) + nationwide, second round)
 SUMMARY:🇱🇹 Lithuania Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
