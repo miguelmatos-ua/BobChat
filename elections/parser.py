@@ -49,7 +49,7 @@ def parse_page(b: BeautifulSoup) -> list[dict]:
 
             # Extract the country, election type, and date from the cells
             country = cells[0].text.encode("utf8").decode("utf8")
-            election_type = cells[1].text
+            election_type = cells[1].text.rstrip()
             date_str = cells[2].text + f" {year}"
             # parse date to machine readable
             try:
