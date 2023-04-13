@@ -314,7 +314,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230430
 DTEND;VALUE=DATE:20230501
 CLASS:PUBLIC
-DESCRIPTION:Appenzell Inner-Rhodes national parliament (upper house) by-electionGeneva regional government (prospective second round)
+DESCRIPTION:National parliament (upper house) (Appenzell Inner-Rhodes only)Geneva regional government (second round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -354,7 +354,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230514
 DTEND;VALUE=DATE:20230515
 CLASS:PUBLIC
-DESCRIPTION:Lucerne regional government (prospective second round)
+DESCRIPTION:Lucerne regional government (second round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -507,7 +507,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20231022
 DTEND;VALUE=DATE:20231023
 CLASS:PUBLIC
-DESCRIPTION:National parliament (lower house (first round) & upper house)
+DESCRIPTION:National parliament (lower house (first round) & upper house (all regions except Appenzell Inner-Rhodes)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
