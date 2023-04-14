@@ -234,7 +234,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230402
 DTEND;VALUE=DATE:20230403
 CLASS:PUBLIC
-DESCRIPTION:1st constituency of Ariège national parliament by-election (second round)8th (Israel, Italy, Greece, Cyprus, Turkey) constituency of French living abroad national parliament by-election (first round)9th (Maghreb, Western Africa) constituency of French living abroad national parliament by-election (first round)
+DESCRIPTION:1st constituency of Ariège national parliament by-election (second round)8th (Israel, Italy, Greece, Cyprus, Türkiye) constituency of French living abroad national parliament by-election (first round)9th (Maghreb, Western Africa) constituency of French living abroad national parliament by-election (first round)
 SUMMARY:🇫🇷 France Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -282,7 +282,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230416
 DTEND;VALUE=DATE:20230417
 CLASS:PUBLIC
-DESCRIPTION:8th (Israel, Italy, Greece, Cyprus, Turkey) constituency of French living abroad national parliament by-election (second round)9th (Maghreb, Western Africa) constituency of French living abroad national parliament by-election (second round)
+DESCRIPTION:8th (Israel, Italy, Greece, Cyprus, Türkiye) constituency of French living abroad national parliament by-election (second round)9th (Maghreb, Western Africa) constituency of French living abroad national parliament by-election (second round)
 SUMMARY:🇫🇷 France Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -347,7 +347,7 @@ DTSTART;VALUE=DATE:20230514
 DTEND;VALUE=DATE:20230515
 CLASS:PUBLIC
 DESCRIPTION:PresidentialNational parliament
-SUMMARY:🇹🇷 Turkey Elections 🗳️
+SUMMARY:🇹🇷 Türkiye Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -387,7 +387,7 @@ DTSTART;VALUE=DATE:20230528
 DTEND;VALUE=DATE:20230529
 CLASS:PUBLIC
 DESCRIPTION:Presidential (prospective second round)
-SUMMARY:🇹🇷 Turkey Elections 🗳️
+SUMMARY:🇹🇷 Türkiye Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
