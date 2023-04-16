@@ -28,7 +28,7 @@ def parse_page(b: BeautifulSoup) -> list[dict]:
     result = list()
 
     begin = 0
-    for y in b.find_all("td", {"colspan": 3}): 
+    for y in b.find_all("td", {"colspan": 3}):
         year = y.text
 
         table = b.find("table")
@@ -39,7 +39,11 @@ def parse_page(b: BeautifulSoup) -> list[dict]:
             # Find the country, election type, and date cells
             cells = row.find_all("td")
 
-            if len(cells) == 1 and cells[0].text.isnumeric() and int(cells[0].text) > int(year):
+            if (
+                len(cells) == 1
+                and cells[0].text.isnumeric()
+                and int(cells[0].text) > int(year)
+            ):
                 # if it gets to a new year
                 begin = i
                 break

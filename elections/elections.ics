@@ -186,7 +186,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230326
 DTEND;VALUE=DATE:20230327
 CLASS:PUBLIC
-DESCRIPTION:1st constituency of Ariege national parliament by-election (first round)
+DESCRIPTION:1st constituency of Ariège national parliament by-election (first round)
 SUMMARY:🇫🇷 France Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -234,7 +234,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230402
 DTEND;VALUE=DATE:20230403
 CLASS:PUBLIC
-DESCRIPTION:1st constituency of Ariege national parliament by-election (second round)8th (Israel, Italy, Greece, Cyprus, Turkey) and 9th (Maghreb, Western Africa) constituency of French living abroad national parliament by-election (first round)
+DESCRIPTION:1st constituency of Ariège national parliament by-election (second round)8th (Israel, Italy, Greece, Cyprus, Türkiye) constituency of French living abroad national parliament by-election (first round)9th (Maghreb, Western Africa) constituency of French living abroad national parliament by-election (first round)
 SUMMARY:🇫🇷 France Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -244,6 +244,14 @@ DTEND;VALUE=DATE:20230403
 CLASS:PUBLIC
 DESCRIPTION:Local (Triesen & Schellenberg, second round)
 SUMMARY:🇱🇮 Liechtenstein Elections 🗳️
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230402
+DTEND;VALUE=DATE:20230403
+CLASS:PUBLIC
+DESCRIPTION:Presidential (second round)
+SUMMARY:🇲🇪 Montenegro Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -274,7 +282,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230416
 DTEND;VALUE=DATE:20230417
 CLASS:PUBLIC
-DESCRIPTION:8th (Israel, Italy, Greece, Cyprus, Turkey) and 9th (Maghreb, Western Africa) constituency of French living abroad national parliament by-election (first round)
+DESCRIPTION:8th (Israel, Italy, Greece, Cyprus, Türkiye) constituency of French living abroad national parliament by-election (second round)9th (Maghreb, Western Africa) constituency of French living abroad national parliament by-election (second round)
 SUMMARY:🇫🇷 France Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -282,7 +290,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230416
 DTEND;VALUE=DATE:20230417
 CLASS:PUBLIC
-DESCRIPTION:Appenzell Outer-Rhodes regional government
+DESCRIPTION:Appenzell Outer-Rhodes regional parliament
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -298,7 +306,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230429
 DTEND;VALUE=DATE:20230430
 CLASS:PUBLIC
-DESCRIPTION:Poti constituency national parliament by-electionSenaki constituency national parliament by-electionKhobi constituency national parliament by-election
+DESCRIPTION:Poti, Senaki and Khobi constituency national parliament by-election
 SUMMARY:🇬🇪 Georgia Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -306,7 +314,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230430
 DTEND;VALUE=DATE:20230501
 CLASS:PUBLIC
-DESCRIPTION:Appenzell Inner-Rhodes national parliament (upper house) by-electionGeneva regional government (prospective second round)
+DESCRIPTION:National parliament (upper house) (Appenzell Inner-Rhodes only)Geneva regional government (second round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -338,7 +346,15 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230514
 DTEND;VALUE=DATE:20230515
 CLASS:PUBLIC
-DESCRIPTION:Lucerne regional government (prospective second round)
+DESCRIPTION:PresidentialNational parliament
+SUMMARY:🇹🇷 Türkiye Elections 🗳️
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230514
+DTEND;VALUE=DATE:20230515
+CLASS:PUBLIC
+DESCRIPTION:Lucerne regional government (second round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -351,11 +367,27 @@ SUMMARY:🇬🇧 UK Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230521
+DTEND;VALUE=DATE:20230522
+CLASS:PUBLIC
+DESCRIPTION:National parliament
+SUMMARY:🇬🇷 Greece Elections 🗳️
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230528
 DTEND;VALUE=DATE:20230529
 CLASS:PUBLIC
 DESCRIPTION:Local (Madrid + nationwide)Aragon regional parliamentAsturias regional parliamentBalearic Islands regional parliamentCanary Islands regional parliamentCantabria regional parliamentCastile-La Mancha regional parliamentExtremadura regional parliamentLa Rioja regional parliamentMadrid regional parliamentMurcia regional parliamentNavarre regional parliamentValencia regional parliament
 SUMMARY:🇪🇸 Spain Elections 🗳️
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230528
+DTEND;VALUE=DATE:20230529
+CLASS:PUBLIC
+DESCRIPTION:Presidential (prospective second round)
+SUMMARY:🇹🇷 Türkiye Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -367,20 +399,28 @@ SUMMARY:🇳🇱 Netherlands Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20230618
-DTEND;VALUE=DATE:20230619
+DTSTART;VALUE=DATE:20230531
+DTEND;VALUE=DATE:20230601
 CLASS:PUBLIC
-DESCRIPTION:
-OECD/G20 project on the taxation of large corporate groups referendumClimate change measures and energy security referendumCOVID-19 measures referendum
-SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:Presidential
+SUMMARY:🇱🇻 Latvia Elections 🗳️
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230611
+DTEND;VALUE=DATE:20230612
+CLASS:PUBLIC
+DESCRIPTION:National parliament
+SUMMARY:🇲🇪 Montenegro Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230618
 DTEND;VALUE=DATE:20230619
 CLASS:PUBLIC
-DESCRIPTION:PresidentialNational parliament
-SUMMARY:🇹🇷 Türkiye Elections 🗳️
+DESCRIPTION:
+OECD/G20 project on the taxation of large corporate groups referendumClimate change measures and energy security referendumCOVID-19 measures referendum
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -397,14 +437,6 @@ DTEND;VALUE=DATE:20230627
 CLASS:PUBLIC
 DESCRIPTION:Molise regional election (parliament + president)
 SUMMARY:🇮🇹 Italy Elections 🗳️
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20230702
-DTEND;VALUE=DATE:20230703
-CLASS:PUBLIC
-DESCRIPTION:Presidential (prospective second round)
-SUMMARY:🇹🇷 Türkiye Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -475,7 +507,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20231022
 DTEND;VALUE=DATE:20231023
 CLASS:PUBLIC
-DESCRIPTION:National parliament (lower house (first round) & upper house)
+DESCRIPTION:National parliament (lower house (first round) & upper house (all regions except Appenzell Inner-Rhodes)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
