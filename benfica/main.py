@@ -38,7 +38,7 @@ def extract_games(soup: BeautifulSoup):
     if game_box is None:
         return {}
     # for all the lines (games) in the table
-    for tr in game_box.find_all("tr"):
+    for tr in game_box.find_all("tr"):  # type:ignore
         date = tr.find("td", {"class": "date"})  # find the date column
         hour = date.find_next()  # the hour column is besides the date
 
