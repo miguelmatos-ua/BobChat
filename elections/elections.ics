@@ -354,7 +354,8 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230514
 DTEND;VALUE=DATE:20230515
 CLASS:PUBLIC
-DESCRIPTION:Lucerne regional government (second round)
+DESCRIPTION:Appenzell Outer-Rhodes regional parliament (second round)
+Lucerne regional government (second round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
