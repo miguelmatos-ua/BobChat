@@ -290,7 +290,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230416
 DTEND;VALUE=DATE:20230417
 CLASS:PUBLIC
-DESCRIPTION:Appenzell Outer-Rhodes regional parliament
+DESCRIPTION:Appenzell Outer-Rhodes regional parliament (first round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -354,8 +354,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230514
 DTEND;VALUE=DATE:20230515
 CLASS:PUBLIC
-DESCRIPTION:Appenzell Outer-Rhodes regional parliament (second round)
-Lucerne regional government (second round)
+DESCRIPTION:Appenzell Outer-Rhodes regional parliament (second round)Lucerne regional government (second round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
