@@ -314,7 +314,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230430
 DTEND;VALUE=DATE:20230501
 CLASS:PUBLIC
-DESCRIPTION:National parliament (upper house) (Appenzell Inner-Rhodes only)Geneva regional government (second round)St. Gall national parliament (upper house) by-election (second round)
+DESCRIPTION:National parliament (upper house) (Appenzell Inner-Rhodes only)Appenzell Inner-Rhodes regional governmentGeneva regional government (second round)St. Gall national parliament (upper house) by-election (second round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
