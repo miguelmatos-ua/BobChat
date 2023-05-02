@@ -234,7 +234,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230402
 DTEND;VALUE=DATE:20230403
 CLASS:PUBLIC
-DESCRIPTION:1st constituency of Ariège national parliament by-election (second round)8th (Israel, Italy, Greece, Cyprus, Turkey) constituency of French living abroad national parliament by-election (first round)9th (Maghreb, Western Africa) constituency of French living abroad national parliament by-election (first round)
+DESCRIPTION:1st constituency of Ariège national parliament by-election (second round)8th (Israel, Italy, Greece, Cyprus, Türkiye) constituency of French living abroad national parliament by-election (first round)9th (Maghreb, Western Africa) constituency of French living abroad national parliament by-election (first round)
 SUMMARY:🇫🇷 France Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -282,7 +282,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230416
 DTEND;VALUE=DATE:20230417
 CLASS:PUBLIC
-DESCRIPTION:8th (Israel, Italy, Greece, Cyprus, Turkey) constituency of French living abroad national parliament by-election (second round)9th (Maghreb, Western Africa) constituency of French living abroad national parliament by-election (second round)
+DESCRIPTION:8th (Israel, Italy, Greece, Cyprus, Türkiye) constituency of French living abroad national parliament by-election (second round)9th (Maghreb, Western Africa) constituency of French living abroad national parliament by-election (second round)
 SUMMARY:🇫🇷 France Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -290,7 +290,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230416
 DTEND;VALUE=DATE:20230417
 CLASS:PUBLIC
-DESCRIPTION:Appenzell Outer-Rhodes regional parliament
+DESCRIPTION:Appenzell Outer-Rhodes regional parliament (first round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -314,7 +314,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230430
 DTEND;VALUE=DATE:20230501
 CLASS:PUBLIC
-DESCRIPTION:Appenzell Inner-Rhodes national parliament (upper house) by-electionGeneva regional government (prospective second round)
+DESCRIPTION:National parliament (upper house) (Appenzell Inner-Rhodes seat only)National parliament (upper house) (Seat (one out of two) of St. Gall by-election)Appenzell Inner-Rhodes regional governmentGeneva regional government (second round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -322,7 +322,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230504
 DTEND;VALUE=DATE:20230505
 CLASS:PUBLIC
-DESCRIPTION:Local (England)
+DESCRIPTION:Local (parts of England, excluding London)
 SUMMARY:🇬🇧 UK Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -347,14 +347,14 @@ DTSTART;VALUE=DATE:20230514
 DTEND;VALUE=DATE:20230515
 CLASS:PUBLIC
 DESCRIPTION:PresidentialNational parliament
-SUMMARY:🇹🇷 Turkey Elections 🗳️
+SUMMARY:🇹🇷 Türkiye Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230514
 DTEND;VALUE=DATE:20230515
 CLASS:PUBLIC
-DESCRIPTION:Lucerne regional government (prospective second round)
+DESCRIPTION:Appenzell Outer-Rhodes regional parliament (second round)Lucerne regional government (second round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -387,7 +387,7 @@ DTSTART;VALUE=DATE:20230528
 DTEND;VALUE=DATE:20230529
 CLASS:PUBLIC
 DESCRIPTION:Presidential (prospective second round)
-SUMMARY:🇹🇷 Turkey Elections 🗳️
+SUMMARY:🇹🇷 Türkiye Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -396,6 +396,14 @@ DTEND;VALUE=DATE:20230531
 CLASS:PUBLIC
 DESCRIPTION:National parliament (upper house) – Senate (indirect)
 SUMMARY:🇳🇱 Netherlands Elections 🗳️
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230531
+DTEND;VALUE=DATE:20230601
+CLASS:PUBLIC
+DESCRIPTION:Presidential
+SUMMARY:🇱🇻 Latvia Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -499,7 +507,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20231022
 DTEND;VALUE=DATE:20231023
 CLASS:PUBLIC
-DESCRIPTION:National parliament (lower house (first round) & upper house)
+DESCRIPTION:National parliament (lower house (first round) & upper house (all regions except Appenzell Inner-Rhodes)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
