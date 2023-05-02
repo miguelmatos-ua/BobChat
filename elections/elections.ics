@@ -314,7 +314,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230430
 DTEND;VALUE=DATE:20230501
 CLASS:PUBLIC
-DESCRIPTION:National parliament (upper house) (Appenzell Inner-Rhodes only)Appenzell Inner-Rhodes regional governmentGeneva regional government (second round)St. Gall national parliament (upper house) by-election (second round)
+DESCRIPTION:National parliament (upper house) (Appenzell Inner-Rhodes seat only)National parliament (upper house) (Seat (one out of two) of St. Gall by-election)Appenzell Inner-Rhodes regional governmentGeneva regional government (second round)
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
@@ -322,7 +322,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230504
 DTEND;VALUE=DATE:20230505
 CLASS:PUBLIC
-DESCRIPTION:Local (England)
+DESCRIPTION:Local (parts of England, excluding London)
 SUMMARY:🇬🇧 UK Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
