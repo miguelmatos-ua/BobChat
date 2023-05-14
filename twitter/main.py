@@ -128,6 +128,7 @@ if __name__ == "__main__":
 
     for tweet in lineup_tweet:
         print(send_tweet_message(tweet, username))
-        # add tweet to last.txt file
-        with open(last_file, "w") as last:
-            last.write(tweet)
+
+    # add tweet to last.txt file
+    with open(last_file, "w") as last:
+        last.write(max(lineup_tweet))
