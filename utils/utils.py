@@ -1,4 +1,4 @@
-from time import perf_counter_ns
+from time import perf_counter_ns, time, sleep
 import os
 import telegram
 from functools import wraps
@@ -34,7 +34,7 @@ def time_it(func):
         return_vals = func(*args, **kwargs)
         t2 = perf_counter_ns()
 
-        print(" Execution Time: {} s".format(t2 - t1))
+        print(" Execution Time: {} s".format((t2 - t1)/1e9))
         return return_vals
 
     return wrapper
