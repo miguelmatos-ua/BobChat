@@ -1,4 +1,4 @@
-from time import perf_counter_ns, time, sleep
+from time import perf_counter_ns
 import os
 import telegram
 from functools import wraps
