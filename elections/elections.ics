@@ -386,7 +386,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230528
 DTEND;VALUE=DATE:20230529
 CLASS:PUBLIC
-DESCRIPTION:Presidential (prospective second round)
+DESCRIPTION:Presidential (second round)
 SUMMARY:🇹🇷 Türkiye Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
