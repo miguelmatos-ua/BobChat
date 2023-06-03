@@ -36,7 +36,6 @@ jobs:
           TODOIST_TOKEN: ${{ secrets.TODOIST_TOKEN }}
         run: |
           cd benfica
-          python test.py
           python main.py
       - name: Run script for Beira-mar
         env:
