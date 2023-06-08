@@ -1,8 +1,9 @@
 name: Send tweet message to telegram workflow
 
 on:
-  schedule:
-    - cron: "*/30 * * * *" # run every thirty minutes
+  # can't use it now because FUCK MUSK!
+  # schedule:
+  #   - cron: "*/30 * * * *" # run every thirty minutes
   workflow_dispatch:  # manual trigger for debug purposes
 
 jobs:
