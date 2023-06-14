@@ -25,9 +25,18 @@ jobs:
           pip install -r capasJornais/requirements.txt
           pip install -r benfica/requirements.txt
           pip install -r elections/requirements.txt
+          pip install -r weather/requirements.txt
       - name: Run script for newspaper covers
         run: |
           python capasJornais/main.py ${{ secrets.BOT_TOKEN }} ${{ secrets.CHAT_ID }}
+      # weather forecast morning flow
+      - name: Run script for weather forecast
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          TODOIST_TOKEN: ${{ secrets.TODOIST_TOKEN }}
+        run: |
+          python weather/main.py
       # run benfica and beira mar scripts
       - name: Run script for Benfica
         env:
