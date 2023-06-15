@@ -37,6 +37,7 @@ jobs:
           TODOIST_TOKEN: ${{ secrets.TODOIST_TOKEN }}
         run: |
           python weather/main.py
+          rm t.png || echo 'Não existe ficheiro t.png'
       # run benfica and beira mar scripts
       - name: Run script for Benfica
         env:
