@@ -16,7 +16,7 @@ bot = telegram.Bot(BOT_TOKEN)
 def main():
     """Fetch weather for Aveiro"""
     img_name = "t.png"
-    with requests.get("https://wttr.in/Aveiro.png?1", stream=True) as r:
+    with requests.get("https://wttr.in/Aveiro.png?1&m", stream=True) as r:
         with open(img_name, "wb") as im:
             for chunk in r.iter_content(1024):
                 im.write(chunk)
