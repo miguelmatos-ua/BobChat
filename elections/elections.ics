@@ -418,13 +418,14 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230618
 DTEND;VALUE=DATE:20230619
 CLASS:PUBLIC
-DESCRIPTION:OECD/G20 project on the taxation of large corporate groups referendumClimate change measures and energy security referendumCOVID-19 measures referendum
+DESCRIPTION:
+OECD/G20 project on the taxation of large corporate groups referendumClimate change measures and energy security referendumCOVID-19 measures referendum
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20230623
-DTEND;VALUE=DATE:20230624
+DTSTART;VALUE=DATE:20230611
+DTEND;VALUE=DATE:20230612
 CLASS:PUBLIC
 DESCRIPTION:Local (Luxembourg + nationwide)
 SUMMARY:🇱🇺 Luxembourg Elections 🗳️
