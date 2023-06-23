@@ -410,6 +410,14 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230611
 DTEND;VALUE=DATE:20230612
 CLASS:PUBLIC
+DESCRIPTION:Local (Luxembourg + nationwide)
+SUMMARY:🇱🇺 Luxembourg Elections 🗳️
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230611
+DTEND;VALUE=DATE:20230612
+CLASS:PUBLIC
 DESCRIPTION:National parliament
 SUMMARY:🇲🇪 Montenegro Elections 🗳️
 TRANSP:TRASPARENT
@@ -421,14 +429,6 @@ CLASS:PUBLIC
 DESCRIPTION:
 OECD/G20 project on the taxation of large corporate groups referendumClimate change measures and energy security referendumCOVID-19 measures referendum
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20230611
-DTEND;VALUE=DATE:20230612
-CLASS:PUBLIC
-DESCRIPTION:Local (Luxembourg + nationwide)
-SUMMARY:🇱🇺 Luxembourg Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -445,6 +445,15 @@ DTEND;VALUE=DATE:20230627
 CLASS:PUBLIC
 DESCRIPTION:Molise regional election (parliament + president)
 SUMMARY:🇮🇹 Italy Elections 🗳️
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230720
+DTEND;VALUE=DATE:20230721
+CLASS:PUBLIC
+DESCRIPTION:Selby & Ainsty national parliament by-election
+Uxbridge & South Ruislip national parliament by-election
+SUMMARY:🇪🇸 UK Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
