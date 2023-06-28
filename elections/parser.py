@@ -116,8 +116,8 @@ def generate_ics_file(elections: list[dict]):
             + f"DTSTART;VALUE=DATE:{begin_date.strftime('%Y%m%d')}\n"
             + f"DTEND;VALUE=DATE:{end_date.strftime('%Y%m%d')}\n"
             + "CLASS:PUBLIC\n"
-            + f"DESCRIPTION:{elec['election_type']}\n"
             + f"SUMMARY:{elec['country']} Elections 🗳️\n"
+            + f"DESCRIPTION:{elec['election_type']}\n"
             + "TRANSP:TRASPARENT\n"
             + "END:VEVENT\n"
         )
