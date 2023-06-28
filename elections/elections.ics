@@ -451,9 +451,8 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230720
 DTEND;VALUE=DATE:20230721
 CLASS:PUBLIC
-DESCRIPTION:Selby & Ainsty national parliament by-election
-Uxbridge & South Ruislip national parliament by-election
-SUMMARY:🇪🇸 UK Elections 🗳️
+DESCRIPTION:Selby & Ainsty national parliament by-electionSomerton & Frome national parliament by-electionUxbridge & South Ruislip national parliament by-election
+SUMMARY:🇬🇧 UK Elections 🗳️
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
