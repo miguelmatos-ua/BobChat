@@ -656,6 +656,22 @@ DESCRIPTION:European Parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240609
+DTEND;VALUE=DATE:20240610
+CLASS:PUBLIC
+SUMMARY:🇧🇪 Belgium Elections 🗳️
+DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240609
+DTEND;VALUE=DATE:20240610
+CLASS:PUBLIC
+SUMMARY:🇧🇪 Belgium Elections 🗳️
+DESCRIPTION:Brussels regional parliamentFlanders regional parliamentFlemish Community regional parliament (indirect)French Community regional parliament (indirect)German-speaking Community regional parliamentWallonia regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20240502
 DTEND;VALUE=DATE:20240503
 CLASS:PUBLIC
