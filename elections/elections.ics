@@ -186,6 +186,14 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230319
 DTEND;VALUE=DATE:20230320
 CLASS:PUBLIC
+SUMMARY:🇲🇨 Monaco Elections 🗳️
+DESCRIPTION:Local (Montecarlo (parliament) + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230319
+DTEND;VALUE=DATE:20230320
+CLASS:PUBLIC
 SUMMARY:🇲🇪 Montenegro Elections 🗳️
 DESCRIPTION:Presidential (first round)
 TRANSP:TRASPARENT
@@ -319,6 +327,14 @@ DESCRIPTION:National parliament (upper house) (Appenzell Inner-Rhodes seat only)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230430
+DTEND;VALUE=DATE:20230501
+CLASS:PUBLIC
+SUMMARY:🇲🇩 Moldova Elections 🗳️
+DESCRIPTION:Autonomous Territorial Unit of Gagauzia regional president (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230504
 DTEND;VALUE=DATE:20230505
 CLASS:PUBLIC
@@ -340,6 +356,14 @@ DTEND;VALUE=DATE:20230515
 CLASS:PUBLIC
 SUMMARY:🇩🇪 Germany Elections 🗳️
 DESCRIPTION:Bremen regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230430
+DTEND;VALUE=DATE:20230501
+CLASS:PUBLIC
+SUMMARY:🇲🇩 Moldova Elections 🗳️
+DESCRIPTION:Autonomous Territorial Unit of Gagauzia regional president (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -411,7 +435,7 @@ DTSTART;VALUE=DATE:20230611
 DTEND;VALUE=DATE:20230612
 CLASS:PUBLIC
 SUMMARY:🇱🇺 Luxembourg Elections 🗳️
-DESCRIPTION:Local (Luxembourg + nationwide)
+DESCRIPTION:Local (Luxembourg (parliament) + nationwide)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -492,7 +516,7 @@ DTSTART;VALUE=DATE:20230917
 DTEND;VALUE=DATE:20230918
 CLASS:PUBLIC
 SUMMARY:🇦🇲 Armenia Elections 🗳️
-DESCRIPTION:Local (Yerevan + nationwide)
+DESCRIPTION:Local (Yerevan (parliament + mayor) + nationwide)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -596,7 +620,7 @@ DTSTART;VALUE=DATE:20231029
 DTEND;VALUE=DATE:20231030
 CLASS:PUBLIC
 SUMMARY:🇲🇩 Moldova Elections 🗳️
-DESCRIPTION:Local (Chişinău (mayor, parliament) + nationwide, first round)
+DESCRIPTION:Local (Chişinău (mayor, parliament) + nationwide, first round)Regional parliaments
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -723,8 +747,32 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20240609
 DTEND;VALUE=DATE:20240610
 CLASS:PUBLIC
+SUMMARY:🇨🇾 Cyprus Elections 🗳️
+DESCRIPTION:Famagusta regional president Larnaca regional president Limassol regional presidentNicosia regional presidentPaphos regional presidentLocal (Nicosia (mayor + parliament) + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240609
+DTEND;VALUE=DATE:20240610
+CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:National Referenda (probably between 2-4 votes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240901
+DTEND;VALUE=DATE:20240902
+CLASS:PUBLIC
+SUMMARY:🇩🇪 Germany Elections 🗳️
+DESCRIPTION:Saxony regional parliamentThuringia regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240908
+DTEND;VALUE=DATE:20240909
+CLASS:PUBLIC
+SUMMARY:🇷🇺 Russia Elections 🗳️
+DESCRIPTION:Altai Republic regional parliament + presidentAstrakhan regional presidentBryansk Oblast regional parliamentChelyabinsk Oblast regional presidentKabardino-Balkarian Republic regional parliamentKarachay-Cherkess Republic regional parliamentKhabarovsk region regional parliamentKurgan Oblast regional presidentKursk Oblast regional presidentLipetsk regional presidentMari El Republic regional parliamentMoscow regional parliamentMurmansk regional presidentOrenburg Oblast regional presidentRepublic of Bashkortostan regional presidentRepublic of Kalmykia regional presidentRepublic of Tatarstan regional parliamentSakhalin regional presidentSaint Petersburg regional presidentStavropol Krai regional presidentTransbaikal Oblast regional presidentTula Oblast regional parliamentTuva Republic regional parliamentVolgograd regional parliament + presidentVologda regional president
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -736,11 +784,35 @@ DESCRIPTION:National Referenda (probably between 2-4 votes)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240922
+DTEND;VALUE=DATE:20240923
+CLASS:PUBLIC
+SUMMARY:🇩🇪 Germany Elections 🗳️
+DESCRIPTION:Brandenburg regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20241026
 DTEND;VALUE=DATE:20241027
 CLASS:PUBLIC
 SUMMARY:🇬🇪 Georgia Elections 🗳️
-DESCRIPTION:National parliamentAdjaran regional parliament
+DESCRIPTION:National parliamentAdjara regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241006
+DTEND;VALUE=DATE:20241007
+CLASS:PUBLIC
+SUMMARY:🇧🇦 Bosnia and Herzegovina Elections 🗳️
+DESCRIPTION:Local (Sarajevo + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241013
+DTEND;VALUE=DATE:20241014
+CLASS:PUBLIC
+SUMMARY:🇧🇪 Belgium Elections 🗳️
+DESCRIPTION:Local (Brussels + nationwide)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -749,6 +821,735 @@ DTEND;VALUE=DATE:20241125
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:National Referenda (probably between 2-4 votes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250530
+DTEND;VALUE=DATE:20250531
+CLASS:PUBLIC
+SUMMARY:🇳🇱 Netherlands Elections 🗳️
+DESCRIPTION:National parliament (upper house) – Senate (indirect)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250531
+DTEND;VALUE=DATE:20250601
+CLASS:PUBLIC
+SUMMARY:🇱🇻 Latvia Elections 🗳️
+DESCRIPTION:Presidential
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250611
+DTEND;VALUE=DATE:20250612
+CLASS:PUBLIC
+SUMMARY:🇱🇺 Luxembourg Elections 🗳️
+DESCRIPTION:Local (Luxembourg (parliament) + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250611
+DTEND;VALUE=DATE:20250612
+CLASS:PUBLIC
+SUMMARY:🇲🇪 Montenegro Elections 🗳️
+DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250618
+DTEND;VALUE=DATE:20250619
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:
+OECD/G20 project on the taxation of large corporate groups referendumClimate change measures and energy security referendumCOVID-19 measures referendum
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250625
+DTEND;VALUE=DATE:20250626
+CLASS:PUBLIC
+SUMMARY:🇬🇷 Greece Elections 🗳️
+DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250625
+DTEND;VALUE=DATE:20250627
+CLASS:PUBLIC
+SUMMARY:🇮🇹 Italy Elections 🗳️
+DESCRIPTION:Molise regional election (parliament + president)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250720
+DTEND;VALUE=DATE:20250721
+CLASS:PUBLIC
+SUMMARY:🇬🇧 UK Elections 🗳️
+DESCRIPTION:Selby & Ainsty national parliament by-electionSomerton & Frome national parliament by-electionUxbridge & South Ruislip national parliament by-election
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250723
+DTEND;VALUE=DATE:20250724
+CLASS:PUBLIC
+SUMMARY:🇪🇸 Spain Elections 🗳️
+DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250903
+DTEND;VALUE=DATE:20250904
+CLASS:PUBLIC
+SUMMARY:🇱🇹 Lithuania Elections 🗳️
+DESCRIPTION:Constituency 42. Raseinių–Kėdainių national parliament by-election
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250910
+DTEND;VALUE=DATE:20250911
+CLASS:PUBLIC
+SUMMARY:🇷🇺 Russia Elections 🗳️
+DESCRIPTION:Altai Krai regional presidentAmur Oblast regional presidentArkhangelsk Oblast regional parliamentBashkortostan regional parliamentBuryatia regional parliamentChukotka Autonomous Okrug regional presidentKalmykia regional parliamentKemerovo Oblast regional election (parliament + president)Khakassia regional election (parliament + president)Krasnoyarsk Krai regional presidentIrkutsk Oblast regional parliamentIvanovo Oblast regional election (parliament + president)Magadan Oblast regional presidentMoscow regional presidentMoscow Oblast regional presidentNenets Autonomous Okrug regional parliamentNizhny Novgorod Oblast regional presidentNovosibirsk Oblast regional presidentOmsk Oblast regional presidentOryol Oblast regional presidentPrimorsky Krai regional presidentPskov Oblast regional presidentRostov Oblast regional parliamentSakha regional election (parliament + president)Samara Oblast regional presidentSmolensk Oblast regional election (parliament + president)Tyumen Oblast regional presidentUlyanovsk Oblast regional parliamentVladimir Oblast regional parliamentVoronezh Oblast regional presidentYaroslavl Oblast regional parliamentZabaykalsky Krai regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250911
+DTEND;VALUE=DATE:20250912
+CLASS:PUBLIC
+SUMMARY:🇳🇴 Norway Elections 🗳️
+DESCRIPTION:Agder regional parliamentInnlandet regional parliamentMøre og Romsdal regional parliamentNordland regional parliamentOslo regional parliamentRogaland regional parliamentVestfold og Telemark regional parliamentTroms og Finnmark regional parliamentTrøndelag regional parliamentVestland regional parliamentViken regional parliamentLocal (Oslo + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250917
+DTEND;VALUE=DATE:20250918
+CLASS:PUBLIC
+SUMMARY:🇦🇲 Armenia Elections 🗳️
+DESCRIPTION:Local (Yerevan (parliament + mayor) + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250924
+DTEND;VALUE=DATE:20250925
+CLASS:PUBLIC
+SUMMARY:🇫🇷 France Elections 🗳️
+DESCRIPTION:National parliament (upper house) – Senate (indirect)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250924
+DTEND;VALUE=DATE:20250925
+CLASS:PUBLIC
+SUMMARY:🇵🇹 Portugal Elections 🗳️
+DESCRIPTION:Madeira regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250930
+DTEND;VALUE=DATE:20251001
+CLASS:PUBLIC
+SUMMARY:🇸🇰 Slovakia Elections 🗳️
+DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20251002
+CLASS:PUBLIC
+SUMMARY:🇬🇪 Georgia Elections 🗳️
+DESCRIPTION:Gori-Kaspi national parliament by-election
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251008
+DTEND;VALUE=DATE:20251009
+CLASS:PUBLIC
+SUMMARY:🇩🇪 Germany Elections 🗳️
+DESCRIPTION:Bavaria regional parliamentHesse regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251008
+DTEND;VALUE=DATE:20251009
+CLASS:PUBLIC
+SUMMARY:🇬🇷 Greece Elections 🗳️
+DESCRIPTION:Attica regional parliament (first round)Central Greece regional parliament (first round)Central Macedonia regional parliament (first round)Crete regional parliament (first round)Eastern Macedonia and Thrace regional parliament (first round)Epirus regional parliament (first round)Ionian Islands regional parliament (first round)North Aegean regional parliament (first round)Peloponnese regional parliament (first round)South Aegean regional parliament (first round)Thessaly regional parliament (first round)Western Greece regional parliament (first round)Western Macedonia regional parliament (first round)Local (Athens + nationwide, first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251008
+DTEND;VALUE=DATE:20251009
+CLASS:PUBLIC
+SUMMARY:🇱🇺 Luxembourg Elections 🗳️
+DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251015
+DTEND;VALUE=DATE:20251016
+CLASS:PUBLIC
+SUMMARY:🇦🇽 Åland Elections 🗳️
+DESCRIPTION:Parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251015
+DTEND;VALUE=DATE:20251016
+CLASS:PUBLIC
+SUMMARY:🇬🇷 Greece Elections 🗳️
+DESCRIPTION:Attica regional parliament (second round)Central Greece regional parliament (second round)Central Macedonia regional parliament (second round)Crete regional parliament (second round)Eastern Macedonia and Thrace regional parliament (second round)Epirus regional parliament (second round)Ionian Islands regional parliament (second round)North Aegean regional parliament (second round)Peloponnese regional parliament (second round)South Aegean regional parliament (second round)Thessaly regional parliament (second round)Western Greece regional parliament (second round)Western Macedonia regional parliament (second round)Local (Athens + nationwide, second round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251015
+DTEND;VALUE=DATE:20251016
+CLASS:PUBLIC
+SUMMARY:🇵🇱 Poland Elections 🗳️
+DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251022
+DTEND;VALUE=DATE:20251023
+CLASS:PUBLIC
+SUMMARY:🇮🇹 Italy Elections 🗳️
+DESCRIPTION:Trentino and South Tyrol regional president and parliament (consists of the Trentino provincial parliament and the South Tyrol provincial parliament)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251022
+DTEND;VALUE=DATE:20251023
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National parliament (lower house (first round) & upper house (all regions except Appenzell Inner-Rhodes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251029
+DTEND;VALUE=DATE:20251030
+CLASS:PUBLIC
+SUMMARY:🇲🇩 Moldova Elections 🗳️
+DESCRIPTION:Local (Chişinău (mayor, parliament) + nationwide, first round)Regional parliaments
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251105
+DTEND;VALUE=DATE:20251106
+CLASS:PUBLIC
+SUMMARY:🇲🇩 Moldova Elections 🗳️
+DESCRIPTION:Local (Chişinău (mayor) + nationwide, prospective second round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251112
+DTEND;VALUE=DATE:20251113
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National parliament (upper house) (second round in Fribourg, Geneva, Lucerne, Thurgovia, and Vaud)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251119
+DTEND;VALUE=DATE:20251120
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National parliament (upper house) (second round in Aargau, Berne, St Gall, Solothurn, Ticino, Zug, Zurich)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251122
+DTEND;VALUE=DATE:20251123
+CLASS:PUBLIC
+SUMMARY:🇳🇱 Netherlands Elections 🗳️
+DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251126
+DTEND;VALUE=DATE:20251127
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National Referenda (probably between 2-4 votes)National parliament (upper house) (second round in Basle City, Basle Country, Nidwald, Schwytz)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250128
+DTEND;VALUE=DATE:20250129
+CLASS:PUBLIC
+SUMMARY:🇫🇮 Finland Elections 🗳️
+DESCRIPTION:Presidential (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250225
+DTEND;VALUE=DATE:20250226
+CLASS:PUBLIC
+SUMMARY:🇧🇾 Belarus Elections 🗳️
+DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250303
+DTEND;VALUE=DATE:20250304
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National Referenda (probably between 2-4 votes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250317
+DTEND;VALUE=DATE:20250318
+CLASS:PUBLIC
+SUMMARY:🇷🇺 Russia Elections 🗳️
+DESCRIPTION:Presidential (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250331
+DTEND;VALUE=DATE:20250401
+CLASS:PUBLIC
+SUMMARY:🇺🇦 Ukraine Elections 🗳️
+DESCRIPTION:Presidential (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250502
+DTEND;VALUE=DATE:20250503
+CLASS:PUBLIC
+SUMMARY:🇬🇧 UK Elections 🗳️
+DESCRIPTION:Local (incl. London mayoral)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250606
+DTEND;VALUE=DATE:20250610
+CLASS:PUBLIC
+SUMMARY:🇪🇺 European Union Elections 🗳️
+DESCRIPTION:European Parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250608
+DTEND;VALUE=DATE:20250609
+CLASS:PUBLIC
+SUMMARY:🇲🇹 Malta Elections 🗳️
+DESCRIPTION:Local (Valetta + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250609
+DTEND;VALUE=DATE:20250610
+CLASS:PUBLIC
+SUMMARY:🇧🇪 Belgium Elections 🗳️
+DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250609
+DTEND;VALUE=DATE:20250610
+CLASS:PUBLIC
+SUMMARY:🇧🇪 Belgium Elections 🗳️
+DESCRIPTION:Brussels regional parliamentFlanders regional parliamentFlemish Community regional parliament (indirect)French Community regional parliament (indirect)German-speaking Community regional parliamentWallonia regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250609
+DTEND;VALUE=DATE:20250610
+CLASS:PUBLIC
+SUMMARY:🇨🇾 Cyprus Elections 🗳️
+DESCRIPTION:Famagusta regional president Larnaca regional president Limassol regional presidentNicosia regional presidentPaphos regional presidentLocal (Nicosia (mayor + parliament) + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250609
+DTEND;VALUE=DATE:20250610
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National Referenda (probably between 2-4 votes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20250902
+CLASS:PUBLIC
+SUMMARY:🇩🇪 Germany Elections 🗳️
+DESCRIPTION:Saxony regional parliamentThuringia regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250908
+DTEND;VALUE=DATE:20250909
+CLASS:PUBLIC
+SUMMARY:🇷🇺 Russia Elections 🗳️
+DESCRIPTION:Altai Republic regional parliament + presidentAstrakhan regional presidentBryansk Oblast regional parliamentChelyabinsk Oblast regional presidentKabardino-Balkarian Republic regional parliamentKarachay-Cherkess Republic regional parliamentKhabarovsk region regional parliamentKurgan Oblast regional presidentKursk Oblast regional presidentLipetsk regional presidentMari El Republic regional parliamentMoscow regional parliamentMurmansk regional presidentOrenburg Oblast regional presidentRepublic of Bashkortostan regional presidentRepublic of Kalmykia regional presidentRepublic of Tatarstan regional parliamentSakhalin regional presidentSaint Petersburg regional presidentStavropol Krai regional presidentTransbaikal Oblast regional presidentTula Oblast regional parliamentTuva Republic regional parliamentVolgograd regional parliament + presidentVologda regional president
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250922
+DTEND;VALUE=DATE:20250923
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National Referenda (probably between 2-4 votes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250922
+DTEND;VALUE=DATE:20250923
+CLASS:PUBLIC
+SUMMARY:🇩🇪 Germany Elections 🗳️
+DESCRIPTION:Brandenburg regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251026
+DTEND;VALUE=DATE:20251027
+CLASS:PUBLIC
+SUMMARY:🇬🇪 Georgia Elections 🗳️
+DESCRIPTION:National parliamentAdjara regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251006
+DTEND;VALUE=DATE:20251007
+CLASS:PUBLIC
+SUMMARY:🇧🇦 Bosnia and Herzegovina Elections 🗳️
+DESCRIPTION:Local (Sarajevo + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251013
+DTEND;VALUE=DATE:20251014
+CLASS:PUBLIC
+SUMMARY:🇧🇪 Belgium Elections 🗳️
+DESCRIPTION:Local (Brussels + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251124
+DTEND;VALUE=DATE:20251125
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National Referenda (probably between 2-4 votes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+CLASS:PUBLIC
+SUMMARY:🇩🇪 Germany Elections 🗳️
+DESCRIPTION:Saxony regional parliamentThuringia regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+CLASS:PUBLIC
+SUMMARY:🇷🇺 Russia Elections 🗳️
+DESCRIPTION:Altai Republic regional parliament + presidentAstrakhan regional presidentBryansk Oblast regional parliamentChelyabinsk Oblast regional presidentKabardino-Balkarian Republic regional parliamentKarachay-Cherkess Republic regional parliamentKhabarovsk region regional parliamentKurgan Oblast regional presidentKursk Oblast regional presidentLipetsk regional presidentMari El Republic regional parliamentMoscow regional parliamentMurmansk regional presidentOrenburg Oblast regional presidentRepublic of Bashkortostan regional presidentRepublic of Kalmykia regional presidentRepublic of Tatarstan regional parliamentSakhalin regional presidentSaint Petersburg regional presidentStavropol Krai regional presidentTransbaikal Oblast regional presidentTula Oblast regional parliamentTuva Republic regional parliamentVolgograd regional parliament + presidentVologda regional president
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National Referenda (probably between 2-4 votes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+CLASS:PUBLIC
+SUMMARY:🇩🇪 Germany Elections 🗳️
+DESCRIPTION:Brandenburg regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+CLASS:PUBLIC
+SUMMARY:🇬🇪 Georgia Elections 🗳️
+DESCRIPTION:National parliamentAdjara regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+CLASS:PUBLIC
+SUMMARY:🇧🇦 Bosnia and Herzegovina Elections 🗳️
+DESCRIPTION:Local (Sarajevo + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+CLASS:PUBLIC
+SUMMARY:🇧🇪 Belgium Elections 🗳️
+DESCRIPTION:Local (Brussels + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National Referenda (probably between 2-4 votes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+CLASS:PUBLIC
+SUMMARY:🇧🇦 Bosnia and Herzegovina  Elections 🗳️
+DESCRIPTION:National parliamentPresidential (Bosnia, Serb, Croat)Regional parliaments
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271023
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National parliament (lower house (first round) & upper house (all regions except Appenzell Inner-Rhodes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
+CLASS:PUBLIC
+SUMMARY:🇲🇩 Moldova Elections 🗳️
+DESCRIPTION:Local (Chişinău (mayor, parliament) + nationwide, first round)Regional parliaments
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
+CLASS:PUBLIC
+SUMMARY:🇲🇩 Moldova Elections 🗳️
+DESCRIPTION:Local (Chişinău (mayor) + nationwide, prospective second round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National parliament (upper house) (second round in Fribourg, Geneva, Lucerne, Thurgovia, and Vaud)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National parliament (upper house) (second round in Aargau, Berne, St Gall, Solothurn, Ticino, Zug, Zurich)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271122
+DTEND;VALUE=DATE:20271123
+CLASS:PUBLIC
+SUMMARY:🇳🇱 Netherlands Elections 🗳️
+DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271126
+DTEND;VALUE=DATE:20271127
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National Referenda (probably between 2-4 votes)National parliament (upper house) (second round in Basle City, Basle Country, Nidwald, Schwytz)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+CLASS:PUBLIC
+SUMMARY:🇫🇮 Finland Elections 🗳️
+DESCRIPTION:Presidential (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+CLASS:PUBLIC
+SUMMARY:🇧🇾 Belarus Elections 🗳️
+DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National Referenda (probably between 2-4 votes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+CLASS:PUBLIC
+SUMMARY:🇷🇺 Russia Elections 🗳️
+DESCRIPTION:Presidential (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+CLASS:PUBLIC
+SUMMARY:🇺🇦 Ukraine Elections 🗳️
+DESCRIPTION:Presidential (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+CLASS:PUBLIC
+SUMMARY:🇬🇧 UK Elections 🗳️
+DESCRIPTION:Local (incl. London mayoral)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270610
+CLASS:PUBLIC
+SUMMARY:🇪🇺 European Union Elections 🗳️
+DESCRIPTION:European Parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270609
+CLASS:PUBLIC
+SUMMARY:🇲🇹 Malta Elections 🗳️
+DESCRIPTION:Local (Valetta + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+CLASS:PUBLIC
+SUMMARY:🇧🇪 Belgium Elections 🗳️
+DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+CLASS:PUBLIC
+SUMMARY:🇧🇪 Belgium Elections 🗳️
+DESCRIPTION:Brussels regional parliamentFlanders regional parliamentFlemish Community regional parliament (indirect)French Community regional parliament (indirect)German-speaking Community regional parliamentWallonia regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+CLASS:PUBLIC
+SUMMARY:🇨🇾 Cyprus Elections 🗳️
+DESCRIPTION:Famagusta regional president Larnaca regional president Limassol regional presidentNicosia regional presidentPaphos regional presidentLocal (Nicosia (mayor + parliament) + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National Referenda (probably between 2-4 votes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+CLASS:PUBLIC
+SUMMARY:🇩🇪 Germany Elections 🗳️
+DESCRIPTION:Saxony regional parliamentThuringia regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270908
+DTEND;VALUE=DATE:20270909
+CLASS:PUBLIC
+SUMMARY:🇷🇺 Russia Elections 🗳️
+DESCRIPTION:Altai Republic regional parliament + presidentAstrakhan regional presidentBryansk Oblast regional parliamentChelyabinsk Oblast regional presidentKabardino-Balkarian Republic regional parliamentKarachay-Cherkess Republic regional parliamentKhabarovsk region regional parliamentKurgan Oblast regional presidentKursk Oblast regional presidentLipetsk regional presidentMari El Republic regional parliamentMoscow regional parliamentMurmansk regional presidentOrenburg Oblast regional presidentRepublic of Bashkortostan regional presidentRepublic of Kalmykia regional presidentRepublic of Tatarstan regional parliamentSakhalin regional presidentSaint Petersburg regional presidentStavropol Krai regional presidentTransbaikal Oblast regional presidentTula Oblast regional parliamentTuva Republic regional parliamentVolgograd regional parliament + presidentVologda regional president
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National Referenda (probably between 2-4 votes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+CLASS:PUBLIC
+SUMMARY:🇩🇪 Germany Elections 🗳️
+DESCRIPTION:Brandenburg regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271026
+DTEND;VALUE=DATE:20271027
+CLASS:PUBLIC
+SUMMARY:🇬🇪 Georgia Elections 🗳️
+DESCRIPTION:National parliamentAdjara regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271006
+DTEND;VALUE=DATE:20271007
+CLASS:PUBLIC
+SUMMARY:🇧🇦 Bosnia and Herzegovina Elections 🗳️
+DESCRIPTION:Local (Sarajevo + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271013
+DTEND;VALUE=DATE:20271014
+CLASS:PUBLIC
+SUMMARY:🇧🇪 Belgium Elections 🗳️
+DESCRIPTION:Local (Brussels + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271124
+DTEND;VALUE=DATE:20271125
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National Referenda (probably between 2-4 votes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271004
+DTEND;VALUE=DATE:20271005
+CLASS:PUBLIC
+SUMMARY:🇧🇦 Bosnia and Herzegovina  Elections 🗳️
+DESCRIPTION:National parliamentPresidential (Bosnia, Serb, Croat)Regional parliaments
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20281013
+DTEND;VALUE=DATE:20281014
+CLASS:PUBLIC
+SUMMARY:🇧🇪 Belgium Elections 🗳️
+DESCRIPTION:Local (Brussels + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20281124
+DTEND;VALUE=DATE:20281125
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National Referenda (probably between 2-4 votes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20281004
+DTEND;VALUE=DATE:20281005
+CLASS:PUBLIC
+SUMMARY:🇧🇦 Bosnia and Herzegovina  Elections 🗳️
+DESCRIPTION:National parliamentPresidential (Bosnia, Serb, Croat)Regional parliaments
 TRANSP:TRASPARENT
 END:VEVENT
 END:VCALENDAR
