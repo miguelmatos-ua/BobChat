@@ -619,6 +619,14 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20231029
 DTEND;VALUE=DATE:20231030
 CLASS:PUBLIC
+SUMMARY:🇧🇬 Bulgaria Elections 🗳️
+DESCRIPTION:Local (Sofia + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231029
+DTEND;VALUE=DATE:20231030
+CLASS:PUBLIC
 SUMMARY:🇲🇩 Moldova Elections 🗳️
 DESCRIPTION:Local (Chişinău (mayor, parliament) + nationwide, first round)Regional parliaments
 TRANSP:TRASPARENT
@@ -1006,6 +1014,14 @@ DTEND;VALUE=DATE:20251023
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:National parliament (lower house (first round) & upper house (all regions except Appenzell Inner-Rhodes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251029
+DTEND;VALUE=DATE:20251030
+CLASS:PUBLIC
+SUMMARY:🇧🇬 Bulgaria Elections 🗳️
+DESCRIPTION:Local (Sofia + nationwide)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
