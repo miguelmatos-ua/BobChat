@@ -30,7 +30,7 @@ for news in benfica_news:
     title = news['title']
     subtitle = news['subtitle']
 
-    date = news['id'][:12]
+    date = news['updated_at'].replace('-', '').replace(':', '').replace('T', '').replace('.', '')[:12]
 
     if int(date) <= int(last_news_date[:12]):
         continue
