@@ -492,7 +492,7 @@ DTSTART;VALUE=DATE:20230903
 DTEND;VALUE=DATE:20230904
 CLASS:PUBLIC
 SUMMARY:🇱🇹 Lithuania Elections 🗳️
-DESCRIPTION:Constituency 42. Raseinių–Kėdainių national parliament by-election
+DESCRIPTION:Constituency 42. Raseinių–Kėdainių national parliament by-election (first round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -500,7 +500,7 @@ DTSTART;VALUE=DATE:20230910
 DTEND;VALUE=DATE:20230911
 CLASS:PUBLIC
 SUMMARY:🇷🇺 Russia* Elections 🗳️
-DESCRIPTION:Altai Krai regional presidentAmur Oblast regional presidentArkhangelsk Oblast regional parliamentBashkortostan regional parliamentBuryatia regional parliamentChukotka Autonomous Okrug regional presidentKalmykia regional parliamentKemerovo Oblast regional election (parliament + president)Khakassia regional election (parliament + president)Krasnoyarsk Krai regional presidentIrkutsk Oblast regional parliamentIvanovo Oblast regional election (parliament + president)Magadan Oblast regional presidentMoscow regional presidentMoscow Oblast regional presidentNenets Autonomous Okrug regional parliamentNizhny Novgorod Oblast regional presidentNovosibirsk Oblast regional presidentOmsk Oblast regional presidentOryol Oblast regional presidentPrimorsky Krai regional presidentPskov Oblast regional presidentRostov Oblast regional parliamentSakha regional election (parliament + president)Samara Oblast regional presidentSmolensk Oblast regional election (parliament + president)Tyumen Oblast regional presidentUlyanovsk Oblast regional parliamentVladimir Oblast regional parliamentVoronezh Oblast regional presidentYaroslavl Oblast regional parliamentZabaykalsky Krai regional parliament
+DESCRIPTION:Altai Krai regional presidentAmur Oblast regional presidentArkhangelsk Oblast regional parliamentBashkortostan regional parliamentBuryatia regional parliamentChukotka Autonomous Okrug regional presidentDivnogorsk national parliament by-electionKalmykia regional parliamentKarachay-Cherkessia national parliament by-electionKemerovo Oblast regional parliament and presidentKhakassia regional parliament and presidentKrasnoyarsk Krai regional presidentIrkutsk Oblast regional parliamentIvanovo Oblast regional parliament and presidentLipetsk national parliament by-electionMagadan Oblast regional presidentMoscow regional presidentMoscow Oblast regional presidentNenets Autonomous Okrug regional parliamentNizhny Novgorod Oblast regional presidentNovosibirsk Oblast regional presidentOmsk Oblast regional presidentOryol Oblast regional presidentPrimorsky Krai regional presidentPskov Oblast regional presidentRostov Oblast regional parliamentSakha regional parliament and presidentSamara Oblast regional presidentSmolensk Oblast regional parliament and presidentTyumen Oblast regional presidentUlyanovsk Oblast regional parliamentVladimir Oblast regional parliamentVoronezh Oblast regional presidentYaroslavl Oblast regional parliamentZabaykalsky Krai regional parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -517,6 +517,14 @@ DTEND;VALUE=DATE:20230918
 CLASS:PUBLIC
 SUMMARY:🇦🇲 Armenia Elections 🗳️
 DESCRIPTION:Local (Yerevan (parliament + mayor) + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230917
+DTEND;VALUE=DATE:20230918
+CLASS:PUBLIC
+SUMMARY:🇱🇹 Lithuania Elections 🗳️
+DESCRIPTION:Constituency 42. Raseinių–Kėdainių national parliament by-election (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -596,7 +604,7 @@ DTSTART;VALUE=DATE:20231015
 DTEND;VALUE=DATE:20231016
 CLASS:PUBLIC
 SUMMARY:🇵🇱 Poland Elections 🗳️
-DESCRIPTION:National parliament
+DESCRIPTION:National parliamentPrivatization referendumRetirement age referendumEU immigration relocation mechanism referendumPoland-Belarus border barrier referendum
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -613,6 +621,14 @@ DTEND;VALUE=DATE:20231023
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:National parliament (lower house (first round) & upper house (all regions except Appenzell Inner-Rhodes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231029
+DTEND;VALUE=DATE:20231030
+CLASS:PUBLIC
+SUMMARY:🇧🇬 Bulgaria Elections 🗳️
+DESCRIPTION:Local (Sofia + nationwide)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -885,7 +901,7 @@ DTSTART;VALUE=DATE:20250903
 DTEND;VALUE=DATE:20250904
 CLASS:PUBLIC
 SUMMARY:🇱🇹 Lithuania Elections 🗳️
-DESCRIPTION:Constituency 42. Raseinių–Kėdainių national parliament by-election
+DESCRIPTION:Constituency 42. Raseinių–Kėdainių national parliament by-election (first round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -893,7 +909,7 @@ DTSTART;VALUE=DATE:20250910
 DTEND;VALUE=DATE:20250911
 CLASS:PUBLIC
 SUMMARY:🇷🇺 Russia* Elections 🗳️
-DESCRIPTION:Altai Krai regional presidentAmur Oblast regional presidentArkhangelsk Oblast regional parliamentBashkortostan regional parliamentBuryatia regional parliamentChukotka Autonomous Okrug regional presidentKalmykia regional parliamentKemerovo Oblast regional election (parliament + president)Khakassia regional election (parliament + president)Krasnoyarsk Krai regional presidentIrkutsk Oblast regional parliamentIvanovo Oblast regional election (parliament + president)Magadan Oblast regional presidentMoscow regional presidentMoscow Oblast regional presidentNenets Autonomous Okrug regional parliamentNizhny Novgorod Oblast regional presidentNovosibirsk Oblast regional presidentOmsk Oblast regional presidentOryol Oblast regional presidentPrimorsky Krai regional presidentPskov Oblast regional presidentRostov Oblast regional parliamentSakha regional election (parliament + president)Samara Oblast regional presidentSmolensk Oblast regional election (parliament + president)Tyumen Oblast regional presidentUlyanovsk Oblast regional parliamentVladimir Oblast regional parliamentVoronezh Oblast regional presidentYaroslavl Oblast regional parliamentZabaykalsky Krai regional parliament
+DESCRIPTION:Altai Krai regional presidentAmur Oblast regional presidentArkhangelsk Oblast regional parliamentBashkortostan regional parliamentBuryatia regional parliamentChukotka Autonomous Okrug regional presidentDivnogorsk national parliament by-electionKalmykia regional parliamentKarachay-Cherkessia national parliament by-electionKemerovo Oblast regional parliament and presidentKhakassia regional parliament and presidentKrasnoyarsk Krai regional presidentIrkutsk Oblast regional parliamentIvanovo Oblast regional parliament and presidentLipetsk national parliament by-electionMagadan Oblast regional presidentMoscow regional presidentMoscow Oblast regional presidentNenets Autonomous Okrug regional parliamentNizhny Novgorod Oblast regional presidentNovosibirsk Oblast regional presidentOmsk Oblast regional presidentOryol Oblast regional presidentPrimorsky Krai regional presidentPskov Oblast regional presidentRostov Oblast regional parliamentSakha regional parliament and presidentSamara Oblast regional presidentSmolensk Oblast regional parliament and presidentTyumen Oblast regional presidentUlyanovsk Oblast regional parliamentVladimir Oblast regional parliamentVoronezh Oblast regional presidentYaroslavl Oblast regional parliamentZabaykalsky Krai regional parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -910,6 +926,14 @@ DTEND;VALUE=DATE:20250918
 CLASS:PUBLIC
 SUMMARY:🇦🇲 Armenia Elections 🗳️
 DESCRIPTION:Local (Yerevan (parliament + mayor) + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250917
+DTEND;VALUE=DATE:20250918
+CLASS:PUBLIC
+SUMMARY:🇱🇹 Lithuania Elections 🗳️
+DESCRIPTION:Constituency 42. Raseinių–Kėdainių national parliament by-election (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -989,7 +1013,7 @@ DTSTART;VALUE=DATE:20251015
 DTEND;VALUE=DATE:20251016
 CLASS:PUBLIC
 SUMMARY:🇵🇱 Poland Elections 🗳️
-DESCRIPTION:National parliament
+DESCRIPTION:National parliamentPrivatization referendumRetirement age referendumEU immigration relocation mechanism referendumPoland-Belarus border barrier referendum
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1006,6 +1030,14 @@ DTEND;VALUE=DATE:20251023
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:National parliament (lower house (first round) & upper house (all regions except Appenzell Inner-Rhodes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251029
+DTEND;VALUE=DATE:20251030
+CLASS:PUBLIC
+SUMMARY:🇧🇬 Bulgaria Elections 🗳️
+DESCRIPTION:Local (Sofia + nationwide)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
