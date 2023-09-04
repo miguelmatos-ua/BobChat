@@ -1,0 +1,43 @@
+name: The following scripts will be executed hourly
+
+on:
+  schedule:
+    - cron: "0 * * * *" # run every thirty minutes
+  workflow_dispatch:  # manual trigger for debug purposes
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.10']
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r benfica/requirements.txt
+
+      - name: Run script
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+        run: |
+          python benfica/news.py
+          
+      - name: Add changes to last_abola.txt
+        run: |
+          git add -A benfica/
+
+      - name: Commit all changes
+        uses: stefanzweifel/git-auto-commit-action@v4.1.1
+        with:
+          commit_message: Update latest date sent
+          branch: ${{ github.head_ref }}
+
