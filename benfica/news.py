@@ -40,7 +40,7 @@ for news in benfica_news:
     if subtitle is None:
         subtitle = ""
 
-    date_published = news['published_at'].split('T')
+    date_published = news['updated_at'].split('T')
     message = f"{title}" + (f"\n{subtitle}" if subtitle else "") + f" ({date_published[0]} às {date_published[1][:5]})"
 
     image = news['image']['data']['urls']['uploaded']['embed']
