@@ -41,7 +41,10 @@ for news in benfica_news:
         subtitle = ""
 
     date_published = news['updated_at'].split('T')
-    message = f"{title}" + (f"\n{subtitle}" if subtitle else "") + f" ({date_published[0]} às {date_published[1][:5]})"
+
+    uri = "https://www.abola.pt" + news['pathData']['permalink']
+
+    message = f"{title}" + (f"\n{subtitle}" if subtitle else "") + f" ({date_published[0]} às {date_published[1][:5]})\n\n{uri}"
 
     image = news['image']['data']['urls']['uploaded']['embed']
     bot.send_photo(chat_id=CHAT_ID, photo=image, caption=message)
