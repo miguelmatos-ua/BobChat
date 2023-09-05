@@ -1,8 +1,9 @@
-name: The following scripts will be executed hourly
+name: Hourly workflow
 
 on:
-  schedule:
-    - cron: "0 * * * *" # run every thirty minutes
+  # This won't run, because no hourly execution is working 🙁
+  # schedule:
+  #   - cron: "0 * * * *" # run every thirty minutes
   workflow_dispatch:  # manual trigger for debug purposes
 
 jobs:
