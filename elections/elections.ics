@@ -604,7 +604,7 @@ DTSTART;VALUE=DATE:20231015
 DTEND;VALUE=DATE:20231016
 CLASS:PUBLIC
 SUMMARY:🇵🇱 Poland Elections 🗳️
-DESCRIPTION:National parliamentPrivatization referendumRetirement age referendumEU immigration relocation mechanism referendumPoland-Belarus border barrier referendum
+DESCRIPTION:National parliamentBorder barrier with Belarus referendumEU immigration relocation mechanism referendumOwnership of state assets referendumRetirement age referendum
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1013,7 +1013,7 @@ DTSTART;VALUE=DATE:20251015
 DTEND;VALUE=DATE:20251016
 CLASS:PUBLIC
 SUMMARY:🇵🇱 Poland Elections 🗳️
-DESCRIPTION:National parliamentPrivatization referendumRetirement age referendumEU immigration relocation mechanism referendumPoland-Belarus border barrier referendum
+DESCRIPTION:National parliamentBorder barrier with Belarus referendumEU immigration relocation mechanism referendumOwnership of state assets referendumRetirement age referendum
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
