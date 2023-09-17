@@ -560,6 +560,14 @@ DESCRIPTION:Gori-Kaspi national parliament by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231005
+DTEND;VALUE=DATE:20231006
+CLASS:PUBLIC
+SUMMARY:🇬🇧 UK Elections 🗳️
+DESCRIPTION:Rutherglen and Hamilton West national parliament by-election
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20231008
 DTEND;VALUE=DATE:20231009
 CLASS:PUBLIC
@@ -584,6 +592,14 @@ DESCRIPTION:National parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231012
+DTEND;VALUE=DATE:20231013
+CLASS:PUBLIC
+SUMMARY:🇬🇮 Gibraltar Elections 🗳️
+DESCRIPTION:Parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20231015
 DTEND;VALUE=DATE:20231016
 CLASS:PUBLIC
@@ -605,6 +621,15 @@ DTEND;VALUE=DATE:20231016
 CLASS:PUBLIC
 SUMMARY:🇵🇱 Poland Elections 🗳️
 DESCRIPTION:National parliamentBorder barrier with Belarus referendumEU immigration relocation mechanism referendumOwnership of state assets referendumRetirement age referendum
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231019
+DTEND;VALUE=DATE:20231020
+CLASS:PUBLIC
+SUMMARY:🇬🇧 UK Elections 🗳️
+DESCRIPTION:Mid Bedfordshire national parliament by-election
+Tamworth national parliament by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -677,6 +702,7 @@ DTEND;VALUE=DATE:20231127
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:National Referenda (probably between 2-4 votes)National parliament (upper house) (second round in Basle City, Basle Country, Nidwald, Schwytz)
+Neuchâtel regional government (first round) by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -840,6 +866,14 @@ DESCRIPTION:National Referenda (probably between 2-4 votes)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250531
+DTEND;VALUE=DATE:20250601
+CLASS:PUBLIC
+SUMMARY:🇱🇻 Latvia Elections 🗳️
+DESCRIPTION:Presidential
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250611
 DTEND;VALUE=DATE:20250612
 CLASS:PUBLIC
@@ -969,6 +1003,14 @@ DESCRIPTION:Gori-Kaspi national parliament by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251005
+DTEND;VALUE=DATE:20251006
+CLASS:PUBLIC
+SUMMARY:🇬🇧 UK Elections 🗳️
+DESCRIPTION:Rutherglen and Hamilton West national parliament by-election
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251008
 DTEND;VALUE=DATE:20251009
 CLASS:PUBLIC
@@ -993,6 +1035,14 @@ DESCRIPTION:National parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251012
+DTEND;VALUE=DATE:20251013
+CLASS:PUBLIC
+SUMMARY:🇬🇮 Gibraltar Elections 🗳️
+DESCRIPTION:Parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251015
 DTEND;VALUE=DATE:20251016
 CLASS:PUBLIC
@@ -1014,6 +1064,15 @@ DTEND;VALUE=DATE:20251016
 CLASS:PUBLIC
 SUMMARY:🇵🇱 Poland Elections 🗳️
 DESCRIPTION:National parliamentBorder barrier with Belarus referendumEU immigration relocation mechanism referendumOwnership of state assets referendumRetirement age referendum
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251019
+DTEND;VALUE=DATE:20251020
+CLASS:PUBLIC
+SUMMARY:🇬🇧 UK Elections 🗳️
+DESCRIPTION:Mid Bedfordshire national parliament by-election
+Tamworth national parliament by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1086,6 +1145,7 @@ DTEND;VALUE=DATE:20251127
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:National Referenda (probably between 2-4 votes)National parliament (upper house) (second round in Basle City, Basle Country, Nidwald, Schwytz)
+Neuchâtel regional government (first round) by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1249,14 +1309,6 @@ DESCRIPTION:National Referenda (probably between 2-4 votes)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
-CLASS:PUBLIC
-SUMMARY:🇩🇪 Germany Elections 🗳️
-DESCRIPTION:Saxony regional parliamentThuringia regional parliament
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 CLASS:PUBLIC
@@ -1321,6 +1373,38 @@ DESCRIPTION:National parliamentPresidential (Bosnia, Serb, Croat)Regional parlia
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271023
+CLASS:PUBLIC
+SUMMARY:🇮🇹 Italy Elections 🗳️
+DESCRIPTION:Trentino and South Tyrol regional president and parliament (consists of the Trentino provincial parliament and the South Tyrol provincial parliament)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271023
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National parliament (lower house (first round) & upper house (all regions except Appenzell Inner-Rhodes)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
+CLASS:PUBLIC
+SUMMARY:🇧🇬 Bulgaria Elections 🗳️
+DESCRIPTION:Local (Sofia + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
+CLASS:PUBLIC
+SUMMARY:🇲🇩 Moldova Elections 🗳️
+DESCRIPTION:Local (Chişinău (mayor, parliament) + nationwide, first round)Regional parliaments
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20271105
 DTEND;VALUE=DATE:20271106
 CLASS:PUBLIC
@@ -1358,6 +1442,7 @@ DTEND;VALUE=DATE:20271127
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:National Referenda (probably between 2-4 votes)National parliament (upper house) (second round in Basle City, Basle Country, Nidwald, Schwytz)
+Neuchâtel regional government (first round) by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1549,6 +1634,22 @@ DTSTART;VALUE=DATE:20280418
 DTEND;VALUE=DATE:20280419
 CLASS:PUBLIC
 SUMMARY:🇫🇮 Finland Elections 🗳️
+DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20290128
+DTEND;VALUE=DATE:20290129
+CLASS:PUBLIC
+SUMMARY:🇫🇮 Finland Elections 🗳️
+DESCRIPTION:Presidential (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20290225
+DTEND;VALUE=DATE:20290226
+CLASS:PUBLIC
+SUMMARY:🇧🇾 Belarus* Elections 🗳️
 DESCRIPTION:National parliament
 TRANSP:TRASPARENT
 END:VEVENT
