@@ -50,15 +50,6 @@ jobs:
         run: |
           cd elections
           python parser.py
-      # weather forecast morning flow
-      - name: Run script for weather forecast
-        env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          CHAT_ID: ${{ secrets.CHAT_ID }}
-          TODOIST_TOKEN: ${{ secrets.TODOIST_TOKEN }}
-        run: |
-          python weather/main.py
-          rm t.png || echo 'Não existe ficheiro t.png'
       - name: Add changes to last.txt
         run: |
           git add -A elections/
