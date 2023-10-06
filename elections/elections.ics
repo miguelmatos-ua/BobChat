@@ -628,8 +628,7 @@ DTSTART;VALUE=DATE:20231019
 DTEND;VALUE=DATE:20231020
 CLASS:PUBLIC
 SUMMARY:🇬🇧 UK Elections 🗳️
-DESCRIPTION:Mid Bedfordshire national parliament by-election
-Tamworth national parliament by-election
+DESCRIPTION:Mid Bedfordshire national parliament by-electionTamworth national parliament by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -701,8 +700,7 @@ DTSTART;VALUE=DATE:20231126
 DTEND;VALUE=DATE:20231127
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National Referenda (probably between 2-4 votes)National parliament (upper house) (second round in Basle City, Basle Country, Nidwald, Schwytz)
-Neuchâtel regional government (first round) by-election
+DESCRIPTION:National Referenda (probably between 2-4 votes)National parliament (upper house) (second round in Basle City, Basle Country, Nidwald, Schwytz)Neuchâtel regional government (first round) by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -854,8 +852,7 @@ DTSTART;VALUE=DATE:20241026
 DTEND;VALUE=DATE:20241027
 CLASS:PUBLIC
 SUMMARY:🇬🇪 Georgia Elections 🗳️
-DESCRIPTION:National parliament
-Adjara regional parliament
+DESCRIPTION:National parliamentAdjara regional parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1072,8 +1069,7 @@ DTSTART;VALUE=DATE:20251019
 DTEND;VALUE=DATE:20251020
 CLASS:PUBLIC
 SUMMARY:🇬🇧 UK Elections 🗳️
-DESCRIPTION:Mid Bedfordshire national parliament by-election
-Tamworth national parliament by-election
+DESCRIPTION:Mid Bedfordshire national parliament by-electionTamworth national parliament by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1145,8 +1141,7 @@ DTSTART;VALUE=DATE:20251126
 DTEND;VALUE=DATE:20251127
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National Referenda (probably between 2-4 votes)National parliament (upper house) (second round in Basle City, Basle Country, Nidwald, Schwytz)
-Neuchâtel regional government (first round) by-election
+DESCRIPTION:National Referenda (probably between 2-4 votes)National parliament (upper house) (second round in Basle City, Basle Country, Nidwald, Schwytz)Neuchâtel regional government (first round) by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1298,8 +1293,7 @@ DTSTART;VALUE=DATE:20251026
 DTEND;VALUE=DATE:20251027
 CLASS:PUBLIC
 SUMMARY:🇬🇪 Georgia Elections 🗳️
-DESCRIPTION:National parliament
-Adjara regional parliament
+DESCRIPTION:National parliamentAdjara regional parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1331,8 +1325,7 @@ DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 CLASS:PUBLIC
 SUMMARY:🇬🇪 Georgia Elections 🗳️
-DESCRIPTION:National parliament
-Adjara regional parliament
+DESCRIPTION:National parliamentAdjara regional parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1396,8 +1389,7 @@ DTSTART;VALUE=DATE:20271126
 DTEND;VALUE=DATE:20271127
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National Referenda (probably between 2-4 votes)National parliament (upper house) (second round in Basle City, Basle Country, Nidwald, Schwytz)
-Neuchâtel regional government (first round) by-election
+DESCRIPTION:National Referenda (probably between 2-4 votes)National parliament (upper house) (second round in Basle City, Basle Country, Nidwald, Schwytz)Neuchâtel regional government (first round) by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1549,8 +1541,7 @@ DTSTART;VALUE=DATE:20271026
 DTEND;VALUE=DATE:20271027
 CLASS:PUBLIC
 SUMMARY:🇬🇪 Georgia Elections 🗳️
-DESCRIPTION:National parliament
-Adjara regional parliament
+DESCRIPTION:National parliamentAdjara regional parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1726,8 +1717,7 @@ DTSTART;VALUE=DATE:20291026
 DTEND;VALUE=DATE:20291027
 CLASS:PUBLIC
 SUMMARY:🇬🇪 Georgia Elections 🗳️
-DESCRIPTION:National parliament
-Adjara regional parliament
+DESCRIPTION:National parliamentAdjara regional parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
