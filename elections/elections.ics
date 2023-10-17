@@ -644,7 +644,7 @@ DTSTART;VALUE=DATE:20231022
 DTEND;VALUE=DATE:20231023
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National parliament (lower house (first round) & upper house (all regions except Appenzell Inner-Rhodes)
+DESCRIPTION:National parliament (lower house & upper house (all regions except Appenzell Inner-Rhodes and Obwald)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1085,7 +1085,7 @@ DTSTART;VALUE=DATE:20251022
 DTEND;VALUE=DATE:20251023
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National parliament (lower house (first round) & upper house (all regions except Appenzell Inner-Rhodes)
+DESCRIPTION:National parliament (lower house & upper house (all regions except Appenzell Inner-Rhodes and Obwald)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
