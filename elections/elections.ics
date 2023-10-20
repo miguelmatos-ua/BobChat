@@ -580,7 +580,7 @@ DTSTART;VALUE=DATE:20231008
 DTEND;VALUE=DATE:20231009
 CLASS:PUBLIC
 SUMMARY:🇬🇷 Greece Elections 🗳️
-DESCRIPTION:Attica regional parliament (first round)Central Greece regional parliament (first round)Central Macedonia regional parliament (first round)Crete regional parliament (first round)Eastern Macedonia and Thrace regional parliament (first round)Epirus regional parliament (first round)Ionian Islands regional parliament (first round)North Aegean regional parliament (first round)Peloponnese regional parliament (first round)South Aegean regional parliament (first round)Thessaly regional parliament (first round)Western Greece regional parliament (first round)Western Macedonia regional parliament (first round)Local (Athens + nationwide, first round)
+DESCRIPTION:Attica regional parliament (first round)Central Greece regional parliament (first round)Central Macedonia regional parliament (first round)Crete regional parliament (first round)Eastern Macedonia and Thrace regional parliament (first round)Epirus regional parliament (first round)Ionian Islands regional parliament (first round)North Aegean regional parliament (first round)Peloponnese regional parliament (first round)South Aegean regional parliament (first round)Thessaly regional parliament (first round)Western Greece regional parliament (first round)Western Macedonia regional parliament (first round)Local (Athens (mayoral + parliament) + nationwide, first round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -612,7 +612,7 @@ DTSTART;VALUE=DATE:20231015
 DTEND;VALUE=DATE:20231016
 CLASS:PUBLIC
 SUMMARY:🇬🇷 Greece Elections 🗳️
-DESCRIPTION:Attica regional parliament (second round)Central Greece regional parliament (second round)Central Macedonia regional parliament (second round)Crete regional parliament (second round)Eastern Macedonia and Thrace regional parliament (second round)Epirus regional parliament (second round)Ionian Islands regional parliament (second round)North Aegean regional parliament (second round)Peloponnese regional parliament (second round)South Aegean regional parliament (second round)Thessaly regional parliament (second round)Western Greece regional parliament (second round)Western Macedonia regional parliament (second round)Local (Athens + nationwide, second round)
+DESCRIPTION:Attica regional parliament (second round)Central Greece regional parliament (second round)Central Macedonia regional parliament (second round)Crete regional parliament (second round)Eastern Macedonia and Thrace regional parliament (second round)Epirus regional parliament (second round)Ionian Islands regional parliament (second round)North Aegean regional parliament (second round)Peloponnese regional parliament (second round)South Aegean regional parliament (second round)Thessaly regional parliament (second round)Western Greece regional parliament (second round)Western Macedonia regional parliament (second round)Local (Athens (mayoral + parliament) + nationwide, second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1029,7 +1029,7 @@ DTSTART;VALUE=DATE:20251008
 DTEND;VALUE=DATE:20251009
 CLASS:PUBLIC
 SUMMARY:🇬🇷 Greece Elections 🗳️
-DESCRIPTION:Attica regional parliament (first round)Central Greece regional parliament (first round)Central Macedonia regional parliament (first round)Crete regional parliament (first round)Eastern Macedonia and Thrace regional parliament (first round)Epirus regional parliament (first round)Ionian Islands regional parliament (first round)North Aegean regional parliament (first round)Peloponnese regional parliament (first round)South Aegean regional parliament (first round)Thessaly regional parliament (first round)Western Greece regional parliament (first round)Western Macedonia regional parliament (first round)Local (Athens + nationwide, first round)
+DESCRIPTION:Attica regional parliament (first round)Central Greece regional parliament (first round)Central Macedonia regional parliament (first round)Crete regional parliament (first round)Eastern Macedonia and Thrace regional parliament (first round)Epirus regional parliament (first round)Ionian Islands regional parliament (first round)North Aegean regional parliament (first round)Peloponnese regional parliament (first round)South Aegean regional parliament (first round)Thessaly regional parliament (first round)Western Greece regional parliament (first round)Western Macedonia regional parliament (first round)Local (Athens (mayoral + parliament) + nationwide, first round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1061,7 +1061,7 @@ DTSTART;VALUE=DATE:20251015
 DTEND;VALUE=DATE:20251016
 CLASS:PUBLIC
 SUMMARY:🇬🇷 Greece Elections 🗳️
-DESCRIPTION:Attica regional parliament (second round)Central Greece regional parliament (second round)Central Macedonia regional parliament (second round)Crete regional parliament (second round)Eastern Macedonia and Thrace regional parliament (second round)Epirus regional parliament (second round)Ionian Islands regional parliament (second round)North Aegean regional parliament (second round)Peloponnese regional parliament (second round)South Aegean regional parliament (second round)Thessaly regional parliament (second round)Western Greece regional parliament (second round)Western Macedonia regional parliament (second round)Local (Athens + nationwide, second round)
+DESCRIPTION:Attica regional parliament (second round)Central Greece regional parliament (second round)Central Macedonia regional parliament (second round)Crete regional parliament (second round)Eastern Macedonia and Thrace regional parliament (second round)Epirus regional parliament (second round)Ionian Islands regional parliament (second round)North Aegean regional parliament (second round)Peloponnese regional parliament (second round)South Aegean regional parliament (second round)Thessaly regional parliament (second round)Western Greece regional parliament (second round)Western Macedonia regional parliament (second round)Local (Athens (mayoral + parliament) + nationwide, second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1358,6 +1358,14 @@ DTEND;VALUE=DATE:20261005
 CLASS:PUBLIC
 SUMMARY:🇧🇦 Bosnia and Herzegovina  Elections 🗳️
 DESCRIPTION:National parliamentPresidential (Bosnia, Serb, Croat)Regional parliaments
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271024
+CLASS:PUBLIC
+SUMMARY:🇮🇹 Italy Elections 🗳️
+DESCRIPTION:Monza national parliament (upper house) by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
