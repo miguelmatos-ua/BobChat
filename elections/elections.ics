@@ -644,7 +644,7 @@ DTSTART;VALUE=DATE:20231022
 DTEND;VALUE=DATE:20231023
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National parliament (lower house & upper house (all regions except Appenzell Inner-Rhodes and Obwald)
+DESCRIPTION:National parliament (lower house & upper house (first round; all regions except Appenzell Inner-Rhodes and Obwald))
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -712,6 +712,22 @@ DESCRIPTION:National Referenda (probably between 2-4 votes)National parliament (
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231213
+DTEND;VALUE=DATE:20231214
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:Head of State (Federal Council) election for 2024-2027Presidential & Vice-Presidential for 2024
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231217
+DTEND;VALUE=DATE:20231218
+CLASS:PUBLIC
+SUMMARY:🇦🇩 Andorra Elections 🗳️
+DESCRIPTION:Local (Andorra la Vella (parliament) + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20240128
 DTEND;VALUE=DATE:20240129
 CLASS:PUBLIC
@@ -749,6 +765,14 @@ DTEND;VALUE=DATE:20240401
 CLASS:PUBLIC
 SUMMARY:🇺🇦 Ukraine Elections 🗳️
 DESCRIPTION:Presidential (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240331
+DTEND;VALUE=DATE:20240401
+CLASS:PUBLIC
+SUMMARY:🇹🇷 Türkiye Elections 🗳️
+DESCRIPTION:Local (incl. Ankara and Istanbul)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1093,7 +1117,7 @@ DTSTART;VALUE=DATE:20251022
 DTEND;VALUE=DATE:20251023
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National parliament (lower house & upper house (all regions except Appenzell Inner-Rhodes and Obwald)
+DESCRIPTION:National parliament (lower house & upper house (first round; all regions except Appenzell Inner-Rhodes and Obwald))
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1161,6 +1185,22 @@ DESCRIPTION:National Referenda (probably between 2-4 votes)National parliament (
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251213
+DTEND;VALUE=DATE:20251214
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:Head of State (Federal Council) election for 2024-2027Presidential & Vice-Presidential for 2024
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251217
+DTEND;VALUE=DATE:20251218
+CLASS:PUBLIC
+SUMMARY:🇦🇩 Andorra Elections 🗳️
+DESCRIPTION:Local (Andorra la Vella (parliament) + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250128
 DTEND;VALUE=DATE:20250129
 CLASS:PUBLIC
@@ -1198,6 +1238,14 @@ DTEND;VALUE=DATE:20250401
 CLASS:PUBLIC
 SUMMARY:🇺🇦 Ukraine Elections 🗳️
 DESCRIPTION:Presidential (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250331
+DTEND;VALUE=DATE:20250401
+CLASS:PUBLIC
+SUMMARY:🇹🇷 Türkiye Elections 🗳️
+DESCRIPTION:Local (incl. Ankara and Istanbul)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1425,6 +1473,22 @@ DESCRIPTION:National Referenda (probably between 2-4 votes)National parliament (
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271213
+DTEND;VALUE=DATE:20271214
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:Head of State (Federal Council) election for 2024-2027Presidential & Vice-Presidential for 2024
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271217
+DTEND;VALUE=DATE:20271218
+CLASS:PUBLIC
+SUMMARY:🇦🇩 Andorra Elections 🗳️
+DESCRIPTION:Local (Andorra la Vella (parliament) + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 CLASS:PUBLIC
@@ -1462,6 +1526,14 @@ DTEND;VALUE=DATE:20270401
 CLASS:PUBLIC
 SUMMARY:🇺🇦 Ukraine Elections 🗳️
 DESCRIPTION:Presidential (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+CLASS:PUBLIC
+SUMMARY:🇹🇷 Türkiye Elections 🗳️
+DESCRIPTION:Local (incl. Ankara and Istanbul)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1638,6 +1710,14 @@ DTEND;VALUE=DATE:20290401
 CLASS:PUBLIC
 SUMMARY:🇺🇦 Ukraine Elections 🗳️
 DESCRIPTION:Presidential (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20290331
+DTEND;VALUE=DATE:20290401
+CLASS:PUBLIC
+SUMMARY:🇹🇷 Türkiye Elections 🗳️
+DESCRIPTION:Local (incl. Ankara and Istanbul)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
