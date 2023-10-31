@@ -664,19 +664,11 @@ DESCRIPTION:Local (Sofia + nationwide)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20231029
-DTEND;VALUE=DATE:20231030
-CLASS:PUBLIC
-SUMMARY:🇲🇩 Moldova Elections 🗳️
-DESCRIPTION:Local (Chişinău (mayor, parliament) + nationwide, first round)Regional parliaments
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20231105
 DTEND;VALUE=DATE:20231106
 CLASS:PUBLIC
 SUMMARY:🇲🇩 Moldova Elections 🗳️
-DESCRIPTION:Local (Chişinău (mayor) + nationwide, prospective second round)
+DESCRIPTION:Local (Chişinău (mayor, parliament) + nationwide, first round)Regional parliaments
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -684,7 +676,23 @@ DTSTART;VALUE=DATE:20231112
 DTEND;VALUE=DATE:20231113
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National parliament (upper house) (second round in Fribourg, Geneva, Lucerne, Thurgovia, and Vaud)
+DESCRIPTION:National parliament (upper house) (second round in Fribourg, Geneva, Valais and Vaud)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231116
+DTEND;VALUE=DATE:20231117
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National parliament (upper house) (second round in Aargau, Schaffhausen, Solothurn, Ticino and Zurich)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231119
+DTEND;VALUE=DATE:20231120
+CLASS:PUBLIC
+SUMMARY:🇲🇩 Moldova Elections 🗳️
+DESCRIPTION:Local (Chişinău (mayor) + nationwide, prospective second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -692,7 +700,7 @@ DTSTART;VALUE=DATE:20231119
 DTEND;VALUE=DATE:20231120
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National parliament (upper house) (second round in Aargau, Berne, St Gall, Solothurn, Ticino, Zug, Zurich)
+DESCRIPTION:National parliament (upper house) (second round in Aargau, Schaffhausen, Solothurn, Ticino and Zurich)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -708,7 +716,7 @@ DTSTART;VALUE=DATE:20231126
 DTEND;VALUE=DATE:20231127
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National Referenda (probably between 2-4 votes)National parliament (upper house) (second round in Basle City, Basle Country, Nidwald, Schwytz)Neuchâtel regional government (first round) by-election
+DESCRIPTION:Neuchâtel regional government (first round) by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -716,7 +724,13 @@ DTSTART;VALUE=DATE:20231213
 DTEND;VALUE=DATE:20231214
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Head of State (Federal Council) election for 2024-2027Presidential & Vice-Presidential for 2024
+DESCRIPTION:
+
+
+
+
+
+Head of State (Federal Council) election for 2024-2027Presidential & Vice-Presidential for 2024
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -748,7 +762,7 @@ DTSTART;VALUE=DATE:20240303
 DTEND;VALUE=DATE:20240304
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National Referenda (probably between 2-4 votes)
+DESCRIPTION:Old-age and survivors’ insurance pension (OASI) supplement referendumRetirement age referendum
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1137,19 +1151,11 @@ DESCRIPTION:Local (Sofia + nationwide)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251029
-DTEND;VALUE=DATE:20251030
-CLASS:PUBLIC
-SUMMARY:🇲🇩 Moldova Elections 🗳️
-DESCRIPTION:Local (Chişinău (mayor, parliament) + nationwide, first round)Regional parliaments
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251105
 DTEND;VALUE=DATE:20251106
 CLASS:PUBLIC
 SUMMARY:🇲🇩 Moldova Elections 🗳️
-DESCRIPTION:Local (Chişinău (mayor) + nationwide, prospective second round)
+DESCRIPTION:Local (Chişinău (mayor, parliament) + nationwide, first round)Regional parliaments
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1157,7 +1163,23 @@ DTSTART;VALUE=DATE:20251112
 DTEND;VALUE=DATE:20251113
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National parliament (upper house) (second round in Fribourg, Geneva, Lucerne, Thurgovia, and Vaud)
+DESCRIPTION:National parliament (upper house) (second round in Fribourg, Geneva, Valais and Vaud)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DATE:20251117
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National parliament (upper house) (second round in Aargau, Schaffhausen, Solothurn, Ticino and Zurich)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251119
+DTEND;VALUE=DATE:20251120
+CLASS:PUBLIC
+SUMMARY:🇲🇩 Moldova Elections 🗳️
+DESCRIPTION:Local (Chişinău (mayor) + nationwide, prospective second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1165,7 +1187,7 @@ DTSTART;VALUE=DATE:20251119
 DTEND;VALUE=DATE:20251120
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National parliament (upper house) (second round in Aargau, Berne, St Gall, Solothurn, Ticino, Zug, Zurich)
+DESCRIPTION:National parliament (upper house) (second round in Aargau, Schaffhausen, Solothurn, Ticino and Zurich)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1181,7 +1203,7 @@ DTSTART;VALUE=DATE:20251126
 DTEND;VALUE=DATE:20251127
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National Referenda (probably between 2-4 votes)National parliament (upper house) (second round in Basle City, Basle Country, Nidwald, Schwytz)Neuchâtel regional government (first round) by-election
+DESCRIPTION:Neuchâtel regional government (first round) by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1189,7 +1211,13 @@ DTSTART;VALUE=DATE:20251213
 DTEND;VALUE=DATE:20251214
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Head of State (Federal Council) election for 2024-2027Presidential & Vice-Presidential for 2024
+DESCRIPTION:
+
+
+
+
+
+Head of State (Federal Council) election for 2024-2027Presidential & Vice-Presidential for 2024
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1221,7 +1249,7 @@ DTSTART;VALUE=DATE:20250303
 DTEND;VALUE=DATE:20250304
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National Referenda (probably between 2-4 votes)
+DESCRIPTION:Old-age and survivors’ insurance pension (OASI) supplement referendumRetirement age referendum
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1425,19 +1453,11 @@ DESCRIPTION:Local (Sofia + nationwide)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271029
-DTEND;VALUE=DATE:20271030
-CLASS:PUBLIC
-SUMMARY:🇲🇩 Moldova Elections 🗳️
-DESCRIPTION:Local (Chişinău (mayor, parliament) + nationwide, first round)Regional parliaments
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20271105
 DTEND;VALUE=DATE:20271106
 CLASS:PUBLIC
 SUMMARY:🇲🇩 Moldova Elections 🗳️
-DESCRIPTION:Local (Chişinău (mayor) + nationwide, prospective second round)
+DESCRIPTION:Local (Chişinău (mayor, parliament) + nationwide, first round)Regional parliaments
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1445,7 +1465,23 @@ DTSTART;VALUE=DATE:20271112
 DTEND;VALUE=DATE:20271113
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National parliament (upper house) (second round in Fribourg, Geneva, Lucerne, Thurgovia, and Vaud)
+DESCRIPTION:National parliament (upper house) (second round in Fribourg, Geneva, Valais and Vaud)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271116
+DTEND;VALUE=DATE:20271117
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National parliament (upper house) (second round in Aargau, Schaffhausen, Solothurn, Ticino and Zurich)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271120
+CLASS:PUBLIC
+SUMMARY:🇲🇩 Moldova Elections 🗳️
+DESCRIPTION:Local (Chişinău (mayor) + nationwide, prospective second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1453,7 +1489,7 @@ DTSTART;VALUE=DATE:20271119
 DTEND;VALUE=DATE:20271120
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National parliament (upper house) (second round in Aargau, Berne, St Gall, Solothurn, Ticino, Zug, Zurich)
+DESCRIPTION:National parliament (upper house) (second round in Aargau, Schaffhausen, Solothurn, Ticino and Zurich)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1469,7 +1505,7 @@ DTSTART;VALUE=DATE:20271126
 DTEND;VALUE=DATE:20271127
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National Referenda (probably between 2-4 votes)National parliament (upper house) (second round in Basle City, Basle Country, Nidwald, Schwytz)Neuchâtel regional government (first round) by-election
+DESCRIPTION:Neuchâtel regional government (first round) by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1477,7 +1513,13 @@ DTSTART;VALUE=DATE:20271213
 DTEND;VALUE=DATE:20271214
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Head of State (Federal Council) election for 2024-2027Presidential & Vice-Presidential for 2024
+DESCRIPTION:
+
+
+
+
+
+Head of State (Federal Council) election for 2024-2027Presidential & Vice-Presidential for 2024
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1509,7 +1551,7 @@ DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National Referenda (probably between 2-4 votes)
+DESCRIPTION:Old-age and survivors’ insurance pension (OASI) supplement referendumRetirement age referendum
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1693,7 +1735,7 @@ DTSTART;VALUE=DATE:20290303
 DTEND;VALUE=DATE:20290304
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National Referenda (probably between 2-4 votes)
+DESCRIPTION:Old-age and survivors’ insurance pension (OASI) supplement referendumRetirement age referendum
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
