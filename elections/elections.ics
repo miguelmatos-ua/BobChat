@@ -660,7 +660,7 @@ DTSTART;VALUE=DATE:20231029
 DTEND;VALUE=DATE:20231030
 CLASS:PUBLIC
 SUMMARY:🇧🇬 Bulgaria Elections 🗳️
-DESCRIPTION:Local ((first round) Sofia + nationwide))
+DESCRIPTION:Local ((first round) Sofia (mayor, parliament) + nationwide))
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -668,7 +668,7 @@ DTSTART;VALUE=DATE:20231105
 DTEND;VALUE=DATE:20231106
 CLASS:PUBLIC
 SUMMARY:🇧🇬 Bulgaria Elections 🗳️
-DESCRIPTION:Local (second round (Sofia + nationwide)(
+DESCRIPTION:Local (second round (Sofia (mayor, parliament) + nationwide)(
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -685,14 +685,6 @@ DTEND;VALUE=DATE:20231113
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:National parliament (upper house) (second round in Fribourg, Geneva, Valais and Vaud)
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20231116
-DTEND;VALUE=DATE:20231117
-CLASS:PUBLIC
-SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National parliament (upper house) (second round in Aargau, Schaffhausen, Solothurn, Ticino and Zurich)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1163,7 +1155,7 @@ DTSTART;VALUE=DATE:20251029
 DTEND;VALUE=DATE:20251030
 CLASS:PUBLIC
 SUMMARY:🇧🇬 Bulgaria Elections 🗳️
-DESCRIPTION:Local ((first round) Sofia + nationwide))
+DESCRIPTION:Local ((first round) Sofia (mayor, parliament) + nationwide))
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1171,7 +1163,7 @@ DTSTART;VALUE=DATE:20251105
 DTEND;VALUE=DATE:20251106
 CLASS:PUBLIC
 SUMMARY:🇧🇬 Bulgaria Elections 🗳️
-DESCRIPTION:Local (second round (Sofia + nationwide)(
+DESCRIPTION:Local (second round (Sofia (mayor, parliament) + nationwide)(
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1188,14 +1180,6 @@ DTEND;VALUE=DATE:20251113
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:National parliament (upper house) (second round in Fribourg, Geneva, Valais and Vaud)
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251116
-DTEND;VALUE=DATE:20251117
-CLASS:PUBLIC
-SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National parliament (upper house) (second round in Aargau, Schaffhausen, Solothurn, Ticino and Zurich)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1481,7 +1465,7 @@ DTSTART;VALUE=DATE:20271029
 DTEND;VALUE=DATE:20271030
 CLASS:PUBLIC
 SUMMARY:🇧🇬 Bulgaria Elections 🗳️
-DESCRIPTION:Local ((first round) Sofia + nationwide))
+DESCRIPTION:Local ((first round) Sofia (mayor, parliament) + nationwide))
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1489,7 +1473,7 @@ DTSTART;VALUE=DATE:20271105
 DTEND;VALUE=DATE:20271106
 CLASS:PUBLIC
 SUMMARY:🇧🇬 Bulgaria Elections 🗳️
-DESCRIPTION:Local (second round (Sofia + nationwide)(
+DESCRIPTION:Local (second round (Sofia (mayor, parliament) + nationwide)(
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1506,14 +1490,6 @@ DTEND;VALUE=DATE:20271113
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:National parliament (upper house) (second round in Fribourg, Geneva, Valais and Vaud)
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271116
-DTEND;VALUE=DATE:20271117
-CLASS:PUBLIC
-SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National parliament (upper house) (second round in Aargau, Schaffhausen, Solothurn, Ticino and Zurich)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1776,14 +1752,6 @@ DTEND;VALUE=DATE:20280419
 CLASS:PUBLIC
 SUMMARY:🇫🇮 Finland Elections 🗳️
 DESCRIPTION:National parliament
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20290128
-DTEND;VALUE=DATE:20290129
-CLASS:PUBLIC
-SUMMARY:🇫🇮 Finland Elections 🗳️
-DESCRIPTION:Presidential (first round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
