@@ -668,7 +668,7 @@ DTSTART;VALUE=DATE:20231105
 DTEND;VALUE=DATE:20231106
 CLASS:PUBLIC
 SUMMARY:🇧🇬 Bulgaria Elections 🗳️
-DESCRIPTION:Local (second round (Sofia (mayor, parliament) + nationwide)(
+DESCRIPTION:Local (second round (Sofia (mayor, parliament) + nationwide)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -755,6 +755,14 @@ DTEND;VALUE=DATE:20240129
 CLASS:PUBLIC
 SUMMARY:🇫🇮 Finland Elections 🗳️
 DESCRIPTION:Presidential (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240211
+DTEND;VALUE=DATE:20240212
+CLASS:PUBLIC
+SUMMARY:🇫🇮 Finland Elections 🗳️
+DESCRIPTION:Presidential (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -982,14 +990,6 @@ DESCRIPTION:National Referenda (probably between 2-4 votes)Aargau government (po
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250911
-DTEND;VALUE=DATE:20250912
-CLASS:PUBLIC
-SUMMARY:🇳🇴 Norway Elections 🗳️
-DESCRIPTION:Akershus regional parliamentAgder regional parliamentBuskerud regional parliamentFinnmark regional parliamentInnlandet regional parliamentMøre og Romsdal regional parliamentNordland regional parliamentOslo regional parliamentØstfold regional parliamentRogaland regional parliamentTelemark regional parliament Troms regional parliamentTrøndelag regional parliamentVestfold regional parliamentVestland regional parliamentLocal (Oslo + nationwide)
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250917
 DTEND;VALUE=DATE:20250918
 CLASS:PUBLIC
@@ -1146,7 +1146,7 @@ DTSTART;VALUE=DATE:20251105
 DTEND;VALUE=DATE:20251106
 CLASS:PUBLIC
 SUMMARY:🇧🇬 Bulgaria Elections 🗳️
-DESCRIPTION:Local (second round (Sofia (mayor, parliament) + nationwide)(
+DESCRIPTION:Local (second round (Sofia (mayor, parliament) + nationwide)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1233,6 +1233,14 @@ DTEND;VALUE=DATE:20250129
 CLASS:PUBLIC
 SUMMARY:🇫🇮 Finland Elections 🗳️
 DESCRIPTION:Presidential (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250211
+DTEND;VALUE=DATE:20250212
+CLASS:PUBLIC
+SUMMARY:🇫🇮 Finland Elections 🗳️
+DESCRIPTION:Presidential (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1540,14 +1548,6 @@ DESCRIPTION:National parliamentPresidential (Bosnia, Serb, Croat)Regional parlia
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271126
-DTEND;VALUE=DATE:20271127
-CLASS:PUBLIC
-SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Neuchâtel regional government (first round) by-election
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20271213
 DTEND;VALUE=DATE:20271214
 CLASS:PUBLIC
@@ -1583,6 +1583,14 @@ DTEND;VALUE=DATE:20270129
 CLASS:PUBLIC
 SUMMARY:🇫🇮 Finland Elections 🗳️
 DESCRIPTION:Presidential (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+CLASS:PUBLIC
+SUMMARY:🇫🇮 Finland Elections 🗳️
+DESCRIPTION:Presidential (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
