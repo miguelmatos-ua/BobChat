@@ -371,7 +371,7 @@ DTSTART;VALUE=DATE:20230514
 DTEND;VALUE=DATE:20230515
 CLASS:PUBLIC
 SUMMARY:🇹🇷 Türkiye Elections 🗳️
-DESCRIPTION:PresidentialNational parliament
+DESCRIPTION:Presidential (first round)National parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
