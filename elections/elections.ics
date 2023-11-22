@@ -512,6 +512,14 @@ DESCRIPTION:Akershus regional parliamentAgder regional parliamentBuskerud region
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230915
+DTEND;VALUE=DATE:20230916
+CLASS:PUBLIC
+SUMMARY:🇸🇲 San Marino Elections 🗳️
+DESCRIPTION:Presidential (indirect)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20230917
 DTEND;VALUE=DATE:20230918
 CLASS:PUBLIC
@@ -995,6 +1003,14 @@ DTEND;VALUE=DATE:20250912
 CLASS:PUBLIC
 SUMMARY:🇳🇴 Norway Elections 🗳️
 DESCRIPTION:Akershus regional parliamentAgder regional parliamentBuskerud regional parliamentFinnmark regional parliamentInnlandet regional parliamentMøre og Romsdal regional parliamentNordland regional parliamentOslo regional parliamentØstfold regional parliamentRogaland regional parliamentTelemark regional parliament Troms regional parliamentTrøndelag regional parliamentVestfold regional parliamentVestland regional parliamentLocal (Oslo + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250915
+DTEND;VALUE=DATE:20250916
+CLASS:PUBLIC
+SUMMARY:🇸🇲 San Marino Elections 🗳️
+DESCRIPTION:Presidential (indirect)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
