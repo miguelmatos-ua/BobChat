@@ -19,7 +19,9 @@ def download_page_zz(uri: str):
     Returns:
         BeautifulSoup: Return a BeautifulSoup instance of the web page
     """
-    page = requests.get(uri).content  # html page of ZeroZero
+    page = requests.get(
+        uri, headers={"User-agent": "your bot 0.1"}
+    ).content  # html page of ZeroZero
     return BeautifulSoup(page, features="html.parser")
 
 
