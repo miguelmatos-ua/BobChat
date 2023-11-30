@@ -22,31 +22,33 @@ def get_page(uri: str) -> BeautifulSoup:
 
 def parse_page(page_soup: BeautifulSoup) -> dict:
     """Parse the page and return its information"""
-    last_game = [
-        d.text
-        for d in page_soup.find_all("div", {"class": "sapomedia images"})[-1].find_all(
-            "div"
-        )[-2:]
-        if d.text
-    ][-1]
-    game_date = last_game[:10]
-    match = re.findall(
-        r"([\d\wÀ-ÿ][\w\s\dÀ-ÿ]*[\d\wÀ-ÿ])\s+-\s+([\.\d\wÀ-ÿ][\.\w\d\sÀ-ÿ]*[\.\d\wÀ-ÿ])\s+vs\s+([\.\d\wÀ-ÿ][\.\d\s\wÀ-ÿ]*[\."
-        r"\d\wÀ-ÿ]).*\(.*\)",
-        last_game,
-    )
-    if not match:
-        sys.exit(0)
-    match = match[0]
-    competition = match[0]
-    home_team = match[1]
-    away_team = match[2]
-    return {
-        "date": game_date,
-        "competition": competition,
-        "home_team": home_team,
-        "away_team": away_team,
-    }
+    for i in range(-1, -5, -1):
+        last_game = [
+            d.text
+            for d in page_soup.find_all("div", {"class": "sapomedia images"})[
+                -1
+            ].find_all("div")
+            if d.text
+        ][i]
+        game_date = last_game[:10]
+        match = re.findall(
+            r"([\d\wÀ-ÿ][\w\s\dÀ-ÿ]*[\d\wÀ-ÿ])\s+-\s+([\.\d\wÀ-ÿ][\.\w\d\sÀ-ÿ]*[\.\d\wÀ-ÿ])\s+vs\s+([\.\d\wÀ-ÿ][\.\d\s\wÀ-ÿ]*[\."
+            r"\d\wÀ-ÿ]).*\(.*\)",
+            last_game,
+        )
+        if not match:
+            continue
+        match = match[0]
+        competition = match[0]
+        home_team = match[1]
+        away_team = match[2]
+        return {
+            "date": game_date,
+            "competition": competition,
+            "home_team": home_team,
+            "away_team": away_team,
+        }
+    return {"data": "error"}
 
 
 def generate_text(info: dict) -> str:
@@ -87,6 +89,8 @@ if __name__ == "__main__":
     last_file = sys.argv[1] if len(sys.argv) > 1 else "last.txt"
     page = get_page("http://www.ternaalmaachamaimensa.pw")
     parsed_page = parse_page(page)
+    if parsed_page.get("data", {"data": "ok"})["data"] == "error":
+        sys.exit(0)
     last = open(last_file).read()[:10]
     if last < parsed_page["date"]:
         msg = generate_text(parsed_page)
