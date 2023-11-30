@@ -724,7 +724,7 @@ DTSTART;VALUE=DATE:20231126
 DTEND;VALUE=DATE:20231127
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Neuchâtel regional government (first round) by-election
+DESCRIPTION:Neuchâtel regional government by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1218,7 +1218,7 @@ DTSTART;VALUE=DATE:20251126
 DTEND;VALUE=DATE:20251127
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Neuchâtel regional government (first round) by-election
+DESCRIPTION:Neuchâtel regional government by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1576,7 +1576,7 @@ DTSTART;VALUE=DATE:20271126
 DTEND;VALUE=DATE:20271127
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Neuchâtel regional government (first round) by-election
+DESCRIPTION:Neuchâtel regional government by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
