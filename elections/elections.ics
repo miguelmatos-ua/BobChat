@@ -758,6 +758,14 @@ DESCRIPTION:National parliamentVojvodina regional parliament Local (Belgrade (p
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240121
+DTEND;VALUE=DATE:20240122
+CLASS:PUBLIC
+SUMMARY:🇱🇮 Liechtenstein Elections 🗳️
+DESCRIPTION:Photovoltaic requirement referendumBuilding regulations referendum
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20240128
 DTEND;VALUE=DATE:20240129
 CLASS:PUBLIC
@@ -995,14 +1003,6 @@ DTEND;VALUE=DATE:20241125
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:National Referenda (probably between 2-4 votes)Aargau government (potential second round)Basle-City  government (potential second round)
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250911
-DTEND;VALUE=DATE:20250912
-CLASS:PUBLIC
-SUMMARY:🇳🇴 Norway Elections 🗳️
-DESCRIPTION:Akershus regional parliamentAgder regional parliamentBuskerud regional parliamentFinnmark regional parliamentInnlandet regional parliamentMøre og Romsdal regional parliamentNordland regional parliamentOslo regional parliamentØstfold regional parliamentRogaland regional parliamentTelemark regional parliament Troms regional parliamentTrøndelag regional parliamentVestfold regional parliamentVestland regional parliamentLocal (Oslo + nationwide)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1249,6 +1249,14 @@ DTEND;VALUE=DATE:20251218
 CLASS:PUBLIC
 SUMMARY:🇷🇸 Serbia Elections 🗳️
 DESCRIPTION:National parliamentVojvodina regional parliament Local (Belgrade (parliament))
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250121
+DTEND;VALUE=DATE:20250122
+CLASS:PUBLIC
+SUMMARY:🇱🇮 Liechtenstein Elections 🗳️
+DESCRIPTION:Photovoltaic requirement referendumBuilding regulations referendum
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1607,6 +1615,14 @@ DTEND;VALUE=DATE:20271218
 CLASS:PUBLIC
 SUMMARY:🇷🇸 Serbia Elections 🗳️
 DESCRIPTION:National parliamentVojvodina regional parliament Local (Belgrade (parliament))
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+CLASS:PUBLIC
+SUMMARY:🇱🇮 Liechtenstein Elections 🗳️
+DESCRIPTION:Photovoltaic requirement referendumBuilding regulations referendum
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
