@@ -774,6 +774,14 @@ DESCRIPTION:Presidential (first round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240204
+DTEND;VALUE=DATE:20240205
+CLASS:PUBLIC
+SUMMARY:🇵🇹 Portugal Elections 🗳️
+DESCRIPTION:Azores regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20240207
 DTEND;VALUE=DATE:20240208
 CLASS:PUBLIC
@@ -1284,6 +1292,14 @@ DESCRIPTION:Presidential (first round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250204
+DTEND;VALUE=DATE:20250205
+CLASS:PUBLIC
+SUMMARY:🇵🇹 Portugal Elections 🗳️
+DESCRIPTION:Azores regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250207
 DTEND;VALUE=DATE:20250208
 CLASS:PUBLIC
@@ -1551,6 +1567,14 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260609
 DTEND;VALUE=DATE:20260610
 CLASS:PUBLIC
+SUMMARY:🇭🇺 Hungary Elections 🗳️
+DESCRIPTION:Local (Budapest (mayor + parliament) + nationwide)Budapest regional president and parliamentBaranya regional parliamentBács-Kiskun regional parliamentBékés regional parliamentCsongrád-Csanád regional parliamentFejér regional parliamentGyőr-Moson-Sopron regional parliamentHajdú-Bihar regional parliamentHeves regional parliamentJász-Nagykun-Szolnok regional parliamentKomárom-Esztergom regional parliamentNógrád regional parliamentPest regional parliamentSomogy regional parliamentSzabolcs-Szatmár-Bereg regional parliamentTolna regional parliamentVas regional parliamentVeszprém regional parliamentZala regional parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260610
+CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:National Referenda (probably between 2-4 votes)
 TRANSP:TRASPARENT
@@ -1665,6 +1689,14 @@ DTEND;VALUE=DATE:20270129
 CLASS:PUBLIC
 SUMMARY:🇫🇮 Finland Elections 🗳️
 DESCRIPTION:Presidential (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+CLASS:PUBLIC
+SUMMARY:🇵🇹 Portugal Elections 🗳️
+DESCRIPTION:Azores regional parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
