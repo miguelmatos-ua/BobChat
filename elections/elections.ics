@@ -810,7 +810,7 @@ DTSTART;VALUE=DATE:20240303
 DTEND;VALUE=DATE:20240304
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Old-age and survivors’ insurance pension (OASI) supplement referendumRetirement age referendumSchwytz regional parliament and government (first round)St. Gall regional parliament and government (first round) Uri regional parliament and government (first round)
+DESCRIPTION:Old-age and survivors’ insurance pension (OASI) supplement referendumRetirement age referendumSchwytz regional parliament and government (first round)St. Gall regional parliament and government (first round) Uri regional parliament and government (first round)Basle-City regional government by-election (first round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -851,6 +851,14 @@ DTEND;VALUE=DATE:20240408
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:Thurgovia regional parliament and government (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240407
+DTEND;VALUE=DATE:20240408
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:Basle-City regional government by-election (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1043,14 +1051,6 @@ DTEND;VALUE=DATE:20241125
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:National Referenda (probably between 2-4 votes)Aargau government (potential second round)Basle-City  government (potential second round)
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250917
-DTEND;VALUE=DATE:20250918
-CLASS:PUBLIC
-SUMMARY:🇱🇹 Lithuania Elections 🗳️
-DESCRIPTION:Constituency 42. Raseinių–Kėdainių national parliament by-election (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1328,7 +1328,7 @@ DTSTART;VALUE=DATE:20250303
 DTEND;VALUE=DATE:20250304
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Old-age and survivors’ insurance pension (OASI) supplement referendumRetirement age referendumSchwytz regional parliament and government (first round)St. Gall regional parliament and government (first round) Uri regional parliament and government (first round)
+DESCRIPTION:Old-age and survivors’ insurance pension (OASI) supplement referendumRetirement age referendumSchwytz regional parliament and government (first round)St. Gall regional parliament and government (first round) Uri regional parliament and government (first round)Basle-City regional government by-election (first round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1369,6 +1369,14 @@ DTEND;VALUE=DATE:20250408
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:Thurgovia regional parliament and government (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250407
+DTEND;VALUE=DATE:20250408
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:Basle-City regional government by-election (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1567,6 +1575,14 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260609
 DTEND;VALUE=DATE:20260610
 CLASS:PUBLIC
+SUMMARY:🇨🇾 Cyprus Elections 🗳️
+DESCRIPTION:Famagusta regional president Larnaca regional president Limassol regional presidentNicosia regional presidentPaphos regional presidentLocal (Nicosia (mayor + parliament) + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260610
+CLASS:PUBLIC
 SUMMARY:🇭🇺 Hungary Elections 🗳️
 DESCRIPTION:Local (Budapest (mayor + parliament) + nationwide)Budapest regional president and parliamentBaranya regional parliamentBács-Kiskun regional parliamentBékés regional parliamentCsongrád-Csanád regional parliamentFejér regional parliamentGyőr-Moson-Sopron regional parliamentHajdú-Bihar regional parliamentHeves regional parliamentJász-Nagykun-Szolnok regional parliamentKomárom-Esztergom regional parliamentNógrád regional parliamentPest regional parliamentSomogy regional parliamentSzabolcs-Szatmár-Bereg regional parliamentTolna regional parliamentVas regional parliamentVeszprém regional parliamentZala regional parliament
 TRANSP:TRASPARENT
@@ -1663,14 +1679,6 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20271217
 DTEND;VALUE=DATE:20271218
 CLASS:PUBLIC
-SUMMARY:🇦🇩 Andorra Elections 🗳️
-DESCRIPTION:Local (Andorra la Vella (parliament + mayoral) + nationwide)
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271217
-DTEND;VALUE=DATE:20271218
-CLASS:PUBLIC
 SUMMARY:🇷🇸 Serbia Elections 🗳️
 DESCRIPTION:National parliamentVojvodina regional parliament Local (Belgrade (parliament))
 TRANSP:TRASPARENT
@@ -1728,7 +1736,7 @@ DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Old-age and survivors’ insurance pension (OASI) supplement referendumRetirement age referendumSchwytz regional parliament and government (first round)St. Gall regional parliament and government (first round) Uri regional parliament and government (first round)
+DESCRIPTION:Old-age and survivors’ insurance pension (OASI) supplement referendumRetirement age referendumSchwytz regional parliament and government (first round)St. Gall regional parliament and government (first round) Uri regional parliament and government (first round)Basle-City regional government by-election (first round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1769,6 +1777,14 @@ DTEND;VALUE=DATE:20270408
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:Thurgovia regional parliament and government (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:Basle-City regional government by-election (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2009,6 +2025,14 @@ DTEND;VALUE=DATE:20290408
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:Thurgovia regional parliament and government (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20290407
+DTEND;VALUE=DATE:20290408
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:Basle-City regional government by-election (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
