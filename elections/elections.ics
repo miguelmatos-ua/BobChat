@@ -930,7 +930,15 @@ DTSTART;VALUE=DATE:20240512
 DTEND;VALUE=DATE:20240513
 CLASS:PUBLIC
 SUMMARY:🇱🇹 Lithuania Elections 🗳️
-DESCRIPTION:Presidential
+DESCRIPTION:Presidential (first round)Dual citizenship constitutional referendum
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240526
+DTEND;VALUE=DATE:20240527
+CLASS:PUBLIC
+SUMMARY:🇱🇹 Lithuania Elections 🗳️
+DESCRIPTION:Presidential (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1067,14 +1075,6 @@ DTEND;VALUE=DATE:20241125
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:National Referenda (probably between 2-4 votes)Aargau government (potential second round)Basle-City  government (potential second round)
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250930
-DTEND;VALUE=DATE:20251001
-CLASS:PUBLIC
-SUMMARY:🇸🇰 Slovakia Elections 🗳️
-DESCRIPTION:National parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1448,7 +1448,15 @@ DTSTART;VALUE=DATE:20250512
 DTEND;VALUE=DATE:20250513
 CLASS:PUBLIC
 SUMMARY:🇱🇹 Lithuania Elections 🗳️
-DESCRIPTION:Presidential
+DESCRIPTION:Presidential (first round)Dual citizenship constitutional referendum
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250526
+DTEND;VALUE=DATE:20250527
+CLASS:PUBLIC
+SUMMARY:🇱🇹 Lithuania Elections 🗳️
+DESCRIPTION:Presidential (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1585,6 +1593,14 @@ DTEND;VALUE=DATE:20251125
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:National Referenda (probably between 2-4 votes)Aargau government (potential second round)Basle-City  government (potential second round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260608
+DTEND;VALUE=DATE:20260609
+CLASS:PUBLIC
+SUMMARY:🇲🇹 Malta Elections 🗳️
+DESCRIPTION:Local (Valetta + nationwide)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1880,7 +1896,15 @@ DTSTART;VALUE=DATE:20270512
 DTEND;VALUE=DATE:20270513
 CLASS:PUBLIC
 SUMMARY:🇱🇹 Lithuania Elections 🗳️
-DESCRIPTION:Presidential
+DESCRIPTION:Presidential (first round)Dual citizenship constitutional referendum
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+CLASS:PUBLIC
+SUMMARY:🇱🇹 Lithuania Elections 🗳️
+DESCRIPTION:Presidential (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2052,14 +2076,6 @@ DESCRIPTION:National parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20290331
-DTEND;VALUE=DATE:20290401
-CLASS:PUBLIC
-SUMMARY:🇹🇷 Türkiye Elections 🗳️
-DESCRIPTION:Local (incl. Ankara and Istanbul)
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20290407
 DTEND;VALUE=DATE:20290408
 CLASS:PUBLIC
@@ -2128,7 +2144,15 @@ DTSTART;VALUE=DATE:20290512
 DTEND;VALUE=DATE:20290513
 CLASS:PUBLIC
 SUMMARY:🇱🇹 Lithuania Elections 🗳️
-DESCRIPTION:Presidential
+DESCRIPTION:Presidential (first round)Dual citizenship constitutional referendum
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20290526
+DTEND;VALUE=DATE:20290527
+CLASS:PUBLIC
+SUMMARY:🇱🇹 Lithuania Elections 🗳️
+DESCRIPTION:Presidential (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
