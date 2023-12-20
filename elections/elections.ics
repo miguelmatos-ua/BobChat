@@ -762,7 +762,7 @@ DTSTART;VALUE=DATE:20240121
 DTEND;VALUE=DATE:20240122
 CLASS:PUBLIC
 SUMMARY:🇱🇮 Liechtenstein Elections 🗳️
-DESCRIPTION:Photovoltaic requirement referendumBuilding regulations referendum
+DESCRIPTION:Amendment of the law on the electronic health record (EGDG) referendumBuilding regulations referendumPhotovoltaic requirement referendum
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -798,6 +798,14 @@ DESCRIPTION:Presidential (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240211
+DTEND;VALUE=DATE:20240212
+CLASS:PUBLIC
+SUMMARY:🇩🇪 Germany Elections 🗳️
+DESCRIPTION:National parliament election in parts of Berlin
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20240225
 DTEND;VALUE=DATE:20240226
 CLASS:PUBLIC
@@ -811,6 +819,14 @@ DTEND;VALUE=DATE:20240226
 CLASS:PUBLIC
 SUMMARY:🇮🇹 Italy Elections 🗳️
 DESCRIPTION:Sardinia regional election (parliament + president)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240125
+DTEND;VALUE=DATE:20240126
+CLASS:PUBLIC
+SUMMARY:🇱🇮 Liechtenstein Elections 🗳️
+DESCRIPTION:“Involvement of the people in appointing the government” referendum
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1078,22 +1094,6 @@ DESCRIPTION:National Referenda (probably between 2-4 votes)Aargau government (po
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20251002
-CLASS:PUBLIC
-SUMMARY:🇬🇪 Georgia Elections 🗳️
-DESCRIPTION:Gori-Kaspi national parliament by-election
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251005
-DTEND;VALUE=DATE:20251006
-CLASS:PUBLIC
-SUMMARY:🇬🇧 UK Elections 🗳️
-DESCRIPTION:Rutherglen and Hamilton West national parliament by-election
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251008
 DTEND;VALUE=DATE:20251009
 CLASS:PUBLIC
@@ -1280,7 +1280,7 @@ DTSTART;VALUE=DATE:20250121
 DTEND;VALUE=DATE:20250122
 CLASS:PUBLIC
 SUMMARY:🇱🇮 Liechtenstein Elections 🗳️
-DESCRIPTION:Photovoltaic requirement referendumBuilding regulations referendum
+DESCRIPTION:Amendment of the law on the electronic health record (EGDG) referendumBuilding regulations referendumPhotovoltaic requirement referendum
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1316,6 +1316,14 @@ DESCRIPTION:Presidential (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250211
+DTEND;VALUE=DATE:20250212
+CLASS:PUBLIC
+SUMMARY:🇩🇪 Germany Elections 🗳️
+DESCRIPTION:National parliament election in parts of Berlin
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250225
 DTEND;VALUE=DATE:20250226
 CLASS:PUBLIC
@@ -1329,6 +1337,14 @@ DTEND;VALUE=DATE:20250226
 CLASS:PUBLIC
 SUMMARY:🇮🇹 Italy Elections 🗳️
 DESCRIPTION:Sardinia regional election (parliament + president)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250125
+DTEND;VALUE=DATE:20250126
+CLASS:PUBLIC
+SUMMARY:🇱🇮 Liechtenstein Elections 🗳️
+DESCRIPTION:“Involvement of the people in appointing the government” referendum
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1596,6 +1612,22 @@ DESCRIPTION:National Referenda (probably between 2-4 votes)Aargau government (po
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+CLASS:PUBLIC
+SUMMARY:🇮🇸 Iceland Elections 🗳️
+DESCRIPTION:Presidential
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260610
+CLASS:PUBLIC
+SUMMARY:🇪🇺 European Union Elections 🗳️
+DESCRIPTION:European Parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260608
 DTEND;VALUE=DATE:20260609
 CLASS:PUBLIC
@@ -1724,22 +1756,6 @@ DESCRIPTION:National parliamentPresidential (Bosnia, Serb, Croat)Regional parlia
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270121
-DTEND;VALUE=DATE:20270122
-CLASS:PUBLIC
-SUMMARY:🇱🇮 Liechtenstein Elections 🗳️
-DESCRIPTION:Photovoltaic requirement referendumBuilding regulations referendum
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270128
-DTEND;VALUE=DATE:20270129
-CLASS:PUBLIC
-SUMMARY:🇫🇮 Finland Elections 🗳️
-DESCRIPTION:Presidential (first round)
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 CLASS:PUBLIC
@@ -1764,6 +1780,14 @@ DESCRIPTION:Presidential (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+CLASS:PUBLIC
+SUMMARY:🇩🇪 Germany Elections 🗳️
+DESCRIPTION:National parliament election in parts of Berlin
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 CLASS:PUBLIC
@@ -1777,6 +1801,14 @@ DTEND;VALUE=DATE:20270226
 CLASS:PUBLIC
 SUMMARY:🇮🇹 Italy Elections 🗳️
 DESCRIPTION:Sardinia regional election (parliament + president)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+CLASS:PUBLIC
+SUMMARY:🇱🇮 Liechtenstein Elections 🗳️
+DESCRIPTION:“Involvement of the people in appointing the government” referendum
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
