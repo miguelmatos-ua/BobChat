@@ -527,14 +527,6 @@ DESCRIPTION:National parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20281124
-DTEND;VALUE=DATE:20281125
-CLASS:PUBLIC
-SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National Referenda (probably between 2-4 votes)Aargau government (potential second round)Basle-City  government (potential second round)
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20281004
 DTEND;VALUE=DATE:20281005
 CLASS:PUBLIC
