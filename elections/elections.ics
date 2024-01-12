@@ -11,7 +11,7 @@ DTSTART;VALUE=DATE:20240121
 DTEND;VALUE=DATE:20240122
 CLASS:PUBLIC
 SUMMARY:🇱🇮 Liechtenstein Elections 🗳️
-DESCRIPTION:Amendment of the law on the electronic health record (EGDG) referendumBuilding regulations referendumPhotovoltaic requirement referendum
+DESCRIPTION:Electronic health record referendumBuilding regulations referendumPhotovoltaic requirement referendum
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -91,7 +91,7 @@ DTSTART;VALUE=DATE:20240303
 DTEND;VALUE=DATE:20240304
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Old-age and survivors’ insurance pension (OASI) supplement referendumRetirement age referendumSchwytz regional parliament and government (first round)St. Gall regional parliament and government (first round) Uri regional parliament and government (first round)Basle-City regional government by-election (first round)
+DESCRIPTION:13th OASI pension payment referendumRetirement age referendumSchwytz regional parliament and government (first round)St. Gall regional parliament and government (first round) Uri regional parliament and government (first round)Basle-City regional government by-election (first round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
