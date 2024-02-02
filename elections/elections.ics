@@ -43,7 +43,7 @@ DTSTART;VALUE=DATE:20240211
 DTEND;VALUE=DATE:20240212
 CLASS:PUBLIC
 SUMMARY:🇫🇮 Finland Elections 🗳️
-DESCRIPTION:Presidential (potential second round)
+DESCRIPTION:Presidential (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -84,14 +84,6 @@ DTEND;VALUE=DATE:20240226
 CLASS:PUBLIC
 SUMMARY:🇮🇹 Italy Elections 🗳️
 DESCRIPTION:Sardinia regional election (parliament + president)
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240225
-DTEND;VALUE=DATE:20240226
-CLASS:PUBLIC
-SUMMARY:🇱🇮 Liechtenstein Elections 🗳️
-DESCRIPTION:“Involvement of the people in appointing the government” referendum
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
