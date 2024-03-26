@@ -135,6 +135,14 @@ DESCRIPTION:President (first round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240323
+DTEND;VALUE=DATE:20240324
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:Glarus regional government by-election (second round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20240331
 DTEND;VALUE=DATE:20240401
 CLASS:PUBLIC
@@ -163,15 +171,7 @@ DTSTART;VALUE=DATE:20240407
 DTEND;VALUE=DATE:20240408
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Thurgovia regional parliament and government (first round)
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240407
-DTEND;VALUE=DATE:20240408
-CLASS:PUBLIC
-SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Basle-City regional government by-election (potential second round)
+DESCRIPTION:Thurgovia regional parliament and government (first round)Basle-City regional government by-election (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -179,7 +179,7 @@ DTSTART;VALUE=DATE:20240414
 DTEND;VALUE=DATE:20240415
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Schwytz government (potential second round)St. Gall government (potential second round)
+DESCRIPTION:St. Gall regional government (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -195,7 +195,7 @@ DTSTART;VALUE=DATE:20240421
 DTEND;VALUE=DATE:20240422
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Uri government (potential second round)
+DESCRIPTION:Uri regional parliament and government (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -219,7 +219,7 @@ DTSTART;VALUE=DATE:20240428
 DTEND;VALUE=DATE:20240429
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Thurgovia government (potential second round)
+DESCRIPTION:Thurgovia regional government (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
