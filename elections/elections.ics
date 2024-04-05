@@ -143,6 +143,14 @@ DESCRIPTION:Glarus regional government by-election (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240327
+DTEND;VALUE=DATE:20240328
+CLASS:PUBLIC
+SUMMARY:🇲🇹 Malta Elections 🗳️
+DESCRIPTION:Presidential (indirect)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20240331
 DTEND;VALUE=DATE:20240401
 CLASS:PUBLIC
@@ -223,6 +231,14 @@ DESCRIPTION:Thurgovia regional government (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240429
+DTEND;VALUE=DATE:20240430
+CLASS:PUBLIC
+SUMMARY:🇮🇪 Ireland Elections 🗳️
+DESCRIPTION:Administrative panel national parliament (upper house) by-election
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20240502
 DTEND;VALUE=DATE:20240503
 CLASS:PUBLIC
@@ -235,7 +251,7 @@ DTSTART;VALUE=DATE:20240508
 DTEND;VALUE=DATE:20240509
 CLASS:PUBLIC
 SUMMARY:🇲🇰 North Macedonia Elections 🗳️
-DESCRIPTION:Presidential (potential second round)
+DESCRIPTION:Presidential (potential second round)National parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -316,6 +332,14 @@ DTEND;VALUE=DATE:20240610
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:Health insurance premiums’ relief (Initiative)Lower premiums (Initiative)Stop compulsory vaccination (Initiative)Energy Act & Electricity Supply Act (Amendment)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240609
+DTEND;VALUE=DATE:20240610
+CLASS:PUBLIC
+SUMMARY:🇸🇲 San Marino Elections 🗳️
+DESCRIPTION:National parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -447,6 +471,14 @@ DESCRIPTION:National parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260508
+DTEND;VALUE=DATE:20260509
+CLASS:PUBLIC
+SUMMARY:🇲🇰 North Macedonia Elections 🗳️
+DESCRIPTION:Presidential (potential second round)National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260513
 CLASS:PUBLIC
@@ -524,6 +556,14 @@ DTEND;VALUE=DATE:20260610
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:Health insurance premiums’ relief (Initiative)Lower premiums (Initiative)Stop compulsory vaccination (Initiative)Energy Act & Electricity Supply Act (Amendment)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260610
+CLASS:PUBLIC
+SUMMARY:🇸🇲 San Marino Elections 🗳️
+DESCRIPTION:National parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -692,6 +732,14 @@ DTEND;VALUE=DATE:20270419
 CLASS:PUBLIC
 SUMMARY:🇫🇮 Finland Elections 🗳️
 DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20281124
+DTEND;VALUE=DATE:20281125
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National Referenda (probably between 2-4 votes)Aargau government (potential second round)Basle-City  government (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
