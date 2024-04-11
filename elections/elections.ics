@@ -179,7 +179,7 @@ DTSTART;VALUE=DATE:20240407
 DTEND;VALUE=DATE:20240408
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Thurgovia regional parliament and government (first round)Basle-City regional government by-election (second round)
+DESCRIPTION:Thurgovia regional parliament and governmentBasle-City regional government by-election (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -223,14 +223,6 @@ DESCRIPTION:Presidential (first round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240428
-DTEND;VALUE=DATE:20240429
-CLASS:PUBLIC
-SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Thurgovia regional government (potential second round)
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20240429
 DTEND;VALUE=DATE:20240430
 CLASS:PUBLIC
@@ -243,7 +235,7 @@ DTSTART;VALUE=DATE:20240502
 DTEND;VALUE=DATE:20240503
 CLASS:PUBLIC
 SUMMARY:🇬🇧 UK Elections 🗳️
-DESCRIPTION:Local (incl. London mayoral)
+DESCRIPTION:Local (incl. London mayoral)Blackpool South national parliament by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -468,14 +460,6 @@ DTEND;VALUE=DATE:20241209
 CLASS:PUBLIC
 SUMMARY:🇷🇴 Romania Elections 🗳️
 DESCRIPTION:National parliament
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260508
-DTEND;VALUE=DATE:20260509
-CLASS:PUBLIC
-SUMMARY:🇲🇰 North Macedonia Elections 🗳️
-DESCRIPTION:Presidential (potential second round)National parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -732,14 +716,6 @@ DTEND;VALUE=DATE:20270419
 CLASS:PUBLIC
 SUMMARY:🇫🇮 Finland Elections 🗳️
 DESCRIPTION:National parliament
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20281124
-DTEND;VALUE=DATE:20281125
-CLASS:PUBLIC
-SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:National Referenda (probably between 2-4 votes)Aargau government (potential second round)Basle-City  government (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
