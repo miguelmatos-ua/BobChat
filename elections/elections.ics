@@ -251,7 +251,15 @@ DTSTART;VALUE=DATE:20240508
 DTEND;VALUE=DATE:20240509
 CLASS:PUBLIC
 SUMMARY:🇲🇰 North Macedonia Elections 🗳️
-DESCRIPTION:Presidential (potential second round)National parliament
+DESCRIPTION:Presidential (potential second round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240508
+DTEND;VALUE=DATE:20240509
+CLASS:PUBLIC
+SUMMARY:🇲🇰 North Macedonia Elections 🗳️
+DESCRIPTION:National parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -475,7 +483,15 @@ DTSTART;VALUE=DATE:20260508
 DTEND;VALUE=DATE:20260509
 CLASS:PUBLIC
 SUMMARY:🇲🇰 North Macedonia Elections 🗳️
-DESCRIPTION:Presidential (potential second round)National parliament
+DESCRIPTION:Presidential (potential second round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260508
+DTEND;VALUE=DATE:20260509
+CLASS:PUBLIC
+SUMMARY:🇲🇰 North Macedonia Elections 🗳️
+DESCRIPTION:National parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -732,6 +748,14 @@ DTEND;VALUE=DATE:20270419
 CLASS:PUBLIC
 SUMMARY:🇫🇮 Finland Elections 🗳️
 DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20281124
+DTEND;VALUE=DATE:20281125
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:National Referenda (probably between 2-4 votes)Aargau government (potential second round)Basle-City  government (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
