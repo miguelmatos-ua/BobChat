@@ -299,7 +299,7 @@ DTSTART;VALUE=DATE:20240602
 DTEND;VALUE=DATE:20240603
 CLASS:PUBLIC
 SUMMARY:🇷🇸 Serbia Elections 🗳️
-DESCRIPTION:Local (Belgrade (parliament))
+DESCRIPTION:Local (Belgrade (parliament) + nationwide)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -531,7 +531,7 @@ DTSTART;VALUE=DATE:20260602
 DTEND;VALUE=DATE:20260603
 CLASS:PUBLIC
 SUMMARY:🇷🇸 Serbia Elections 🗳️
-DESCRIPTION:Local (Belgrade (parliament))
+DESCRIPTION:Local (Belgrade (parliament) + nationwide)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
