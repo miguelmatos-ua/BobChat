@@ -323,7 +323,7 @@ DTSTART;VALUE=DATE:20240607
 DTEND;VALUE=DATE:20240608
 CLASS:PUBLIC
 SUMMARY:🇮🇪 Ireland Elections 🗳️
-DESCRIPTION:Local (Dublin (parliament) + Limerick (mayor + parliament) + nationwide (parliament))
+DESCRIPTION:Local (Dublin (parliament) + Limerick (mayor + parliament) + nationwide)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -587,7 +587,7 @@ DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
 CLASS:PUBLIC
 SUMMARY:🇮🇪 Ireland Elections 🗳️
-DESCRIPTION:Local (Dublin (parliament) + Limerick (mayor + parliament) + nationwide (parliament))
+DESCRIPTION:Local (Dublin (parliament) + Limerick (mayor + parliament) + nationwide)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -812,14 +812,6 @@ DTEND;VALUE=DATE:20270419
 CLASS:PUBLIC
 SUMMARY:🇫🇮 Finland Elections 🗳️
 DESCRIPTION:National parliament
-TRANSP:TRASPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20281026
-DTEND;VALUE=DATE:20281027
-CLASS:PUBLIC
-SUMMARY:🇬🇪 Georgia Elections 🗳️
-DESCRIPTION:National parliamentAdjara regional parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
