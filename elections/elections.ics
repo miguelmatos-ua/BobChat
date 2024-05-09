@@ -251,7 +251,7 @@ DTSTART;VALUE=DATE:20240508
 DTEND;VALUE=DATE:20240509
 CLASS:PUBLIC
 SUMMARY:🇲🇰 North Macedonia Elections 🗳️
-DESCRIPTION:Presidential (potential second round)
+DESCRIPTION:Presidential (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -515,7 +515,7 @@ DTSTART;VALUE=DATE:20260508
 DTEND;VALUE=DATE:20260509
 CLASS:PUBLIC
 SUMMARY:🇲🇰 North Macedonia Elections 🗳️
-DESCRIPTION:Presidential (potential second round)
+DESCRIPTION:Presidential (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
