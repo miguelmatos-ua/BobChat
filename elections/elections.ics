@@ -283,7 +283,7 @@ DTSTART;VALUE=DATE:20240526
 DTEND;VALUE=DATE:20240527
 CLASS:PUBLIC
 SUMMARY:🇱🇹 Lithuania Elections 🗳️
-DESCRIPTION:Presidential (potential second round)
+DESCRIPTION:Presidential (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -547,7 +547,7 @@ DTSTART;VALUE=DATE:20260526
 DTEND;VALUE=DATE:20260527
 CLASS:PUBLIC
 SUMMARY:🇱🇹 Lithuania Elections 🗳️
-DESCRIPTION:Presidential (potential second round)
+DESCRIPTION:Presidential (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
