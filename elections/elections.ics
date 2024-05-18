@@ -482,6 +482,14 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20241020
 DTEND;VALUE=DATE:20241021
 CLASS:PUBLIC
+SUMMARY:🇲🇩 Moldova Elections 🗳️
+DESCRIPTION:PresidentialEU accession referendum
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241020
+DTEND;VALUE=DATE:20241021
+CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:Aargau regional parliament and government (first round)Basle-City regional parliament and government (first round)
 TRANSP:TRASPARENT
@@ -746,6 +754,14 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 CLASS:PUBLIC
+SUMMARY:🇲🇩 Moldova Elections 🗳️
+DESCRIPTION:PresidentialEU accession referendum
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:Aargau regional parliament and government (first round)Basle-City regional parliament and government (first round)
 TRANSP:TRASPARENT
@@ -812,6 +828,14 @@ DTEND;VALUE=DATE:20270419
 CLASS:PUBLIC
 SUMMARY:🇫🇮 Finland Elections 🗳️
 DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20281026
+DTEND;VALUE=DATE:20281027
+CLASS:PUBLIC
+SUMMARY:🇬🇪 Georgia Elections 🗳️
+DESCRIPTION:National parliamentAdjara regional parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
