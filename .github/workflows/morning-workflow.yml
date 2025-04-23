@@ -30,21 +30,21 @@ jobs:
       #   run: |
       #     python capasJornais/main.py ${{ secrets.BOT_TOKEN }} ${{ secrets.CHAT_ID }}
       # run benfica and beira mar scripts
-      - name: Run script for Benfica
-        env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          CHAT_ID: ${{ secrets.CHAT_ID }}
-          TODOIST_TOKEN: ${{ secrets.TODOIST_TOKEN }}
-        run: |
-          cd benfica
-          python main.py
-      - name: Run script for Beira-mar
-        env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          CHAT_ID: ${{ secrets.CHAT_ID }}
-        run: |
-          cd benfica
-          python main.py 2 "Beira-mar" # Beira-mar's ZeroZero id is 2
+      # - name: Run script for Benfica
+      #   env:
+      #     BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+      #     CHAT_ID: ${{ secrets.CHAT_ID }}
+      #     TODOIST_TOKEN: ${{ secrets.TODOIST_TOKEN }}
+      #   run: |
+      #     cd benfica
+      #     python main.py
+      # - name: Run script for Beira-mar
+      #   env:
+      #     BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+      #     CHAT_ID: ${{ secrets.CHAT_ID }}
+      #   run: |
+      #     cd benfica
+      #     python main.py 2 "Beira-mar" # Beira-mar's ZeroZero id is 2
       # run elections lifecycle
       - name: Run script for election calendar generator
         run: |
