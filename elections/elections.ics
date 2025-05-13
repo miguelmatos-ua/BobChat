@@ -155,7 +155,7 @@ DTSTART;VALUE=DATE:20250302
 DTEND;VALUE=DATE:20250303
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Valais regional parliament and government (first round)
+DESCRIPTION:Valais regional parliament and government
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -195,7 +195,7 @@ DTSTART;VALUE=DATE:20250323
 DTEND;VALUE=DATE:20250324
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Neuchâtel regional parliament and government (first round)
+DESCRIPTION:Neuchâtel regional parliament and government
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -227,7 +227,7 @@ DTSTART;VALUE=DATE:20250413
 DTEND;VALUE=DATE:20250414
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Solothurn regional government (potential second round)
+DESCRIPTION:Solothurn regional government (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -260,6 +260,14 @@ DTEND;VALUE=DATE:20250505
 CLASS:PUBLIC
 SUMMARY:🇷🇴 Romania Elections 🗳️
 DESCRIPTION:Presidential (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250507
+DTEND;VALUE=DATE:20250509
+CLASS:PUBLIC
+SUMMARY:🇻🇦 Vatican City Elections 🗳️
+DESCRIPTION:Papal conclave
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -307,7 +315,7 @@ DTSTART;VALUE=DATE:20250518
 DTEND;VALUE=DATE:20250519
 CLASS:PUBLIC
 SUMMARY:🇷🇴 Romania Elections 🗳️
-DESCRIPTION:Presidential (potential second round)
+DESCRIPTION:Presidential (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -355,7 +363,7 @@ DTSTART;VALUE=DATE:20250615
 DTEND;VALUE=DATE:20250616
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Zug regional government by-election (first round)
+DESCRIPTION:Zug regional government by-election (first round)Thurgovia regional government by-election (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -403,7 +411,7 @@ DTSTART;VALUE=DATE:20250928
 DTEND;VALUE=DATE:20250929
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Referendums
+DESCRIPTION:ReferendumsGeneva regional government by-election (first round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -411,7 +419,7 @@ DTSTART;VALUE=DATE:20251019
 DTEND;VALUE=DATE:20251020
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Jura regional parliament and government (first round)
+DESCRIPTION:Jura regional parliament and government (first round)Geneva regional government by-election (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -547,7 +555,7 @@ DTSTART;VALUE=DATE:20270518
 DTEND;VALUE=DATE:20270519
 CLASS:PUBLIC
 SUMMARY:🇷🇴 Romania Elections 🗳️
-DESCRIPTION:Presidential (potential second round)
+DESCRIPTION:Presidential (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -595,7 +603,7 @@ DTSTART;VALUE=DATE:20270615
 DTEND;VALUE=DATE:20270616
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Zug regional government by-election (first round)
+DESCRIPTION:Zug regional government by-election (first round)Thurgovia regional government by-election (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -643,7 +651,7 @@ DTSTART;VALUE=DATE:20270928
 DTEND;VALUE=DATE:20270929
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Referendums
+DESCRIPTION:ReferendumsGeneva regional government by-election (first round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -651,7 +659,7 @@ DTSTART;VALUE=DATE:20271019
 DTEND;VALUE=DATE:20271020
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Jura regional parliament and government (first round)
+DESCRIPTION:Jura regional parliament and government (first round)Geneva regional government by-election (potential second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
