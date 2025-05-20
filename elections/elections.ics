@@ -331,7 +331,7 @@ DTSTART;VALUE=DATE:20250525
 DTEND;VALUE=DATE:20250526
 CLASS:PUBLIC
 SUMMARY:🇫🇷 France Elections 🗳️
-DESCRIPTION:Saône-et-Loire’s 5th constituency national parliament by-election (potential second round)
+DESCRIPTION:Saône-et-Loire’s 5th constituency national parliament by-election (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -355,7 +355,7 @@ DTSTART;VALUE=DATE:20250608
 DTEND;VALUE=DATE:20250610
 CLASS:PUBLIC
 SUMMARY:🇮🇹 Italy Elections 🗳️
-DESCRIPTION:Local (first round)Referendums
+DESCRIPTION:Local (second round)Referendums
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -579,7 +579,7 @@ DTSTART;VALUE=DATE:20270525
 DTEND;VALUE=DATE:20270526
 CLASS:PUBLIC
 SUMMARY:🇫🇷 France Elections 🗳️
-DESCRIPTION:Saône-et-Loire’s 5th constituency national parliament by-election (potential second round)
+DESCRIPTION:Saône-et-Loire’s 5th constituency national parliament by-election (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -603,7 +603,7 @@ DTSTART;VALUE=DATE:20270608
 DTEND;VALUE=DATE:20270610
 CLASS:PUBLIC
 SUMMARY:🇮🇹 Italy Elections 🗳️
-DESCRIPTION:Local (first round)Referendums
+DESCRIPTION:Local (second round)Referendums
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
