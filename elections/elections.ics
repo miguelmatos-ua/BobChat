@@ -323,7 +323,7 @@ DTSTART;VALUE=DATE:20250518
 DTEND;VALUE=DATE:20250519
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Thurgovia regional government by-election (first round)
+DESCRIPTION:Thurgovia regional government by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -363,7 +363,7 @@ DTSTART;VALUE=DATE:20250615
 DTEND;VALUE=DATE:20250616
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Zug regional government by-election (first round)Thurgovia regional government by-election (potential second round)
+DESCRIPTION:Zug regional government by-election (first round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -571,7 +571,7 @@ DTSTART;VALUE=DATE:20270518
 DTEND;VALUE=DATE:20270519
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Thurgovia regional government by-election (first round)
+DESCRIPTION:Thurgovia regional government by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -611,7 +611,7 @@ DTSTART;VALUE=DATE:20270615
 DTEND;VALUE=DATE:20270616
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Zug regional government by-election (first round)Thurgovia regional government by-election (potential second round)
+DESCRIPTION:Zug regional government by-election (first round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
