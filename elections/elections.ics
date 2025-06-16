@@ -391,6 +391,14 @@ DESCRIPTION:Schaffhouse national parliament (upper house) by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250810
+DTEND;VALUE=DATE:20250811
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:Zug regional government by-election (second round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250908
 DTEND;VALUE=DATE:20250909
 CLASS:PUBLIC
@@ -668,6 +676,14 @@ DTEND;VALUE=DATE:20270630
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:Schaffhouse national parliament (upper house) by-election
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270811
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:Zug regional government by-election (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
