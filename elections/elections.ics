@@ -487,6 +487,14 @@ DESCRIPTION:Capital Region of Denmark regional parliamentCentral Denmark Region 
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251026
+DTEND;VALUE=DATE:20251027
+CLASS:PUBLIC
+SUMMARY:🇲🇰 North Macedonia Elections 🗳️
+DESCRIPTION:Local (Skopje (parliament) + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251130
 DTEND;VALUE=DATE:20251201
 CLASS:PUBLIC
@@ -772,6 +780,14 @@ DTEND;VALUE=DATE:20271119
 CLASS:PUBLIC
 SUMMARY:🇩🇰 Denmark Elections 🗳️
 DESCRIPTION:Capital Region of Denmark regional parliamentCentral Denmark Region regional parliamentNorth Denmark Region regional parliamentRegion Zealand regional parliamentRegion of Southern Denmark regional parliamentLocal (Copenhagen (parliament) + nationwide)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271026
+DTEND;VALUE=DATE:20271027
+CLASS:PUBLIC
+SUMMARY:🇲🇰 North Macedonia Elections 🗳️
+DESCRIPTION:Local (Skopje (parliament) + nationwide)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
