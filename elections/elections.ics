@@ -415,6 +415,30 @@ DESCRIPTION:Biysk national parliament by-electionSkopin national parliament by-e
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250921
+DTEND;VALUE=DATE:20250922
+CLASS:PUBLIC
+SUMMARY:🇫🇷 France Elections 🗳️
+DESCRIPTION:Paris’s 2nd constituency national parliament by-election (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250928
+DTEND;VALUE=DATE:20250929
+CLASS:PUBLIC
+SUMMARY:🇫🇷 France Elections 🗳️
+DESCRIPTION:Paris’s 2nd constituency national parliament by-election (second round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250928
+DTEND;VALUE=DATE:20250929
+CLASS:PUBLIC
+SUMMARY:🇫🇷 France Elections 🗳️
+DESCRIPTION:Voters abroad 5th constituency national parliament by-election (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250928
 DTEND;VALUE=DATE:20250929
 CLASS:PUBLIC
@@ -436,6 +460,30 @@ DTEND;VALUE=DATE:20251005
 CLASS:PUBLIC
 SUMMARY:🇨🇿 Czechia Elections 🗳️
 DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251005
+DTEND;VALUE=DATE:20251006
+CLASS:PUBLIC
+SUMMARY:🇫🇷 France Elections 🗳️
+DESCRIPTION:Tarn-et-Garonne’s 1st constituency national parliament by-election (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251012
+DTEND;VALUE=DATE:20251013
+CLASS:PUBLIC
+SUMMARY:🇫🇷 France Elections 🗳️
+DESCRIPTION:Voters abroad 5th constituency national parliament by-election (second round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251012
+DTEND;VALUE=DATE:20251013
+CLASS:PUBLIC
+SUMMARY:🇫🇷 France Elections 🗳️
+DESCRIPTION:Tarn-et-Garonne’s 1st constituency national parliament by-election (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -711,6 +759,30 @@ DESCRIPTION:Biysk national parliament by-electionSkopin national parliament by-e
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270921
+DTEND;VALUE=DATE:20270922
+CLASS:PUBLIC
+SUMMARY:🇫🇷 France Elections 🗳️
+DESCRIPTION:Paris’s 2nd constituency national parliament by-election (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20270929
+CLASS:PUBLIC
+SUMMARY:🇫🇷 France Elections 🗳️
+DESCRIPTION:Paris’s 2nd constituency national parliament by-election (second round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20270929
+CLASS:PUBLIC
+SUMMARY:🇫🇷 France Elections 🗳️
+DESCRIPTION:Voters abroad 5th constituency national parliament by-election (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270928
 DTEND;VALUE=DATE:20270929
 CLASS:PUBLIC
@@ -732,6 +804,30 @@ DTEND;VALUE=DATE:20271005
 CLASS:PUBLIC
 SUMMARY:🇨🇿 Czechia Elections 🗳️
 DESCRIPTION:National parliament
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271005
+DTEND;VALUE=DATE:20271006
+CLASS:PUBLIC
+SUMMARY:🇫🇷 France Elections 🗳️
+DESCRIPTION:Tarn-et-Garonne’s 1st constituency national parliament by-election (first round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271012
+DTEND;VALUE=DATE:20271013
+CLASS:PUBLIC
+SUMMARY:🇫🇷 France Elections 🗳️
+DESCRIPTION:Voters abroad 5th constituency national parliament by-election (second round)
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20271012
+DTEND;VALUE=DATE:20271013
+CLASS:PUBLIC
+SUMMARY:🇫🇷 France Elections 🗳️
+DESCRIPTION:Tarn-et-Garonne’s 1st constituency national parliament by-election (second round)
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -985,6 +1081,14 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20281126
 DTEND;VALUE=DATE:20281127
+CLASS:PUBLIC
+SUMMARY:🇨🇭 Switzerland Elections 🗳️
+DESCRIPTION:Referendums
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20290614
+DTEND;VALUE=DATE:20290615
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:Referendums
@@ -1260,6 +1364,14 @@ DTEND;VALUE=DATE:20301125
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
 DESCRIPTION:Referendums
+TRANSP:TRASPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20311004
+DTEND;VALUE=DATE:20311005
+CLASS:PUBLIC
+SUMMARY:🇧🇦 Bosnia and Herzegovina  Elections 🗳️
+DESCRIPTION:National parliamentPresidential (Bosnia, Serb, Croat)Regional parliaments
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
