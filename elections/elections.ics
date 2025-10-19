@@ -115,7 +115,8 @@ DTSTART;VALUE=DATE:20250209
 DTEND;VALUE=DATE:20250210
 CLASS:PUBLIC
 SUMMARY:🇨🇭 Switzerland Elections 🗳️
-DESCRIPTION:Environmental Responsibility (Initiative) referendumAppenzell Outer-Rhodes regional government by-electionGlarus regional government by-election
+DESCRIPTION:
+Environmental Responsibility (Initiative) referendumAppenzell Outer-Rhodes regional government by-electionGlarus regional government by-election
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -219,7 +220,8 @@ DTSTART;VALUE=DATE:20250413
 DTEND;VALUE=DATE:20250414
 CLASS:PUBLIC
 SUMMARY:🇫🇮 Finland Elections 🗳️
-DESCRIPTION:LocalLappi regional parliamentPohjois-Pohjanmaa regional parliamentKainuu regional parliamentKeski-Pohjanmaa regional parliamentKeski-Suomi regional parliamentPohjois-Savo regional parliamentPohjois-Karjala regional parliamentEtelä-Savo regional parliamentEtelä-Pohjanmaa regional parliamentPirkanmaa regional parliamentKanta-Häme regional parliamentPohjanmaa regional parliamentSatakunta regional parliamentVarsinais-Suomi regional parliamentLänsi-Uusimaa regional parliamentKeski-Uusimaa regional parliamentItä-Uusimaa regional parliamentPäijät-Häme regional parliamentKymenlaakso regional parliamentEtelä-Karjala regional parliamentVantaa-Kerava regional parliament
+DESCRIPTION:
+LocalLappi regional parliamentPohjois-Pohjanmaa regional parliamentKainuu regional parliamentKeski-Pohjanmaa regional parliamentKeski-Suomi regional parliamentPohjois-Savo regional parliamentPohjois-Karjala regional parliamentEtelä-Savo regional parliamentEtelä-Pohjanmaa regional parliamentPirkanmaa regional parliamentKanta-Häme regional parliamentPohjanmaa regional parliamentSatakunta regional parliamentVarsinais-Suomi regional parliamentLänsi-Uusimaa regional parliamentKeski-Uusimaa regional parliamentItä-Uusimaa regional parliamentPäijät-Häme regional parliamentKymenlaakso regional parliamentEtelä-Karjala regional parliamentVantaa-Kerava regional parliament
 TRANSP:TRASPARENT
 END:VEVENT
 BEGIN:VEVENT
